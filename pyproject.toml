@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tots-planktoscope-analysis"
+version = "0.0.1"
+description = "Command-line tools for various PlanktoScope data processing/analysis tasks in the ToTS project"
+authors = ["Ethan Li <lietk12@gmail.com>"]
+license = "(Apache-2.0 OR BlueOak-1.0.0)"
+readme = "README.md"
+packages = [{include = "ecotaxa_export_metadata"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+ecotaxa-metadata-edit = 'ecotaxa_export_metadata.cli:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

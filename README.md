@@ -6,7 +6,17 @@ This repository contains various scripts used for pre/post-processing PlanktoSco
 
 ## Usage
 
-TBD
+To use these tools, it's recommended to [install pipx](https://pypa.github.io/pipx/) and then use pipx to install the tools, via the following command in your terminal:
+
+```
+pipx install git+https://github.com/prakashlab/tots-planktoscope-analysis.git
+```
+
+Then you can run the `ecotaxa-metadata-edit` tool (for modifying the metadata of a single dataset to fix incorrect/missing values) in your terminal as:
+
+```
+ecotaxa-metadata-edit
+```
 
 ## Contributing
 
@@ -14,7 +24,7 @@ Currently, this project does not accept any outside contributions.
 
 ## Licensing
 
-I have chosen the following licenses in order to give away our work for free, so that you can freely use it for whatever purposes you have, with minimal restrictions while still protecting my disclaimer that this work is provided without any warranties at all. If you're using this project, or if you have questions about the licenses, I'd love to hear from you - please start a new discussion thread in the "Discussions" tab of this repository on Github or email me at [lietk12@gmail.com](mailto:lietk12@gmail.com) .
+I have chosen the following licenses in order to give away this work for free, so that you can freely use it for whatever purposes you have, with minimal restrictions while still protecting my disclaimer that this work is provided without any warranties at all.
 
 ### Software
 
