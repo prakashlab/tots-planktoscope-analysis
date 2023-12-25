@@ -60,3 +60,6 @@ docs/_build/
 
 # Secrets
 secrets/
+
+# Jupyter
+.jupyter/

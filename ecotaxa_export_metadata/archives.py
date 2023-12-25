@@ -35,6 +35,8 @@ def _identify_ecotaxa_export_file(results_tar):
                 'Results archive has multiple EcoTaxa export archives, but only one is allowed',
             )
         export_file = tarinfo.name
+    if export_file is None:
+        raise ValueError('Couldn\'t find any EcoTaxa export archives in the results archive')
     return export_file
 
 # EcoTaxa archives
