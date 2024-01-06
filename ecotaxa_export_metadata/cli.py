@@ -8,8 +8,8 @@ import math
 import os
 import tempfile
 
-from . import archives
-from . import tables
+from . import ecotaxa
+from . import results
 
 def main():
     """Edit the metadata in the specified EcoTaxa export archive."""
@@ -47,13 +47,13 @@ def process_results_archive(results_archive_file, ecotaxa_export_file, overrides
     archive.
     """
     with tempfile.TemporaryFile(prefix='tots-ps-', suffix='.zip') as ecotaxa_archive:
-        archives.extract_ecotaxa_export(results_archive_file, ecotaxa_archive, verbose=verbose)
+        results.extract_ecotaxa_export(results_archive_file, ecotaxa_archive, verbose=verbose)
         if verbose:
             print(f'Extracted EcoTaxa export archive size: {_print_size(ecotaxa_archive.tell())}')
-        archives.update_metadata_file(
+        ecotaxa.update_metadata_file(
             ecotaxa_archive,
             ecotaxa_export_file,
-            lambda metadata_file: tables.rewrite_ecotaxa_metadata(
+            lambda metadata_file: ecotaxa.rewrite_metadata(
                 metadata_file, overrides, verbose=verbose,
             ),
             verbose=verbose,
