@@ -68,7 +68,8 @@ def process_results_archive(
         for field, value in corrections.items():
             print(f'  - {field}: {value}')
     with tempfile.TemporaryFile(prefix='tots-ps-', suffix='.zip') as ecotaxa_archive:
-        print(f'Loading results archive {results_archive_file.name}...')
+        if verbose:
+            print(f'Loading results archive {results_archive_file.name}...')
         results.extract_ecotaxa_export(results_archive_file, ecotaxa_archive, verbose=verbose)
         if verbose:
             print(f'Extracted EcoTaxa export archive size: {_print_size(ecotaxa_archive.tell())}')

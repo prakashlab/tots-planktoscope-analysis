@@ -1,0 +1,813 @@
+tots-prakash Sample ID	Source Sample ID	Sample Type	Station ID	Required Concentration Adjustment	Pre-Concentration Volume (mL)	Post-Concentration Volume (mL)	Concentration Adjustment Multiplier	(Concentrating) Filter Mesh Size (um)	Concentration Adjustment Dilution Factor	Pre-Filtering Sample Volume (mL)	Filtered Sample Volume (mL)	Filtering Dilution Factor	Additional Dilution Factor	Overall Dilution Factor	Notes
+adjusted-1	source-3	Net Vert	S001	Dilute		50		(none)		20	40	2	1	0	
+adjusted-2	source-6	CTD Niskin	S007	Concentrate	500	13	38.46153846	15	0.026	13	13	1	1	0.026	Was concentrated by Stephanie using a more-destructive method (dry filtration), rather than the standard protocol
+adjusted-3	source-7	Underway	2023-06-19 05:18	Concentrate	500	250	2	15	0.5	32.5	38	1.169230769	1	0.5846153846	
+adjusted-4	source-8	Underway	2023-06-19 11:00	Concentrate	500	25	20	20	0.05	25	25	1	1	0.05	
+adjusted-5	source-9	Underway	2023-06-19 21:30	Concentrate	500	22.5	22.22222222	20	0.045	15	15	1	1	0.045	Acidentally lost lots of sample during filtering step
+adjusted-6	source-10	CTD Niskin	S009	Concentrate	500	22.5	22.22222222	20	0.045	22.5	33	1.466666667	1	0.066	Accidentally washed filter with too much water
+adjusted-7	source-11	CTD Niskin	S009	Concentrate	500	10	50	20	0.02	9	11.5	1.277777778	1	0.02555555556	Pipette for mixing in sample concentration was unavailable, so I had to improvise with a 5 mL syringe. Due to worse mixing, I did two rounds of pouring water from the filter Falcon tube into the Adjusted Conc. Sample Falcon tube
+adjusted-8	source-12	CTD Niskin	S011	Concentrate	500	16.5	30.3030303	20	0.033	16.5	20	1.212121212	1	0.04	
+adjusted-9	source-13	CTD Niskin	S011	Concentrate	500	10	50	20	0.02	10	15	1.5	1	0.03	
+adjusted-10	source-14	Underway	2023-06-19 18:23	Concentrate	500	10	50	20	0.02	10	14.5	1.45	1	0.029	
+adjusted-11	source-16	CTD Niskin	S015	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-12	source-17	CTD Niskin	S015	Concentrate	500	12	41.66666667	20	0.024	12	15.5	1.291666667	1	0.031	
+adjusted-13	source-18	Ice Core	S015		15	15	1	(none)	1	8	12.5	1.5625	1	1.5625	Starting here, we  used a truncated transfer pipette rather than the motorized pipette to resuspend plankton during sample concentration
+adjusted-14	source-20	CTD Niskin	S015	Concentrate	500	14	35.71428571	20	0.028	14	19	1.357142857	1	0.038	Ethan was training Robin for this one and forgot to record pre-filtering sample volume beforehand; so we estimated it
+adjusted-15	source-21	CTD Niskin	S015	Concentrate	500	5	100	20	0.01	5	12.5	2.5	1	0.025	
+adjusted-16	source-19	Ice Core	S015		15	15	1	(none)	1	10	13	1.3	1	1.3	
+adjusted-17	source-23	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	Sample provided to us by Matt was already pre-concentrated, but we were not informed about the concentration multiplier.
+adjusted-18	source-24	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	Sample provided to us by Matt was already pre-concentrated, but we were not informed about the concentration multiplier.
+adjusted-19	source-25	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	15	1.2	1	0.06	Sample provided to us by Matt was already pre-concentrated, but we were not informed about the concentration multiplier.
+adjusted-20	source-27	CTD Niskin	S016	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-21	source-28	CTD Niskin	S016	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-22	source-29	CTD Niskin	S019	Concentrate	500	5	100	20	0.01	5	12	2.4	1	0.024	
+adjusted-23	source-30	CTD Niskin	S019	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-24	source-31	CTD Niskin	S021	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-25	source-32	CTD Niskin	S021	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-26	source-33	Experiment	tatertots	Concentrate	250	9.75	25.64102564	20	0.039	9.75	11	1.128205128	1	0.044	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-27	source-34	Experiment	tatertots	Concentrate	250	10.2	24.50980392	20	0.0408	10.2	12	1.176470588	1	0.048	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-28	source-35	Experiment	tatertots	Concentrate	250	9.9	25.25252525	20	0.0396	9.9	12.3	1.242424242	1	0.0492	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-29	source-36	Experiment	tatertots	Concentrate	250	10	25	20	0.04	10	14	1.4	1	0.056	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-30	source-37	Experiment	tatertots	Concentrate	250	10	25	20	0.04	10	12.5	1.25	1	0.05	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-31	source-38	Experiment	tatertots	Concentrate	250	10	25	20	0.04	10	12	1.2	1	0.048	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-32	source-39	CTD Niskin	S022	Concentrate	500	11	45.45454545	20	0.022	11	12.5	1.136363636	1	0.025	
+adjusted-33	source-40	CTD Niskin	S022	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-34	source-41	Experiment	tatertots	Concentrate	250	11	22.72727273	20	0.044	11	12.5	1.136363636	1	0.05	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-35	source-42	Experiment	tatertots	Concentrate	250	11	22.72727273	20	0.044	11	13	1.181818182	1	0.052	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-36	source-43	Experiment	tatertots	Concentrate	250	10	25	20	0.04	10	12.5	1.25	1	0.05	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-37	source-44	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	12.5	1.041666667	1	0.05	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-38	source-45	Experiment	tatertots	Concentrate	250	10.5	23.80952381	20	0.042	10.5	11.5	1.095238095	1	0.046	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-39	source-46	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	13	1.083333333	1	0.052	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-40	source-47	CTD Niskin	S023	Concentrate	500	7	71.42857143	20	0.014	7	10	1.428571429	1	0.02	
+adjusted-41	source-48	CTD Niskin	S023	Concentrate	500	6	83.33333333	20	0.012	6	11	1.833333333	1	0.022	
+adjusted-42	source-49	Ice Core	S021		15	15	1	(none)	1	15	17	1.133333333	1	1.133333333	
+adjusted-43	source-50	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	15	1.153846154	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-44	source-51	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	14	1.076923077	1	0.028	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-45	source-52	Experiment	UV_exp	Concentrate	500	12	41.66666667	20	0.024	12	13.5	1.125	1	0.027	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-46	source-53	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	15	1.153846154	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-47	source-54	Experiment	UV_exp	Concentrate	500	12	41.66666667	20	0.024	12	14	1.166666667	1	0.028	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-48	source-55	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	15	1.153846154	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-49	source-56	Experiment	UV_exp	Concentrate	500	12.5	40	20	0.025	12.5	13	1.04		0	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-50	source-57	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-51	source-58	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	14	1	1	0.028	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-52	source-59	Experiment	UV_exp	Concentrate	500	12.5	40	20	0.025	12.5	13	1.04	1	0.026	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-53	source-60	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13.5	15	1.111111111	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-54	source-61	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-55	source-62	Experiment	UV_exp	Concentrate	500	12	41.66666667	20	0.024	12	12.5	1.041666667	1	0.025	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-56	source-63	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13.5	14.5	1.074074074		0	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-57	source-64	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	14	1.076923077	1	0.028	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-58	source-65	Experiment	UV_exp	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-59	source-66	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-60	source-67	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	16	1.333333333	1	0.064	Post-concentration volume was estimated from pre-filtering sample volume. Ethan forgot to mix the source Falcon tube beforehand and then realized after pouring through the filter that there were a few more drops of water left at the bottom of the tube with lots of plankton inside.
+adjusted-61	source-68	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-62	source-69	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-63	source-70	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15.5	1.192307692	1	0.062	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-64	source-71	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-65	source-72	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	15	1.2	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-66	source-73	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	16	1.230769231	1	0.064	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-67	source-74	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	14.5	1.208333333	1	0.058	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-68	source-75	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	15	1.111111111	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-69	source-76	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume. This sample had an especially high amount of plankton which were trapped by the 200 um filter - they probably were unable to get untangled.
+adjusted-70	source-77	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	15	1.153846154	1	0.06	Post-concentration volume was estimated from pre-filtering sample volume
+adjusted-71	source-78	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	15	1.071428571	1	0.03107142857	
+adjusted-72	source-79	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-73	source-80	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13.5	15	1.111111111	1	0.03111111111	
+adjusted-74	source-81	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	16	1.142857143	1	0.032	
+adjusted-75	source-82	Experiment	UV_exp	Concentrate	500	14.2	35.21126761	20	0.0284	14	15	1.071428571	1	0.03042857143	
+adjusted-76	source-83	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.5	16	1.103448276	1	0.032	
+adjusted-77	source-84	Experiment	UV_exp	Concentrate	500	12.5	40	20	0.025	12	13	1.083333333	1	0.02708333333	
+adjusted-78	source-85	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-79	source-86	CTD Niskin	S020	Concentrate	500	7.5	66.66666667	20	0.015	7.5	15	2	1	0.03	
+adjusted-80	source-87	CTD Niskin	S020	Concentrate	500	10	50	20	0.02	8	10	1.25	1	0.025	
+adjusted-81	source-88	Experiment	UV_exp	Concentrate	500	12.5	40	20	0.025	12.5	15	1.2	1	0.03	
+adjusted-82	source-89	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	12.5	15	1.2	1	0.0312	
+adjusted-83	source-90	Experiment	UV_exp	Concentrate	500	12.5	40	20	0.025	12	14	1.166666667	1	0.02916666667	
+adjusted-84	source-91	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	12.5	15	1.2	1	0.0312	
+adjusted-85	source-92	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	12.5	15	1.2	1	0.0312	
+adjusted-86	source-93	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13	15	1.153846154	1	0.03115384615	
+adjusted-87	source-94	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13	15	1.153846154	1	0.03115384615	
+adjusted-88	source-95	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	12.5	15	1.2	1	0.0324	
+adjusted-89	source-96	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13.5	15	1.111111111	1	0.03111111111	
+adjusted-90	source-97	CTD Niskin	S029	Concentrate	500	10	50	20	0.02	10	13	1.3	1	0.026	
+adjusted-91	source-98	CTD Niskin	S029	Concentrate	500	11	45.45454545	20	0.022	10	12.5	1.25	1	0.0275	
+adjusted-92	source-99	Experiment	tatertots	Concentrate	250	15	16.66666667	20	0.06	14	15	1.071428571	1	0.06428571429	
+adjusted-93	source-100	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14	15	1.071428571	1	0.06214285714	
+adjusted-94	source-101	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14	15	1.071428571	1	0.06214285714	
+adjusted-95	source-102	CTD Niskin	S031	Concentrate	500	7.5	66.66666667	20	0.015	7.5	10.5	1.4	1	0.021	
+adjusted-96	source-103	CTD Niskin	S031	Concentrate	500	9	55.55555556	20	0.018	8.5	10.5	1.235294118	1	0.02223529412	
+adjusted-97	source-104	CTD Niskin	S032	Concentrate	500	10	50	20	0.02	9.5	11.5	1.210526316	1	0.02421052632	
+adjusted-98	source-105	CTD Niskin	S032	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-99	source-108	Ice Core	S032		15	15	1	20	1	10	34	3.4	1	3.4	There is a lot of stuff in this sample
+adjusted-100	source-109	CTD Niskin	S035	Concentrate	500	6.5	76.92307692	20	0.013	6.5	11.5	1.769230769	1	0.023	
+adjusted-101	source-110	CTD Niskin	S035	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12	1.411764706	1	0.024	
+adjusted-102	source-106	Sediment Trap	S016	Dilute	15	15	1	20	1	10	11.5	1.15	1	1.15	
+adjusted-103	source-107	Sediment Trap	S016	Dilute	15	15	1	20	1	15	17.5	1.166666667	1	1.166666667	
+adjusted-104	source-111	CTD Niskin	S036	Concentrate	500	10	50	20	0.02	10	14	1.4	1	0.028	
+adjusted-105	source-112	CTD Niskin	S036	Concentrate	500	12.5	40	20	0.025	12.5	15	1.2	1	0.03	
+adjusted-106	source-113	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14	1.076923077	1	0.05815384615	
+adjusted-107	source-114	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	15	1.2	1	0.0648	
+adjusted-108	source-115	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	15	1.2	1	0.0648	
+adjusted-109	source-116	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	11.5	12.5	1.086956522	1	0.05869565217	
+adjusted-110	source-117	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	15	1.111111111	1	0.06222222222	
+adjusted-111	source-119	CTD Niskin	S039	Concentrate	500	13	38.46153846	20	0.026	12.5	14	1.12	1	0.02912	
+adjusted-112	source-120	CTD Niskin	S039	Concentrate	500	10	50	20	0.02	10	14	1.4	1	0.028	
+adjusted-113	source-118	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14.5	1.115384615	1	0.06023076923	
+adjusted-114	source-121	Experiment	tatertots	Concentrate	250	13.7	18.24817518	20	0.0548	13.2	15	1.136363636	1	0.06227272727	
+adjusted-115	source-122	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	15.5	1.148148148	1	0.0642962963	
+adjusted-116	source-123	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-117	source-124	Experiment	tatertots	Concentrate	250	13.7	18.24817518	20	0.0548	13	15	1.153846154	1	0.06323076923	
+adjusted-118	source-125	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	15	1.111111111	1	0.06222222222	
+adjusted-119	source-126	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-120	source-127	CTD Niskin	S038	Concentrate	500	8	62.5	20	0.016	7.5	12	1.6	1	0.0256	
+adjusted-121	source-128	CTD Niskin	S038	Concentrate	500	8.5	58.82352941	20	0.017	8	12	1.5	1	0.0255	
+adjusted-122	source-129	Ice Core	S038		15	10	1.5	20	0.6666666667	10	12	1.2	1	0.8	
+adjusted-123	source-130	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	12.5	14	1.12	1	0.059136	
+adjusted-124	source-131	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	15	1.111111111	1	0.06222222222	
+adjusted-125	source-132	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	12.5	14	1.12	1	0.06272	
+adjusted-126	source-133	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13	14	1.076923077	1	0.06030769231	
+adjusted-127	source-134	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12	13	1.083333333	1	0.05416666667	
+adjusted-128	source-135	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	15	1.2	1	0.0648	
+adjusted-129	source-136	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	15	1.153846154	1	0.06230769231	
+adjusted-130	source-137	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13	15	1.153846154	1	0.06461538462	
+adjusted-131	source-138	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12	14	1.166666667	1	0.06066666667	
+adjusted-132	source-139	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	10	12	1.2	1	0.0672	
+adjusted-133	source-140	Experiment	tatertots	Concentrate	250	11.7	21.36752137	20	0.0468	11.5	15	1.304347826	1	0.06104347826	
+adjusted-134	source-141	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-135	source-142	CTD Niskin	S042	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-136	source-143	CTD Niskin	S042	Concentrate	500	11.5	43.47826087	20	0.023	11	17.5	1.590909091	1	0.03659090909	
+adjusted-137	source-144	Ice Core	S042		50	7	7.142857143	20	0.14	7	11	1.571428571	1	0.22	***Not correct! Pre-conc is 50mls
+adjusted-138	source-145	CTD Niskin	S045	Concentrate	500	7.5	66.66666667	20	0.015	7	11	1.571428571	1	0.02357142857	
+adjusted-139	source-146	CTD Niskin	S045	Concentrate	500	9.5	52.63157895	20	0.019	9	12	1.333333333	1	0.02533333333	
+adjusted-140	source-147	CTD Niskin	S048	Concentrate	500	7.5	66.66666667	20	0.015	7	11	1.571428571	1	0.02357142857	
+adjusted-141	source-148	CTD Niskin	S048	Concentrate	500	7.5	66.66666667	20	0.015	7	10	1.428571429		0	
+adjusted-142	source-149	CTD Niskin	S050	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-143	source-150	CTD Niskin	S050	Concentrate	500	10	50	20	0.02	10	12.5	1.25		0	
+adjusted-144	source-151	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	15	1.153846154	1	0.03	
+adjusted-145	source-152	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	10	12.5	1.25	1	0.0325	
+adjusted-146	source-153	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13	15	1.153846154	1	0.03461538462	
+adjusted-147	source-154	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	12	15	1.25	1	0.0375	
+adjusted-148	source-155	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13	15	1.153846154	1	0.03461538462	
+adjusted-149	source-156	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	12	14	1.166666667	1	0.03266666667	
+adjusted-150	source-157	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	12.5	14	1.12	1	0.03136	
+adjusted-151	source-158	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	12	14	1.166666667	1	0.03266666667	
+adjusted-152	source-159	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	12	14	1.166666667	1	0.03383333333	
+adjusted-153	source-160	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	12	14	1.166666667	1	0.03266666667	
+adjusted-154	source-161	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	12.5	14	1.12	1	0.03248	
+adjusted-155	source-162	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13.5	15	1.111111111	1	0.03333333333	
+adjusted-156	source-163	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	11	11	1	1	0.027	
+adjusted-157	source-164	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	15	1.153846154	1	0.03	
+adjusted-158	source-165	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13	15.5	1.192307692	1	0.03219230769	
+adjusted-159	source-166	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	12.5	15	1.2	1	0.0324	
+adjusted-160	source-167	Experiment	UV_exp	Concentrate	500	13.4	37.31343284	20	0.0268	12.5	15	1.2	1	0.03216	
+adjusted-161	source-168	Experiment	UV_exp	Concentrate	500	12.2	40.98360656	20	0.0244	12	15	1.25	1	0.0305	
+adjusted-162	source-169	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	15	1.153846154	1	0.06230769231	
+adjusted-163	source-170	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-164	source-171	Experiment	tatertots	Concentrate	250	13.7	18.24817518	20	0.0548	13	15	1.153846154	1	0.06323076923	
+adjusted-165	source-172	Sediment Trap	S021	Dilute	15	15	1	20	1	7.5	14.5	1.933333333	1	1.933333333	
+adjusted-166	source-173	Sediment Trap	S021	Dilute	15	15	1	20	1	7.5	15	2	1	2	
+adjusted-167	source-174	Sediment Trap	S026	Dilute	15	15	1	20	1	7.5	15	2	1	2	
+adjusted-168	source-175	Sediment Trap	S026	Dilute	15	15	1	20	1	9.5	10.5	1.105263158	1	1.105263158	
+adjusted-169	source-176	Sediment Trap	S029	Dilute	15	15	1	20	1	7.5	14.5	1.933333333	1	1.933333333	
+adjusted-170	source-177	Sediment Trap	S029	Dilute	15	15	1	20	1	9.5	12	1.263157895	1	1.263157895	
+adjusted-171	source-178	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15	1.034482759	1	0.03103448276	
+adjusted-172	source-179	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13	15	1.153846154	1	0.03230769231	
+adjusted-173	source-180	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-174	source-181	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-175	source-182	Experiment	UV_exp	Concentrate	500	13.4	37.31343284	20	0.0268	13.4	14	1.044776119	1	0.028	
+adjusted-176	source-183	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.5	16	1.103448276	1	0.032	
+adjusted-177	source-184	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-178	source-185	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-179	source-186	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-180	source-187	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-181	source-188	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.5	1.050847458	1	0.03152542373	
+adjusted-182	source-189	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	16	1.084745763	1	0.03254237288	
+adjusted-183	source-190	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	16	1.084745763	1	0.03254237288	
+adjusted-184	source-191	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.5	1.050847458	1	0.03152542373	
+adjusted-185	source-192	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15.2	1.085714286	1	0.03257142857	
+adjusted-186	source-193	Experiment	UV_exp	Concentrate	500	13.3	37.59398496	20	0.0266	13	14	1.076923077	1	0.02864615385	
+adjusted-187	source-194	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	13.5	14	1.037037037	1	0.03007407407	
+adjusted-188	source-195	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	10	10.5	1.05	1	0.03045	
+adjusted-189	source-196	CTD Niskin	S055	Concentrate	500	9	55.55555556	20	0.018	8	12.5	1.5625	1	0.028125	
+adjusted-190	source-197	CTD Niskin	S055	Concentrate	500	11.5	43.47826087	20	0.023	11.5	16	1.391304348	1	0.032	
+adjusted-191	source-198	Ice Core	S056		15	14.1	1.063829787	20	0.94	13.5	14.5	1.074074074	1	1.00962963	
+adjusted-192	source-201	CTD Niskin	S058	Concentrate	500	10	50	20	0.02	9.75	10.5	1.076923077	1	0.02153846154	
+adjusted-193	source-202	CTD Niskin	S058	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	
+adjusted-194	source-203	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	13	1.04	1	0.05408	
+adjusted-195	source-204	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	
+adjusted-196	source-205	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	14	1.037037037	1	0.05807407407	
+adjusted-197	source-206	Experiment	tatertots	Concentrate	250	13.7	18.24817518	20	0.0548	13	14	1.076923077	1	0.05901538462	
+adjusted-198	source-207	Experiment	tatertots	Concentrate	250	13.9	17.98561151	20	0.0556	13.5	14.25	1.055555556	1	0.05868888889	
+adjusted-199	source-208	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	12.5	1	1	0.052	
+adjusted-200	source-209	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	15	1.2	1	0.0648	
+adjusted-201	source-210	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	15.5	1.24	1	0.06696	
+adjusted-202	source-211	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-203	source-212	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	15	1.153846154	1	0.06230769231	
+adjusted-204	source-213	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	15	1.2	1	0.0624	
+adjusted-205	source-214	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	15	1.111111111	1	0.06222222222	
+adjusted-206	source-199	Sediment Trap	S038	Dilute	15	15	1	20	1	7.5	12.5	1.666666667	1	1.666666667	
+adjusted-207	source-200	Sediment Trap	S038	Dilute	15	15	1	20	1	12.5	15	1.2	1	1.2	
+adjusted-208	source-200	Sediment Trap	S038	Dilute	15	15	1	20	1	7.5	12.5	1.666666667	1	1.666666667	
+adjusted-209	source-215	CTD Niskin	S060	Concentrate	500	8	62.5	20	0.016	7.5	11	1.466666667	1	0.02346666667	
+adjusted-210	source-216	CTD Niskin	S060	Concentrate	500	7.5	66.66666667	20	0.015	7.5	13	1.733333333	1	0.026	
+adjusted-211	source-217	CTD Niskin	S061	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-212	source-218	CTD Niskin	S061	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-213	source-219	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	13	1.04	1	0.05408	
+adjusted-214	source-220	Experiment	tatertots	Concentrate	250	13.9	17.98561151	20	0.0556	13.25	14.5	1.094339623	1	0.06084528302	
+adjusted-215	source-221	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	13	14	1.076923077	1	0.05686153846	
+adjusted-216	source-222	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.25	14.25	1.075471698	1	0.0580754717	
+adjusted-217	source-223	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.25	14	1.056603774	1	0.05705660377	
+adjusted-218	source-224	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	14	1.037037037	1	0.05807407407	
+adjusted-219	source-225	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.75	14	1.098039216	1	0.05929411765	
+adjusted-220	source-226	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13	13.75	1.057692308	1	0.05817307692	
+adjusted-221	source-227	Experiment	tatertots	Concentrate	250	13.4	18.65671642	20	0.0536	12.5	13	1.04	1	0.055744	
+adjusted-222	source-228	Experiment	tatertots	Concentrate	250	13.8	18.11594203	20	0.0552	13.5	14	1.037037037	1	0.05724444444	
+adjusted-223	source-229	Experiment	tatertots	Concentrate	250	13.9	17.98561151	20	0.0556	13.5	14	1.037037037	1	0.05765925926	
+adjusted-224	source-230	Experiment	tatertots	Concentrate	250	14.25	17.54385965	20	0.057	13	13.25	1.019230769	1	0.05809615385	
+adjusted-225	source-231	Ice Core	S061		15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-226	source-232	CTD Niskin	S063	Concentrate	500	9.5	52.63157895	20	0.019	9.5	12.5	1.315789474	1	0.025	
+adjusted-227	source-233	CTD Niskin	S063	Concentrate	500	5.5	90.90909091	20	0.011	5	12	2.4	1	0.0264	
+adjusted-228	source-234	CTD Niskin	S064	Concentrate	500	7.5	66.66666667	20	0.015	7	12	1.714285714	1	0.02571428571	
+adjusted-229	source-235	CTD Niskin	S064	Concentrate	500	11.5	43.47826087	20	0.023	11	17.5	1.590909091	1	0.03659090909	
+adjusted-230	source-236	CTD Niskin	S066	Concentrate	500	10	50	20	0.02	9.5	10.5	1.105263158	1	0.02210526316	
+adjusted-231	source-237	CTD Niskin	S066	Concentrate	500	9	55.55555556	20	0.018	8.75	13.5	1.542857143	1	0.02777142857	
+adjusted-232	source-238	Ice Core	S064		15	15	1	20	1	13	15	1.153846154	1	1.153846154	
+adjusted-233	source-239	CTD Niskin	S067	Concentrate	500	10	50	20	0.02	9.5	12	1.263157895	1	0.02526315789	
+adjusted-234	source-240	CTD Niskin	S067	Concentrate	500	9	55.55555556	20	0.018	8.5	12	1.411764706	1	0.02541176471	
+adjusted-235	source-241	CTD Niskin	S068	Concentrate	500	13	38.46153846	20	0.026	12.5	20	1.6	1	0.0416	
+adjusted-236	source-242	CTD Niskin	S068	Concentrate	500	9	55.55555556	20	0.018	8.5	10	1.176470588	1	0.02117647059	
+adjusted-237	source-243	CTD Niskin	S069	Concentrate	500	12	41.66666667	20	0.024	11.5	14.5	1.260869565	1	0.03026086957	
+adjusted-238	source-244	CTD Niskin	S069	Concentrate	500	9	55.55555556	20	0.018	8	11	1.375	1	0.02475	
+adjusted-239	source-245	CTD Niskin	S070	Concentrate	500	8	62.5	20	0.016	7.5	11.5	1.533333333	1	0.02453333333	
+adjusted-240	source-246	CTD Niskin	S070	Concentrate	500	8.5	58.82352941	20	0.017	7.5	12	1.6	1	0.0272	
+adjusted-241	source-247	CTD Niskin	S071	Concentrate	500	12.5	40	20	0.025	12.5	14.5	1.16	1	0.029	
+adjusted-242	source-248	CTD Niskin	S071	Concentrate	500	6.5	76.92307692	20	0.013	5.5	12.5	2.272727273	1	0.02954545455	
+adjusted-243	source-251	CTD Niskin	S074	Concentrate	500	8	62.5	20	0.016	7.5	12	1.6	1	0.0256	
+adjusted-244	source-252	CTD Niskin	S074	Concentrate	500	9.5	52.63157895	20	0.019	9	12	1.333333333	1	0.02533333333	Saw several live copepods while concentrating this sample!
+adjusted-245	source-249	Sediment Trap	S073	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-246	source-250	Sediment Trap	S073	Dilute	15	15	1	20	1	10	13.5	1.35	1	1.35	
+adjusted-247	source-253	CTD Niskin	S076	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-248	source-254	CTD Niskin	S076	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-249	source-255	CTD Niskin	S077	Concentrate	500	9.5	52.63157895	20	0.019	8.5	12.5	1.470588235	1	0.02794117647	
+adjusted-250	source-256	CTD Niskin	S077	Concentrate	500	9	55.55555556	20	0.018	8	12.5	1.5625	1	0.028125	
+adjusted-251	source-257	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	13.75	14.5	1.054545455	1	0.03058181818	
+adjusted-252	source-258	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13.5	14.9	1.103703704	1	0.0309037037	
+adjusted-253	source-267	CTD Niskin	S078	Concentrate	500	7.5	66.66666667	20	0.015	7.25	14	1.931034483	1	0.02896551724	Very dense sample 
+adjusted-254	source-268	CTD Niskin	S078	Concentrate	500	12	41.66666667	20	0.024	11.75	14	1.191489362	1	0.02859574468	
+adjusted-255	source-259	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	16	1.084745763	1	0.03254237288	
+adjusted-256	source-260	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.7	16	1.088435374	1	0.03265306122	
+adjusted-257	source-261	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.25	14.9	1.045614035	1	0.03032280702	
+adjusted-258	source-262	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13.75	14.9	1.083636364	1	0.03034181818	
+adjusted-259	source-263	Experiment	UV_exp	Concentrate	500	13.25	37.73584906	20	0.0265	12.5	14	1.12	1	0.02968	
+adjusted-260	source-264	Experiment	UV_exp	Concentrate	500	14.25	35.0877193	20	0.0285	14	15	1.071428571	1	0.03053571429	
+adjusted-261	source-265	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	15	1.071428571	1	0.03107142857	
+adjusted-262	source-266	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	7.5	9	1.2	1	0.036	
+adjusted-263	source-269	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-264	source-270	Experiment	UV_exp	Concentrate	500	13.75	36.36363636	20	0.0275	13.3	14	1.052631579	1	0.02894736842	
+adjusted-265	source-271	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	14.5	1.035714286	1	0.03003571429	
+adjusted-266	source-272	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	10	12	1.2	1	0.036	
+adjusted-267	source-273	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	11	12	1.090909091	1	0.03272727273	
+adjusted-268	source-274	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	11	11	1	1	0.03	
+adjusted-269	source-275	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15	1.034482759	1	0.03103448276	
+adjusted-270	source-276	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	16	1.103448276	1	0.03310344828	
+adjusted-271	source-277	CTD Niskin	S080	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	
+adjusted-272	source-278	CTD Niskin	S080	Concentrate	500	10	50	20	0.02	10	11.5	1.15	1	0.023	
+adjusted-273	source-283	CTD Niskin	S081	Concentrate	500	12	41.66666667	20	0.024	12	14.5	1.208333333	1	0.029	
+adjusted-274	source-284	CTD Niskin	S081	Concentrate	500	11.5	43.47826087	20	0.023	11	15	1.363636364	1	0.03136363636	
+adjusted-275	source-279	Sediment Trap	S081	Dilute	15	15	1	20	1	12.5	14	1.12	1	1.12	
+adjusted-276	source-280	Sediment Trap	S081	Dilute	15	15	1	20	1	12.5	15	1.2	1	1.2	
+adjusted-277	source-285	CTD Niskin	S082	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-278	source-286	CTD Niskin	S082	Concentrate	500	11.5	43.47826087	20	0.023	11	14.5	1.318181818	1	0.03031818182	
+adjusted-279	source-281	Sediment Trap	S078	Dilute	15	15	1	20	1	12.5	15	1.2	1	1.2	
+adjusted-280	source-282	Sediment Trap	S078	Dilute	15	15	1	20	1	12.5	15	1.2	1	1.2	
+adjusted-281	source-287	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13.5	15	1.111111111	1	0.03333333333	
+adjusted-282	source-288	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.8	15.5	1.047297297	1	0.03141891892	
+adjusted-283	source-289	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.9	15.25	1.023489933	1	0.03070469799	
+adjusted-284	source-290	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	16	1.084745763	1	0.03254237288	
+adjusted-285	source-291	CTD Niskin	S084	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-286	source-292	CTD Niskin	S084	Concentrate	500	9.5	52.63157895	20	0.019	9	9.9	1.1	1	0.0209	
+adjusted-287	source-293	Ice Core	S078		15	15	1	20	1	14.5	25	1.724137931	1	1.724137931	
+adjusted-288	source-294	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-289	source-295	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15	1.034482759	1	0.03103448276	
+adjusted-290	source-296	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.2	1.030508475	1	0.03091525424	
+adjusted-291	source-297	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	13.75	14.5	1.054545455	1	0.03058181818	
+adjusted-292	source-298	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.25	1.051724138	1	0.03155172414	
+adjusted-293	source-299	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14	14.9	1.064285714	1	0.03139642857	
+adjusted-294	source-300	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14.2	15	1.056338028	1	0.03116197183	
+adjusted-295	source-301	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.1	1.04137931	1	0.03124137931	
+adjusted-296	source-302	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.2	1.048275862	1	0.03144827586	
+adjusted-297	source-303	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	13.5	14.8	1.096296296	1	0.0306962963	
+adjusted-298	source-304	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15	1.034482759	1	0.03103448276	
+adjusted-299	source-305	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	14.8	1.057142857	1	0.03065714286	
+adjusted-300	source-306	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.2	1.048275862	1	0.03144827586	
+adjusted-301	source-307	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14.8	15.25	1.030405405	1	0.03039695946	
+adjusted-302	source-308	Experiment	tatertots	Concentrate	250	13.7	18.24817518	20	0.0548	13	14	1.076923077	1	0.05901538462	
+adjusted-303	source-309	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	11.5	12.75	1.108695652	1	0.05765217391	
+adjusted-304	source-310	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.6	14	1.111111111	1	0.06	
+adjusted-305	source-311	CTD Niskin	S086	Concentrate	500	7	71.42857143	20	0.014	6.5	12.5	1.923076923	1	0.02692307692	
+adjusted-306	source-312	CTD Niskin	S086	Concentrate	500	15.5	32.25806452	20	0.031	15	30	2	1	0.062	
+adjusted-307	source-313	CTD Niskin	S087	Concentrate	500	9.5	52.63157895	20	0.019	9	13	1.444444444	1	0.02744444444	
+adjusted-308	source-314	CTD Niskin	S087	Concentrate	500	15.5	32.25806452	20	0.031	15.5	25	1.612903226	1	0.05	
+adjusted-309	source-315	CTD Niskin	S088	Concentrate	500	13	38.46153846	20	0.026	12	14	1.166666667	1	0.03033333333	
+adjusted-310	source-316	CTD Niskin	S088	Concentrate	500	12.5	40	20	0.025	12	14	1.166666667	1	0.02916666667	
+adjusted-311	source-317	Ice Core	S087		15	15	1	20	1	15	16	1.066666667	1	1.066666667	
+adjusted-312	source-318	Experiment	tatertots	Concentrate	250	11.5	21.73913043	20	0.046	10.25	12	1.170731707	1	0.05385365854	
+adjusted-313	source-319	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12	12.7	1.058333333	1	0.05503333333	
+adjusted-314	source-320	Experiment	tatertots	Concentrate	250	11.75	21.27659574	20	0.047	11.25	12	1.066666667	1	0.05013333333	
+adjusted-315	source-321	Experiment	tatertots	Concentrate	250	13.8	18.11594203	20	0.0552	11.75	12.5	1.063829787	1	0.05872340426	
+adjusted-316	source-322	Experiment	tatertots	Concentrate	250	12.65	19.76284585	20	0.0506	11	12	1.090909091	1	0.0552	
+adjusted-317	source-323	Experiment	tatertots	Concentrate	250	13.85	18.05054152	20	0.0554	13	13.5	1.038461538	1	0.05753076923	
+adjusted-318	source-324	CTD Niskin	S090	Concentrate	500	13.5	37.03703704	20	0.027	13	15	1.153846154	1	0.03115384615	
+adjusted-319	source-325	CTD Niskin	S090	Concentrate	500	10.5	47.61904762	20	0.021	10	25	2.5	1	0.0525	
+adjusted-320	source-326	CTD Niskin	S092	Concentrate	500	6	83.33333333	20	0.012	5.5	17	3.090909091	1	0.03709090909	
+adjusted-321	source-327	CTD Niskin	S092	Concentrate	500	12.5	40	20	0.025	12	20.5	1.708333333	1	0.04270833333	Tons of algae got caught by the 200 um filter!
+adjusted-322	source-328	CTD Niskin	S096	Concentrate	500	10	50	20	0.02	9.5	11	1.157894737	1	0.02315789474	
+adjusted-323	source-329	CTD Niskin	S096	Concentrate	500	8.75	57.14285714	20	0.0175	8	9.5	1.1875	1	0.02078125	
+adjusted-324	source-332	Ice Core	S092		15	15	1	20	1	14.75	15.5	1.050847458	1	1.050847458	
+adjusted-325	source-333	CTD Niskin	S100	Concentrate	500	7.5	66.66666667	20	0.015	7	9	1.285714286	1	0.01928571429	
+adjusted-326	source-334	CTD Niskin	S100	Concentrate	500	10.5	47.61904762	20	0.021	10.5	11	1.047619048	1	0.022	
+adjusted-327	source-335	Experiment	tatertots	Concentrate	250	11.25	22.22222222	20	0.045	10	11	1.1	1	0.0495	
+adjusted-328	source-336	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	9.5	12	1.263157895	1	0.06063157895	
+adjusted-329	source-337	Experiment	tatertots	Concentrate	250	11.9	21.00840336	20	0.0476	11.25	12.4	1.102222222	1	0.05246577778	
+adjusted-330	source-338	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	7	9	1.285714286	1	0.06171428571	
+adjusted-331	source-339	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13	15.5	1.192307692	1	0.06557692308	
+adjusted-332	source-340	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14	1.076923077	1	0.05815384615	
+adjusted-333	source-341	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	12.5	14	1.12	1	0.05936	
+adjusted-334	source-342	Experiment	tatertots	Concentrate	250	13.3	18.79699248	20	0.0532	12.5	13.25	1.06	1	0.056392	
+adjusted-335	source-343	Experiment	tatertots	Concentrate	250	13.4	18.65671642	20	0.0536	12.5	13.5	1.08	1	0.057888	
+adjusted-336	source-344	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12	15	1.25	1	0.0625	
+adjusted-337	source-345	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12	17	1.416666667	1	0.07083333333	
+adjusted-338	source-346	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	20	1.538461538	1	0.08307692308	
+adjusted-339	source-347	CTD Niskin	S105	Concentrate	500	7.5	66.66666667	20	0.015	7	12	1.714285714	1	0.02571428571	
+adjusted-340	source-348	CTD Niskin	S105	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-341	source-349	CTD Niskin	S109	Concentrate	500	9.5	52.63157895	20	0.019	9	12	1.333333333	1	0.02533333333	
+adjusted-342	source-350	CTD Niskin	S109	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	Sample lost from spilling out the sides
+adjusted-343	source-351	Experiment	tatertots	Concentrate	250	12.6	19.84126984	20	0.0504	12.25	13	1.06122449	1	0.05348571429	
+adjusted-344	source-352	Experiment	tatertots	Concentrate	250	11.8	21.18644068	20	0.0472	11.25	12	1.066666667	1	0.05034666667	
+adjusted-345	source-353	Experiment	tatertots	Concentrate	250	11.9	21.00840336	20	0.0476	11.5	12.5	1.086956522	1	0.05173913043	
+adjusted-346	source-354	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	15	1.111111111	1	0.06	
+adjusted-347	source-355	Experiment	tatertots	Concentrate	250	12.25	20.40816327	20	0.049	11.75	12.2	1.038297872	1	0.05087659574	
+adjusted-348	source-356	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	11.75	13	1.106382979	1	0.05531914894	
+adjusted-349	source-362	CTD Niskin	S114	Concentrate	500	9.5	52.63157895	20	0.019	9.25	11.25	1.216216216	1	0.02310810811	
+adjusted-350	source-363	CTD Niskin	S114	Concentrate	500	8.75	57.14285714	20	0.0175	8.25	11	1.333333333	1	0.02333333333	
+adjusted-351	source-357	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	14	1.12	1	0.05824	
+adjusted-352	source-358	Experiment	tatertots	Concentrate	250	12.2	20.49180328	20	0.0488	12	13	1.083333333	1	0.05286666667	
+adjusted-353	source-359	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.25	13	1.06122449	1	0.05306122449	
+adjusted-354	source-364	Experiment	tatertots	Concentrate	250	12.3	20.32520325	20	0.0492	9.25	12	1.297297297	1	0.06382702703	
+adjusted-355	source-365	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	12.5	13.5	1.08	1	0.057024	
+adjusted-356	source-366	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	7.5	9.5	1.266666667	1	0.06333333333	Lost a bit of sample. Dropped the tube
+adjusted-357	source-330	Sediment Trap	S061	Dilute	15	15	1	20	1	10.5	12.5	1.19047619	1	1.19047619	
+adjusted-358	source-331	Sediment Trap	S061	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-359	source-360	Sediment Trap	S067	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-360	source-361	Sediment Trap	S067	Dilute	15	15	1	20	1	10.5	12	1.142857143	1	1.142857143	
+adjusted-361	source-367	CTD Niskin	S117	Concentrate	500	8.5	58.82352941	20	0.017	8	12	1.5	1	0.0255	
+adjusted-362	source-368	CTD Niskin	S117	Concentrate	500	22.5	22.22222222	20	0.045	22	27.5	1.25	1	0.05625	Lots of algae got caught on the 200 um filter
+adjusted-363	source-369	CTD Niskin	S119	Concentrate	500	9.5	52.63157895	20	0.019	9	12.25	1.361111111	1	0.02586111111	
+adjusted-364	source-370	CTD Niskin	S119	Concentrate	500	9.75	51.28205128	20	0.0195	9.25	12.5	1.351351351	1	0.02635135135	
+adjusted-365	source-371	CTD Niskin	S121	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-366	source-372	CTD Niskin	S121	Concentrate	500	15	33.33333333	20	0.03	14.5	29.5	2.034482759	1	0.06103448276	
+adjusted-367	source-373	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13.75	15	1.090909091	1	0.03272727273	
+adjusted-368	source-374	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.75	1.086206897	1	0.0325862069	
+adjusted-369	source-375	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-370	source-376	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-371	source-377	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-372	source-378	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-373	source-379	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.9	16	1.073825503	1	0.0322147651	
+adjusted-374	source-380	Experiment	UV_exp	Concentrate	500	13.75	36.36363636	20	0.0275	13.25	14.5	1.094339623	1	0.03009433962	
+adjusted-375	source-381	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.9	15.9	1.067114094	1	0.03201342282	
+adjusted-376	source-382	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.9	1.06	1	0.0318	
+adjusted-377	source-383	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-378	source-384	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	15	1.071428571	1	0.03107142857	
+adjusted-379	source-385	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.25	1.051724138	1	0.03155172414	
+adjusted-380	source-386	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-381	source-387	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14	15	1.071428571	1	0.03160714286	
+adjusted-382	source-388	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.9	15.75	1.05704698	1	0.0317114094	
+adjusted-383	source-389	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-384	source-390	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-385	source-391	Experiment	tatertots	Concentrate	250	12.23	20.4415372	20	0.04892	12	12.75	1.0625	1	0.0519775	
+adjusted-386	source-392	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14	1.076923077	1	0.05815384615	
+adjusted-387	source-393	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	13	14	1.076923077	1	0.05707692308	
+adjusted-388	source-396	CTD Niskin	S124	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-389	source-397	CTD Niskin	S124	Concentrate	500	11	45.45454545	20	0.022	10.5	15	1.428571429	1	0.03142857143	
+adjusted-390	source-398	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-391	source-399	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14	17.5	1.25	1	0.03625	
+adjusted-392	source-400	CTD Niskin	S125	Concentrate	500	10	50	20	0.02	9.5	11.75	1.236842105	1	0.02473684211	
+adjusted-393	source-401	CTD Niskin	S125	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-394	source-402	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.9	15.5	1.040268456	1	0.03120805369	
+adjusted-395	source-403	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-396	source-404	Experiment	UV_exp	Concentrate	500	13.8	36.23188406	20	0.0276	13.5	14.75	1.092592593	1	0.03015555556	
+adjusted-397	source-405	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	12	12.5	1.041666667	1	0.03125	
+adjusted-398	source-406	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15.2	1.085714286	1	0.03257142857	
+adjusted-399	source-407	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-400	source-408	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.8	15.5	1.047297297	1	0.03141891892	
+adjusted-401	source-409	Experiment	UV_exp	Concentrate	500	13.25	37.73584906	20	0.0265	13	14	1.076923077	1	0.02853846154	
+adjusted-402	source-410	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.5	1.068965517	1	0.03206896552	
+adjusted-403	source-411	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14	15	1.071428571	1	0.03160714286	
+adjusted-404	source-412	Experiment	UV_exp	Concentrate	500	13.8	36.23188406	20	0.0276	13.75	15	1.090909091	1	0.03010909091	
+adjusted-405	source-413	Experiment	UV_exp	Concentrate	500	14.25	35.0877193	20	0.0285	13.75	14.8	1.076363636	1	0.03067636364	
+adjusted-406	source-414	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.5	1.068965517	1	0.03206896552	
+adjusted-407	source-415	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.25	15	1.052631579	1	0.03157894737	
+adjusted-408	source-416	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.75	15.25	1.033898305	1	0.02998305085	
+adjusted-409	source-417	Experiment	UV_exp	Concentrate	500	14.7	34.01360544	20	0.0294	14.75	15.5	1.050847458	1	0.03089491525	
+adjusted-410	source-424	CTD Niskin	S129	Concentrate	500	10	50	20	0.02	10	11.5	1.15	1	0.023	
+adjusted-411	source-425	CTD Niskin	S129	Concentrate	500	7.5	66.66666667	20	0.015	7.5	10	1.333333333	1	0.02	
+adjusted-412	source-418	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12	13	1.083333333	1	0.05525	
+adjusted-413	source-419	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13.5	14.5	1.074074074	1	0.05907407407	
+adjusted-414	source-420	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13	14	1.076923077	1	0.05923076923	
+adjusted-415	source-421	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12	13.5	1.125	1	0.057375	
+adjusted-416	source-422	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	12.75	14	1.098039216	1	0.05819607843	
+adjusted-417	source-423	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	13	17.5	1.346153846	1	0.07134615385	
+adjusted-418	source-426	CTD Niskin	S134	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-419	source-427	CTD Niskin	S134	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-420	source-428	Sediment Trap	S096	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-421	source-429	Sediment Trap	S096	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-422	source-430	Sediment Trap	S100	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-423	source-431	Sediment Trap	S100	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-424	source-444	CTD Niskin	S138	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-425	source-445	CTD Niskin	S138	Concentrate	500	9.5	52.63157895	20	0.019	9	11	1.222222222	1	0.02322222222	
+adjusted-426	source-432	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	12.5	13.25	1.06	1	0.055968	
+adjusted-427	source-433	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.25	13.75	1.12244898	1	0.05724489796	
+adjusted-428	source-434	Experiment	tatertots	Concentrate	250	13.4	18.65671642	20	0.0536	13	14	1.076923077	1	0.05772307692	
+adjusted-429	source-435	Experiment	tatertots	Concentrate	250	12.3	20.32520325	20	0.0492	12.25	13.5	1.102040816	1	0.05422040816	
+adjusted-430	source-436	Experiment	tatertots	Concentrate	250	12.3	20.32520325	20	0.0492	12.1	13.75	1.136363636	1	0.05590909091	
+adjusted-431	source-437	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	12.75	13.75	1.078431373	1	0.05694117647	
+adjusted-432	source-438	Experiment	tatertots	Concentrate	250	12.1	20.66115702	20	0.0484	10	12	1.2	1	0.05808	
+adjusted-433	source-439	Experiment	tatertots	Concentrate	250	12.8	19.53125	20	0.0512	12.5	13.5	1.08	1	0.055296	
+adjusted-434	source-440	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	12.5	13.25	1.06	1	0.055968	
+adjusted-435	source-441	Experiment	tatertots	Concentrate	250	13.6	18.38235294	20	0.0544	13.5	14.5	1.074074074	1	0.05842962963	
+adjusted-436	source-442	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13.5	20	1.481481481	1	0.08148148148	
+adjusted-437	source-443	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	20.5	1.518518519	1	0.082	
+adjusted-438	source-446	CTD Niskin	S140	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-439	source-447	CTD Niskin	S140	Concentrate	500	12	41.66666667	20	0.024	11	12	1.090909091	1	0.02618181818	
+adjusted-440	source-448	CTD Niskin	S144	Concentrate	500	(not recorded)	#VALUE!	20	#VALUE!	12	14	1.166666667	1	#VALUE!	The concentration-adjusted sample was received from Gravity Machine, which does not record the concentration factor.
+adjusted-441	source-449	CTD Niskin	S144	Concentrate	500	(not recorded)	#VALUE!	20	#VALUE!	11.5	14.5	1.260869565	1	#VALUE!	The concentration-adjusted sample was received from Gravity Machine, which does not record the concentration factor.
+adjusted-442	source-452	Sediment Trap	S092	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-443	source-453	Sediment Trap	S092	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-444	source-450	CTD Niskin	S147	Concentrate	500	12	41.66666667	20	0.024	11.5	15	1.304347826	1	0.03130434783	
+adjusted-445	source-451	CTD Niskin	S147	Concentrate	500	10.5	47.61904762	20	0.021	10	12.5	1.25	1	0.02625	
+adjusted-446	source-454	CTD Niskin	S149	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-447	source-455	CTD Niskin	S149	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-448	source-456	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14	1.076923077	1	0.05815384615	
+adjusted-449	source-457	Experiment	tatertots	Concentrate	250	12.9	19.37984496	20	0.0516	9	11	1.222222222	1	0.06306666667	
+adjusted-450	source-458	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	12.6	13.5	1.071428571	1	0.06214285714	
+adjusted-451	source-459	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14	15	1.071428571	1	0.06214285714	
+adjusted-452	source-460	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	14	1.12	1	0.06048	
+adjusted-453	source-461	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	14	1.12	1	0.05824	
+adjusted-454	source-462	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.75	14	1.098039216	1	0.05709803922	
+adjusted-455	source-463	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.75	13.75	1.078431373	1	0.05607843137	
+adjusted-456	source-464	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	14	1.076923077	1	0.05815384615	
+adjusted-457	source-465	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.75	14.5	1.054545455	1	0.05905454545	
+adjusted-458	source-466	Experiment	tatertots	Concentrate	250	12.25	20.40816327	20	0.049	10.5	11.5	1.095238095	1	0.05366666667	
+adjusted-459	source-467	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.3	13.25	1.077235772	1	0.05386178862	
+adjusted-460	source-468	Sediment Trap	S088	Dilute	15	15	1	20	1	12	15	1.25	1	1.25	
+adjusted-461	source-469	Sediment Trap	S088	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-462	source-470	CTD Niskin	S153	Concentrate	500	18.5	27.02702703	20	0.037	18	22.5	1.25	1	0.04625	Very dense sample!
+adjusted-463	source-471	CTD Niskin	S153	Concentrate	500	17.5	28.57142857	20	0.035	17	20.5	1.205882353	1	0.04220588235	Very dense sample!
+adjusted-464	source-472	CTD Niskin	S154	Concentrate	500	8.5	58.82352941	20	0.017	8	12.5	1.5625	1	0.0265625	
+adjusted-465	source-473	CTD Niskin	S154	Concentrate	500	14.5	34.48275862	20	0.029	14	17	1.214285714	1	0.03521428571	Pretty dense sample
+adjusted-466	source-474	CTD Niskin	S155	Concentrate	500	9.5	52.63157895	20	0.019	9	12.5	1.388888889	1	0.02638888889	
+adjusted-467	source-475	CTD Niskin	S155	Concentrate	500	11	45.45454545	20	0.022	10.5	12.5	1.19047619	1	0.02619047619	
+adjusted-468	source-476	CTD Niskin	S157	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-469	source-477	CTD Niskin	S157	Concentrate	500	19	26.31578947	20	0.038	9.75	11.5	1.179487179	1	0.04482051282	
+adjusted-470	source-478	CTD Niskin	S159	Concentrate	500	11.5	43.47826087	20	0.023	11	15	1.363636364	1	0.03136363636	
+adjusted-471	source-479	CTD Niskin	S159	Concentrate	500	15	33.33333333	20	0.03	14.5	17.5	1.206896552	1	0.03620689655	
+adjusted-472	source-480	CTD Niskin	S160	Concentrate	500	8	62.5	20	0.016	7.5	11.5	1.533333333	1	0.02453333333	
+adjusted-473	source-481	CTD Niskin	S160	Concentrate	500	13.5	37.03703704	20	0.027	13	17	1.307692308	1	0.03530769231	Pretty dense sample
+adjusted-474	source-482	Sediment Trap	S121	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-475	source-483	Sediment Trap	S121	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-476	source-484	CTD Niskin	S163	Concentrate	500	10	50	20	0.02	10	11.5	1.15	1	0.023	
+adjusted-477	source-485	CTD Niskin	S163	Concentrate	500			20					1	0	
+adjusted-478	source-486	Experiment	tatertots	Concentrate	250	13.75	18.18181818	20	0.055	13	14.5	1.115384615	1	0.06134615385	
+adjusted-479	source-487	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.25	13.75	1.12244898	1	0.05612244898	
+adjusted-480	source-488	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	13	14	1.076923077	1	0.05686153846	
+adjusted-481	source-489	CTD Niskin	S167	Concentrate	500	9	55.55555556	20	0.018	8.75	11.75	1.342857143	1	0.02417142857	
+adjusted-482	source-490	CTD Niskin	S167	Concentrate	500	11	45.45454545	20	0.022	11	11.5	1.045454545	1	0.023	
+adjusted-483	source-491	CTD Niskin	S171	Concentrate	500	12.5	40	20	0.025	12	13.5	1.125	1	0.028125	There were some zooplankton in this sample, including a few copepods.
+adjusted-484	source-492	CTD Niskin	S171	Concentrate	500	12	41.66666667	20	0.024	11.5	13.5	1.173913043	1	0.02817391304	
+adjusted-485	source-493	Sediment Trap	S173	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-486	source-494	Sediment Trap	S173	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-487	source-495	Experiment	UV_exp	Concentrate	500	14.4	34.72222222	20	0.0288	14	15	1.071428571	1	0.03085714286	
+adjusted-488	source-496	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-489	source-497	Experiment	UV_exp	Concentrate	500	13.5	37.03703704	20	0.027	13.75	14.9	1.083636364	1	0.02925818182	
+adjusted-490	source-498	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-491	source-499	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.5	1.068965517	1	0.03206896552	
+adjusted-492	source-500	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	13.75	13.75	1	1	0.03	
+adjusted-493	source-501	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.5	1.050847458	1	0.03152542373	
+adjusted-494	source-502	Experiment	UV_exp	Concentrate	500	14.15	35.33568905	20	0.0283	11	12	1.090909091	1	0.03087272727	
+adjusted-495	source-503	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-496	source-504	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-497	source-505	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.25	1.033898305	1	0.03101694915	
+adjusted-498	source-506	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.2	1.030508475	1	0.03091525424	
+adjusted-499	source-507	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.75	1.06779661	1	0.03203389831	
+adjusted-500	source-508	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.5	1.033333333	1	0.031	
+adjusted-501	source-509	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.1	1.023728814	1	0.03071186441	
+adjusted-502	source-510	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-503	source-511	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.5	1.033333333	1	0.031	
+adjusted-504	source-512	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.5	15	1.034482759	1	0.03	
+adjusted-505	source-513	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.5	1.08	1	0.05508	
+adjusted-506	source-514	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.5	1.08	1	0.05508	
+adjusted-507	source-515	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	13	14	1.076923077	1	0.05707692308	
+adjusted-508	source-519	CTD Niskin	S177	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-509	source-520	CTD Niskin	S177	Concentrate	500	10	50	20	0.02	9.75	11	1.128205128	1	0.02256410256	
+adjusted-510	source-516	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	11	12.5	1.136363636	1	0.05909090909	
+adjusted-511	source-517	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.25	1.06	1	0.05406	
+adjusted-512	source-518	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	15	1.2	1	0.06	
+adjusted-513	source-521	CTD Niskin	S181	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-514	source-522	CTD Niskin	S181	Concentrate	500	7.5	66.66666667	20	0.015	7	12	1.714285714	1	0.02571428571	
+adjusted-515	source-523	CTD Niskin	S185	Concentrate	500	9.5	52.63157895	20	0.019	9	12	1.333333333	1	0.02533333333	
+adjusted-516	source-524	CTD Niskin	S185	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-517	source-525	CTD Niskin	S187	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-518	source-526	CTD Niskin	S187	Concentrate	500	7.5	66.66666667	20	0.015	7	11.5	1.642857143	1	0.02464285714	
+adjusted-519	source-527	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.5	15.5	1.068965517	1	0.031	
+adjusted-520	source-528	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15	1.034482759	1	0.03103448276	
+adjusted-521	source-529	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-522	source-530	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.5	1.050847458	1	0.03152542373	
+adjusted-523	source-531	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.75	15.5	1.050847458	1	0.03152542373	
+adjusted-524	source-532	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.5	1.033333333	1	0.031	
+adjusted-525	source-533	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.25	1.016666667	1	0.0305	
+adjusted-526	source-534	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15	1	16	0.48	
+adjusted-527	source-535	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.2	15.2	1.070422535	1	0.03104225352	
+adjusted-528	source-536	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-529	source-537	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-530	source-538	Experiment	UV_exp	Concentrate	500	14.3	34.96503497	20	0.0286	14	15.1	1.078571429	1	0.03084714286	
+adjusted-531	source-539	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	1
+adjusted-532	source-540	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-533	source-541	Experiment	UV_exp	Concentrate	500	14.4	34.72222222	20	0.0288	14	14.75	1.053571429	1	0.03034285714	
+adjusted-534	source-542	Experiment	UV_exp	Concentrate	500	14.2	35.21126761	20	0.0284	14	14.75	1.053571429	1	0.02992142857	
+adjusted-535	source-543	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-536	source-544	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.1	1.04137931	1	0.03124137931	
+adjusted-537	source-545	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	
+adjusted-538	source-546	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.75	13.5	1.058823529	1	0.05505882353	
+adjusted-539	source-547	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	
+adjusted-540	source-548	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.5	1.08	1	0.05508	
+adjusted-541	source-549	Experiment	tatertots	Concentrate	250	13.2	18.93939394	20	0.0528	13	14.25	1.096153846	1	0.05787692308	
+adjusted-542	source-550	Experiment	tatertots	Concentrate	250	12.8	19.53125	20	0.0512	12.6	13.5	1.071428571	1	0.05485714286	
+adjusted-543	source-551	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	17.5	1.4	1	0.07	
+adjusted-544	source-552	Experiment	tatertots	Concentrate	250	12.8	19.53125	20	0.0512	12.5	17.5	1.4	1	0.07168	
+adjusted-545	source-553	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	17.5	1.4	1	0.0728	
+adjusted-546	source-554	Experiment	tatertots	Concentrate	250	12.8	19.53125	20	0.0512	12.5	18	1.44	1	0.073728	
+adjusted-547	source-555	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13	20	1.538461538	1	0.08307692308	
+adjusted-548	source-556	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	18	1.44	1	0.07488	
+adjusted-549	source-557	Sediment Trap	S188	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-550	source-558	Sediment Trap	S188	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-551	source-559	CTD Niskin	S190	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-552	source-560	CTD Niskin	S190	Concentrate	450	10	45	20	0.02222222222	9.5	12.5	1.315789474	1	0.02923976608	The Nalgene bottle was not filled completely! It was missing maybe around 50 mL of sample.
+adjusted-553	source-561	CTD Niskin	S192	Concentrate	500	9.5	52.63157895	20	0.019	9	12	1.333333333	1	0.02533333333	
+adjusted-554	source-562	CTD Niskin	S192	Concentrate	500	10	50	20	0.02	10	15	1.5	1	0.03	
+adjusted-555	source-563	CTD Niskin	S192	Concentrate	500	9	55.55555556	20	0.018	8.5	12	1.411764706	1	0.02541176471	
+adjusted-556	source-564	CTD Niskin	S194	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-557	source-565	CTD Niskin	S194	Concentrate	500	11	45.45454545	20	0.022	11	12.5	1.136363636	1	0.025	
+adjusted-558	source-566	CTD Niskin	S195	Concentrate	500			20					1	0	
+adjusted-559	source-567	CTD Niskin	S195	Concentrate	500			20					1	0	
+adjusted-560	source-568	Experiment	tatertots	Concentrate	250	12.2	20.49180328	20	0.0488	12	13.5	1.125	1	0.0549	
+adjusted-561	source-569	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	13	1.04	1	0.052	
+adjusted-562	source-570	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	14	15.5	1.107142857	1	0.062	
+adjusted-563	source-571	Experiment	tatertots	Concentrate	250	11.7	21.36752137	20	0.0468	11.5	12.6	1.095652174	1	0.05127652174	
+adjusted-564	source-572	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	14	1.12	1	0.056	
+adjusted-565	source-573	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	14	1.12	1	0.05712	
+adjusted-566	source-574	Experiment	tatertots	Concentrate	250	12.6	19.84126984	20	0.0504	10	12.5	1.25	1	0.063	
+adjusted-567	source-575	Experiment	tatertots	Concentrate	250	12.4	20.16129032	20	0.0496	12.2	14	1.147540984	1	0.05691803279	
+adjusted-568	source-576	Experiment	tatertots	Concentrate	250	12.4	20.16129032	20	0.0496	12.25	14	1.142857143	1	0.05668571429	
+adjusted-569	source-577	Experiment	tatertots	Concentrate	250	12.9	19.37984496	20	0.0516	12	13	1.083333333	1	0.0559	
+adjusted-570	source-578	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	
+adjusted-571	source-579	Experiment	tatertots	Concentrate	250	12.9	19.37984496	20	0.0516	12.9	14	1.085271318	1	0.056	
+adjusted-572	source-582	CTD Niskin	S198	Concentrate	500	9.5	52.63157895	20	0.019	9.5	12.5	1.315789474	1	0.025	
+adjusted-573	source-583	CTD Niskin	S198	Concentrate	500	12.5	40	20	0.025	12.5	17	1.36	1	0.034	
+adjusted-574	source-580	Sediment Trap	S157	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-575	source-581	Sediment Trap	S157	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-576	source-584	CTD Niskin	S200	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-577	source-585	CTD Niskin	S200	Concentrate	500	10	50	20	0.02	10	15	1.5	1	0.03	
+adjusted-578	source-586	CTD Niskin	S202	Concentrate	500	11	45.45454545	20	0.022	10.5	12	1.142857143	1	0.02514285714	
+adjusted-579	source-587	CTD Niskin	S202	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-580	source-588	CTD Niskin	S207	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-581	source-589	CTD Niskin	S207	Concentrate	500	11	45.45454545	20	0.022	11	12.5	1.136363636	1	0.025	
+adjusted-582	source-590	CTD Niskin	S211	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-583	source-591	CTD Niskin	S211	Concentrate	500	11	45.45454545	20	0.022	10.5	12	1.142857143	1	0.02514285714	
+adjusted-584	source-592	CTD Niskin	S217	Concentrate	500	8.5	58.82352941	20	0.017	8	12	1.5	1	0.0255	
+adjusted-585	source-593	CTD Niskin	S217	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-586	source-594	CTD Niskin	S221	Concentrate	500	8	62.5	20	0.016	7	9	1.285714286	1	0.02057142857	
+adjusted-587	source-595	CTD Niskin	S221	Concentrate	500	9	55.55555556	20	0.018	9	10	1.111111111	1	0.02	
+adjusted-588	source-596	CTD Niskin	S225	Concentrate	500	10	50	20	0.02	9.5	11.5	1.210526316	1	0.02421052632	
+adjusted-589	source-597	CTD Niskin	S225	Concentrate	500	9	55.55555556	20	0.018	9	12	1.333333333	1	0.024	
+adjusted-590	source-600	CTD Niskin	S230	Concentrate	500	9.5	52.63157895	20	0.019	9.5	12.5	1.315789474	1	0.025	
+adjusted-591	source-601	CTD Niskin	S230	Concentrate	500	9.5	52.63157895	20	0.019	9	11.5	1.277777778	1	0.02427777778	
+adjusted-592	source-598	Sediment Trap	S228	Dilute	15	15	1	20	1	9.5	12.5	1.315789474	1	1.315789474	
+adjusted-593	source-599	Sediment Trap	S228	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-594	source-598	Sediment Trap	S228	Dilute	15	15	1	20	1	9.5	12.5	1.315789474	1	1.315789474	I thought this was source-602, but I might have taken the sample from T025 instead of T024, so we should ignore this.
+adjusted-595	source-602	Sediment Trap	S159	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-596	source-603	Sediment Trap	S159	Dilute	15	15	1	20	1	10	12	1.2	1	1.2	
+adjusted-597	source-604	Experiment	tatertots	Concentrate	250	13.9	17.98561151	20	0.0556	13.75	15	1.090909091	1	0.06065454545	
+adjusted-598	source-605	Experiment	tatertots	Concentrate	250	14.4	17.36111111	20	0.0576	14.4	15.5	1.076388889	1	0.062	
+adjusted-599	source-606	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	14	15	1.071428571	1	0.06	
+adjusted-600	source-607	CTD Niskin	S233	Concentrate	500	7.5	66.66666667	20	0.015	7	11	1.571428571	1	0.02357142857	
+adjusted-601	source-608	CTD Niskin	S233	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-602	source-609	CTD Niskin	S235	Concentrate	500	11.5	43.47826087	20	0.023	11	15	1.363636364	1	0.03136363636	
+adjusted-603	source-610	CTD Niskin	S235	Concentrate	500	9	55.55555556	20	0.018	9	12	1.333333333	1	0.024	
+adjusted-604	source-611	CTD Niskin	S237	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-605	source-612	CTD Niskin	S237	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-606	source-613	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	16	1.103448276	1	0.03310344828	
+adjusted-607	source-614	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	12	13	1.083333333	1	0.0325	
+adjusted-608	source-615	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-609	source-616	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-610	source-619	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-611	source-620	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-612	source-621	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.75	1.05	1	0.0315	
+adjusted-613	source-622	Experiment	UV_exp	Concentrate	500	14.75	33.89830508	20	0.0295	14	15	1.071428571	1	0.03160714286	
+adjusted-614	source-623	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-615	source-624	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	15.5	1.033333333	1	0.031	
+adjusted-616	source-625	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	12	12.5	1.041666667	1	0.03125	
+adjusted-617	source-626	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14	15	1.071428571	1	0.03214285714	
+adjusted-618	source-627	Experiment	UV_exp	Concentrate	500	14.25	35.0877193	20	0.0285	14	14.75	1.053571429	1	0.03002678571	
+adjusted-619	source-628	Experiment	UV_exp	Concentrate	500	13.75	36.36363636	20	0.0275	12.5	13	1.04	1	0.0286	
+adjusted-620	source-629	Experiment	UV_exp	Concentrate	500	14.6	34.24657534	20	0.0292	14.5	15.5	1.068965517	1	0.0312137931	
+adjusted-621	source-630	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-622	source-631	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-623	source-632	Experiment	UV_exp	Concentrate	500	13.75	36.36363636	20	0.0275	13	14.5	1.115384615	1	0.03067307692	
+adjusted-624	source-633	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.5	13.75	1.1	1	0.0572	
+adjusted-625	source-634	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.25	13.5	1.102040816	1	0.05510204082	
+adjusted-626	source-635	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	14.5	1.074074074	1	0.058	
+adjusted-627	source-639	CTD Niskin	S242	Concentrate	500	8	62.5	20	0.016	7.75	11	1.419354839	1	0.02270967742	
+adjusted-628	source-640	CTD Niskin	S242	Concentrate	500	9	55.55555556	20	0.018	8.5	11	1.294117647	1	0.02329411765	
+adjusted-629	source-636	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	12.5	13.25	1.06	1	0.05724	
+adjusted-630	source-637	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.75	13	1.019607843	1	0.05301960784	
+adjusted-631	source-638	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	18	1.384615385		0	
+adjusted-632	source-617	Sediment Trap	S238	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-633	source-618	Sediment Trap	S238	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-634	source-641	CTD Niskin	S249	Concentrate	500	8	62.5	20	0.016	8	12	1.5	1	0.024	
+adjusted-635	source-642	CTD Niskin	S249	Concentrate	500	7	71.42857143	20	0.014	6.5	12.5	1.923076923	1	0.02692307692	
+adjusted-636	source-645	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-637	source-646	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-638	source-647	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-639	source-648	Experiment	UV_exp	Concentrate	500	13.75	36.36363636	20	0.0275	13.5	14.5	1.074074074	1	0.02953703704	
+adjusted-640	source-649	Experiment	UV_exp	Concentrate	500	14.85	33.67003367	20	0.0297	14.5	15.5	1.068965517	1	0.03174827586	
+adjusted-641	source-650	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-642	source-651	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.5	1.068965517	1	0.03206896552	
+adjusted-643	source-652	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	14.5	15.5	1.068965517	1	0.03206896552	
+adjusted-644	source-653	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-645	source-654	Experiment	UV_exp	Concentrate	500	14.25	35.0877193	20	0.0285	14	15.25	1.089285714	1	0.03104464286	
+adjusted-646	source-655	Experiment	UV_exp	Concentrate	500	13.9	35.97122302	20	0.0278	13.75	15	1.090909091	1	0.03032727273	
+adjusted-647	source-656	Experiment	UV_exp	Concentrate	500	14.25	35.0877193	20	0.0285	14	15	1.071428571	1	0.03053571429	
+adjusted-648	source-657	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-649	source-658	Experiment	UV_exp	Concentrate	500	15	33.33333333	20	0.03	15	16	1.066666667	1	0.032	
+adjusted-650	source-659	Experiment	UV_exp	Concentrate	500	14.5	34.48275862	20	0.029	14.25	15.5	1.087719298	1	0.03154385965	
+adjusted-651	source-660	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-652	source-661	Experiment	UV_exp	Concentrate	500	13	38.46153846	20	0.026	13	14	1.076923077	1	0.028	
+adjusted-653	source-662	Experiment	UV_exp	Concentrate	500	14	35.71428571	20	0.028	14	15	1.071428571	1	0.03	
+adjusted-654	source-665	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.75	1.1	1	0.0561	
+adjusted-655	source-666	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	12.75	13.75	1.078431373	1	0.05607843137	
+adjusted-656	source-667	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.25	14.25	1.075471698	1	0.0580754717	
+adjusted-657	source-668	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	14	1.12	1	0.056	
+adjusted-658	source-669	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	13.2	14.5	1.098484848	1	0.05821969697	
+adjusted-659	source-670	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	14	1.12	1	0.05712	
+adjusted-660	source-671	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	14	15	1.071428571	1	0.06	
+adjusted-661	source-672	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	13.75	1.1	1	0.055	
+adjusted-662	source-673	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	13.5	1.08	1	0.054	
+adjusted-663	source-674	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	17.5	1.346153846	1	0.07	
+adjusted-664	source-675	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	18	1.333333333	1	0.072	
+adjusted-665	source-681	CTD Niskin	S253	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-666	source-682	CTD Niskin	S253	Concentrate	500	5	100	20	0.01	5	12.5	2.5	1	0.025	
+adjusted-667	source-676	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	17.5	1.4	1	0.0714	
+adjusted-668	source-677	Experiment	nutrient_gm	Concentrate	500	12.5	40	20	0.025	12.5	17.5	1.4	1	0.035	
+adjusted-669	source-678	Experiment	nutrient_gm	Concentrate	500	12	41.66666667	20	0.024	12	17	1.416666667	1	0.034	
+adjusted-670	source-679	Experiment	nutrient_gm	Concentrate	500	12	41.66666667	20	0.024	12	17	1.416666667	1	0.034	
+adjusted-671	source-680	Experiment	nutrient_gm	Concentrate	500	10.75	46.51162791	20	0.0215	10.5	12.5	1.19047619	1	0.0255952381	
+adjusted-672	source-683	CTD Niskin	S255	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-673	source-684	CTD Niskin	S255	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-674	source-643	Sediment Trap	S251	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-675	source-644	Sediment Trap	S251	Dilute	15	15	1	20	1	10.5	12.5	1.19047619	1	1.19047619	
+adjusted-676	source-685	CTD Niskin	S256	Concentrate	500	7.5	66.66666667	20	0.015	7	12	1.714285714	1	0.02571428571	
+adjusted-677	source-686	CTD Niskin	S256	Concentrate	500	6	83.33333333	20	0.012	6	10.5	1.75	1	0.021	
+adjusted-678	source-663	Sediment Trap	S252	Dilute	15	15	1	20	1	10	12.5	1.25	1	1.25	
+adjusted-679	source-664	Sediment Trap	S252	Dilute	15	15	1	20	1	10.5	12.5	1.19047619	1	1.19047619	
+adjusted-680	source-687	CTD Niskin	S257	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12.5	1.470588235	1	0.025	
+adjusted-681	source-688	CTD Niskin	S257	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12.5	1.470588235	1	0.025	
+adjusted-682	source-689	CTD Niskin	S258	Concentrate	500	7.5	66.66666667	20	0.015	7	11.5	1.642857143	1	0.02464285714	
+adjusted-683	source-690	CTD Niskin	S258	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-684	source-691	CTD Niskin	S259	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-685	source-692	CTD Niskin	S259	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12.5	1.470588235	1	0.025	
+adjusted-686	source-693	CTD Niskin	S260	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-687	source-694	CTD Niskin	S260	Concentrate	500	9	55.55555556	20	0.018	9	11.5	1.277777778	1	0.023	
+adjusted-688	source-695	CTD Niskin	S261	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-689	source-696	CTD Niskin	S261	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-690	source-697	CTD Niskin	S262	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	
+adjusted-691	source-698	CTD Niskin	S262	Concentrate	500	10	50	20	0.02	8	10	1.25	1	0.025	
+adjusted-692	source-699	CTD Niskin	S263	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-693	source-700	CTD Niskin	S263	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-694	source-701	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	13.25	1.104166667	1	0.053	
+adjusted-695	source-702	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	13	1.083333333	1	0.052	
+adjusted-696	source-703	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	12.75	1.0625	1	0.051	
+adjusted-697	source-704	Experiment	tatertots	Concentrate	250	12.75	19.60784314	20	0.051	12.5	13.5	1.08	1	0.05508	
+adjusted-698	source-705	Experiment	tatertots	Concentrate	250	11.75	21.27659574	20	0.047	11.75	13.25	1.127659574	1	0.053	
+adjusted-699	source-706	Experiment	tatertots	Concentrate	250	12.25	20.40816327	20	0.049	12.25	13.75	1.12244898	1	0.055	
+adjusted-700	source-707	Experiment	tatertots	Concentrate	250	12.25	20.40816327	20	0.049	12	13	1.083333333	1	0.05308333333	
+adjusted-701	source-708	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	11.5	12.5	1.086956522	1	0.05217391304	
+adjusted-702	source-709	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	13.5	1.08	1	0.054	
+adjusted-703	source-710	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	13	14	1.076923077	1	0.05707692308	
+adjusted-704	source-711	Experiment	tatertots	Concentrate	250	13.3	18.79699248	20	0.0532	13	14	1.076923077	1	0.05729230769	
+adjusted-705	source-712	Experiment	tatertots	Concentrate	250	12.1	20.66115702	20	0.0484	12	13	1.083333333	1	0.05243333333	
+adjusted-706	source-713	Experiment	nutrient_gm	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-707	source-714	Experiment	nutrient_gm	Concentrate	500	9.4	53.19148936	20	0.0188	9.25	11	1.189189189	1	0.02235675676	
+adjusted-708	source-715	Experiment	nutrient_gm	Concentrate	500	12	41.66666667	20	0.024	12	15	1.25	1	0.03	
+adjusted-709	source-716	Experiment	nutrient_gm	Concentrate	500	15	33.33333333	20	0.03	14.5	17.5	1.206896552	1	0.03620689655	
+adjusted-710	source-717	CTD Niskin	S264	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-711	source-718	CTD Niskin	S264	Concentrate	500	8	62.5	20	0.016	8	12	1.5	1	0.024	
+adjusted-712	source-719	CTD Niskin	S265	Concentrate	500	7	71.42857143	20	0.014	7	12	1.714285714	1	0.024	
+adjusted-713	source-720	CTD Niskin	S265	Concentrate	500	7	71.42857143	20	0.014	7	12	1.714285714	1	0.024	
+adjusted-714	source-721	CTD Niskin	S266	Concentrate	500	7	71.42857143	20	0.014	6.5	12.5	1.923076923	1	0.02692307692	
+adjusted-715	source-722	CTD Niskin	S266	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-716	source-723	CTD Niskin	S267	Concentrate	500	7.5	66.66666667	20	0.015	7	12	1.714285714	1	0.02571428571	
+adjusted-717	source-724	CTD Niskin	S267	Concentrate	500	8	62.5	20	0.016	7.5	13	1.733333333	1	0.02773333333	
+adjusted-718	source-725	CTD Niskin	S268	Concentrate	500	8.5	58.82352941	20	0.017	8	12.5	1.5625	1	0.0265625	
+adjusted-719	source-726	CTD Niskin	S268	Concentrate	500	8	62.5	20	0.016	8	12	1.5	1	0.024	
+adjusted-720	source-727	CTD Niskin	S269	Concentrate	500	9	55.55555556	20	0.018	7.5	10.5	1.4	1	0.0252	Got distracted and accidentally poured the post-concentration sample into the PlanktoScope's sample intake tube and pumpde 1 mL of sample through the PlanktoScope before filtering. Poured the sample back out to the post-concentration tube and measured the volume at 8 mL.
+adjusted-721	source-728	CTD Niskin	S269	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-722	source-729	CTD Niskin	S270	Concentrate	500	10	50	20	0.02	9.5	12	1.263157895	1	0.02526315789	
+adjusted-723	source-730	CTD Niskin	S270	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-724	source-731	CTD Niskin	S271	Concentrate	500	8	62.5	20	0.016	7.5	11	1.466666667	1	0.02346666667	
+adjusted-725	source-732	CTD Niskin	S271	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-726	source-733	CTD Niskin	S272	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-727	source-734	CTD Niskin	S272	Concentrate	500	11	45.45454545	20	0.022	11	12	1.090909091	1	0.024	
+adjusted-728	source-735	CTD Niskin	S273	Concentrate	500	7.5	66.66666667	20	0.015	7	11	1.571428571	1	0.02357142857	
+adjusted-729	source-736	CTD Niskin	S273	Concentrate	500	9	55.55555556	20	0.018	9	11	1.222222222	1	0.022	
+adjusted-730	source-737	CTD Niskin	S274	Concentrate	500	11	45.45454545	20	0.022	11	14	1.272727273	1	0.028	
+adjusted-731	source-738	CTD Niskin	S274	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-732	source-739	CTD Niskin	S275	Concentrate	500	9	55.55555556	20	0.018	9	12	1.333333333	1	0.024	
+adjusted-733	source-740	CTD Niskin	S275	Concentrate	500	10	50	20	0.02	9.5	15	1.578947368	1	0.03157894737	
+adjusted-734	source-741	CTD Niskin	S276	Concentrate	500	9.5	52.63157895	20	0.019	9.5	12.5	1.315789474	1	0.025	
+adjusted-735	source-742	CTD Niskin	S276	Concentrate	500	13.5	37.03703704	20	0.027	13	25	1.923076923	1	0.05192307692	Extremely dense sample!
+adjusted-736	source-743	CTD Niskin	S276	Concentrate	500	18	27.77777778	20	0.036	18	28	1.555555556	1	0.056	Also an extremely dense sample
+adjusted-737	source-744	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	14	17.5	1.25	1	0.07	
+adjusted-738	source-745	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	17	1.259259259	1	0.068	
+adjusted-739	source-746	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	17	1.307692308	1	0.068	
+adjusted-740	source-747	CTD Niskin	S277	Concentrate	500	9	55.55555556	20	0.018	8.5	13	1.529411765	1	0.02752941176	
+adjusted-741	source-748	CTD Niskin	S277	Concentrate	500	9	55.55555556	20	0.018	9	12	1.333333333	1	0.024	
+adjusted-742	source-749	CTD Niskin	S278	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-743	source-750	CTD Niskin	S278	Concentrate	500	9	55.55555556	20	0.018	9	12.5	1.388888889	1	0.025	
+adjusted-744	source-751	CTD Niskin	S279	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-745	source-752	CTD Niskin	S279	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12.5	1.470588235	1	0.025	
+adjusted-746	source-753	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	11	12	1.090909091	1	0.05672727273	
+adjusted-747	source-754	Experiment	tatertots	Concentrate	250	15	16.66666667	20	0.06	15	16	1.066666667	1	0.064	
+adjusted-748	source-755	Experiment	tatertots	Concentrate	250	13.5	18.51851852	20	0.054	13.5	14	1.037037037	1	0.056	
+adjusted-749	source-756	Experiment	tatertots	Concentrate	250	12.5	20	20	0.05	12.5	13.5	1.08	1	0.054	
+adjusted-750	source-757	Experiment	tatertots	Concentrate	250	12	20.83333333	20	0.048	12	13.5	1.125	1	0.054	
+adjusted-751	source-758	Experiment	tatertots	Concentrate	250	13	19.23076923	20	0.052	13	14	1.076923077	1	0.056	
+adjusted-752	source-759	Experiment	tatertots	Concentrate	250	15	16.66666667	20	0.06	15	16	1.066666667	1	0.064	
+adjusted-753	source-760	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14.5	15.5	1.068965517	1	0.062	
+adjusted-754	source-761	Experiment	tatertots	Concentrate	250	13.25	18.86792453	20	0.053	12	14	1.166666667	1	0.06183333333	
+adjusted-755	source-762	CTD Niskin	S280	Concentrate	500	8	62.5	20	0.016	8	11.5	1.4375	1	0.023	
+adjusted-756	source-763	CTD Niskin	S280	Concentrate	500	11	45.45454545	20	0.022	11	12	1.090909091	1	0.024	
+adjusted-757	source-764	CTD Niskin	S282	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-758	source-765	CTD Niskin	S282	Concentrate	500	8.5	58.82352941	20	0.017	8	12	1.5	1	0.0255	
+adjusted-759	source-766	CTD Niskin	S282	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12.5	1.470588235	1	0.025	
+adjusted-760	source-767	CTD Niskin	S284	Concentrate	500	8	62.5	20	0.016	8	12	1.5	1	0.024	
+adjusted-761	source-768	CTD Niskin	S284	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-762	source-769	CTD Niskin	S284	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-763	source-770	CTD Niskin	S286	Concentrate	500	9.5	52.63157895	20	0.019	9	12.5	1.388888889	1	0.02638888889	
+adjusted-764	source-771	CTD Niskin	S286	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-765	source-772	CTD Niskin	S286	Concentrate	500	8.5	58.82352941	20	0.017	8.5	12	1.411764706	1	0.024	
+adjusted-766	source-773	CTD Niskin	S288	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-767	source-774	CTD Niskin	S288	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-768	source-775	CTD Niskin	S288	Concentrate	500	8	62.5	20	0.016	8	12	1.5	1	0.024	
+adjusted-769	source-776	CTD Niskin	S289	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-770	source-777	CTD Niskin	S289	Concentrate	500	9.5	52.63157895	20	0.019	9.5	11.5	1.210526316	1	0.023	
+adjusted-771	source-778	CTD Niskin	S289	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-772	source-779	CTD Niskin	S290	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-773	source-780	CTD Niskin	S290	Concentrate	500	9	55.55555556	20	0.018	9	12	1.333333333	1	0.024	
+adjusted-774	source-781	CTD Niskin	S290	Concentrate	500	8.5	58.82352941	20	0.017	8	11	1.375	1	0.023375	
+adjusted-775	source-782	CTD Niskin	S291	Concentrate	500	8	62.5	20	0.016	8	11	1.375	1	0.022	
+adjusted-776	source-783	CTD Niskin	S291	Concentrate	500	10	50	20	0.02	10	13	1.3	1	0.026	
+adjusted-777	source-784	CTD Niskin	S291	Concentrate	500	7.5	66.66666667	20	0.015	7.5	11	1.466666667	1	0.022	
+adjusted-778	source-785	CTD Niskin	S292	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-779	source-786	CTD Niskin	S292	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-780	source-787	CTD Niskin	S292	Concentrate	500	11	45.45454545	20	0.022	11	13	1.181818182	1	0.026	
+adjusted-781	source-788	CTD Niskin	S293	Concentrate	500	11	45.45454545	20	0.022	11	14	1.272727273	1	0.028	
+adjusted-782	source-789	CTD Niskin	S293	Concentrate	500	11	45.45454545	20	0.022	11	13	1.181818182	1	0.026	
+adjusted-783	source-790	CTD Niskin	S293	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-784	source-791	CTD Niskin	S294	Concentrate	500	9	55.55555556	20	0.018	9	11.5	1.277777778	1	0.023	
+adjusted-785	source-792	CTD Niskin	S294	Concentrate	500	10	50	20	0.02	10	12.5	1.25	1	0.025	
+adjusted-786	source-793	CTD Niskin	S294	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-787	source-803	CTD Niskin	S295	Concentrate	500	11	45.45454545	20	0.022	11	12	1.090909091	1	0.024	
+adjusted-788	source-804	CTD Niskin	S295	Concentrate	500	10	50	20	0.02	10	11.5	1.15	1	0.023	
+adjusted-789	source-805	CTD Niskin	S295	Concentrate	500	9	55.55555556	20	0.018	9	11.5	1.277777778	1	0.023	
+adjusted-790	source-794	Experiment	tatertots	Concentrate	250	14.1	17.73049645	20	0.0564	14	15	1.071428571	1	0.06042857143	
+adjusted-791	source-806	CTD Niskin	S296	Concentrate	500	11.5	43.47826087	20	0.023	11.5	12.5	1.086956522	1	0.025	
+adjusted-792	source-807	CTD Niskin	S296	Concentrate	500	10.5	47.61904762	20	0.021	10.5	11.5	1.095238095	1	0.023	
+adjusted-793	source-808	CTD Niskin	S296	Concentrate	500	10	50	20	0.02	10	12	1.2	1	0.024	
+adjusted-794	source-809	CTD Niskin	S297	Concentrate	500	10.5	47.61904762	20	0.021	10.5	11.5	1.095238095	1	0.023	
+adjusted-795	source-810	CTD Niskin	S297	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	
+adjusted-796	source-811	CTD Niskin	S297	Concentrate	500	10	50	20	0.02	10	11	1.1	1	0.022	
+adjusted-797	source-812	CTD Niskin	S298	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-798	source-813	CTD Niskin	S298	Concentrate	500	7.5	66.66666667	20	0.015	7.5	12.5	1.666666667	1	0.025	
+adjusted-799	source-814	CTD Niskin	S298	Concentrate	500	10	50	20	0.02	9.5	12.5	1.315789474	1	0.02631578947	
+adjusted-800	source-815	CTD Niskin	S299	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-801	source-816	CTD Niskin	S299	Concentrate	500	8	62.5	20	0.016	7.5	12.5	1.666666667	1	0.02666666667	
+adjusted-802	source-817	CTD Niskin	S299	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-803	source-818	CTD Niskin	S300	Concentrate	500	8.5	58.82352941	20	0.017	8	12	1.5	1	0.0255	
+adjusted-804	source-819	CTD Niskin	S300	Concentrate	500	9	55.55555556	20	0.018	8.5	12.5	1.470588235	1	0.02647058824	
+adjusted-805	source-795	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14.5	19.5	1.344827586	1	0.078	
+adjusted-806	source-796	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14.5	19.5	1.344827586	1	0.078	
+adjusted-807	source-797	Experiment	tatertots	Concentrate	250	14.2	17.6056338	20	0.0568	14	19	1.357142857	1	0.07708571429	
+adjusted-808	source-798	Experiment	tatertots	Concentrate	250	14.5	17.24137931	20	0.058	14.5	19.5	1.344827586	1	0.078	
+adjusted-809	source-799	Experiment	tatertots	Concentrate	250	14.75	16.94915254	20	0.059	14.5	20	1.379310345	1	0.08137931034	
+adjusted-810	source-800	Experiment	tatertots	Concentrate	250	14	17.85714286	20	0.056	13.5	19	1.407407407	1	0.07881481481	
+adjusted-811	source-801	Experiment	tatertots	Concentrate	250	15	16.66666667	20	0.06	15	20	1.333333333	1	0.08	
+adjusted-812	source-802	Experiment	tatertots	Concentrate	250	14.75	16.94915254	20	0.059	15	19.5	1.3	1	0.0767	

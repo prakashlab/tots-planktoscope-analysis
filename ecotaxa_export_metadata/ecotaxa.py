@@ -58,12 +58,6 @@ def _replace_metadata_file(input_export_archive, output_export_archive, replacem
 
 # EcoTaxa metadata tables
 
-_tsv_format = {
-    'dialect': 'unix',
-    'delimiter': '\t',
-    'quoting': csv.QUOTE_MINIMAL,
-}
-
 def rewrite_metadata(metadata_file, overrides, verbose=False):
     """Rewrite columns of the EcoTaxa object metadata TSV file based on the dict of overrides.
 
@@ -77,6 +71,12 @@ def rewrite_metadata(metadata_file, overrides, verbose=False):
     metadata_file.truncate()
     _write_metadata(metadata_file, field_types, data_rows)
     return updated_fields
+
+_tsv_format = {
+    'dialect': 'unix',
+    'delimiter': '\t',
+    'quoting': csv.QUOTE_MINIMAL,
+}
 
 def _read_metadata(metadata_file):
     """Load the rows of a TSV file containing EcoTaxa object metadata, as a list of dicts per row.
