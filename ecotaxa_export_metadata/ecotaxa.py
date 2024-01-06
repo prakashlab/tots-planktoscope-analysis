@@ -14,15 +14,18 @@ def update_metadata_file(input_export_archive, output_export_archive, updater, v
     The result is written to the output archive.
 
     The updater function must take one positional argument specifying a file object to the metadata
-    file."""
+    file. If it returns a result, that result is passed back up."""
     with tempfile.TemporaryFile(
         mode='w+', prefix='tots-ps-ecotaxa-metadata', suffix='.tsv',
     ) as metadata_file:
         _extract_metadata_file(input_export_archive, metadata_file)
         metadata_file.seek(0)
-        updater(metadata_file)
+        result = updater(metadata_file)
         metadata_file.seek(0)
+        if verbose:
+            print(f'Writing updated EcoTaxa export archive to {output_export_archive.name}...')
         _replace_metadata_file(input_export_archive, output_export_archive, metadata_file)
+    return result
 
 def _extract_metadata_file(export_archive, output_metadata_file):
     """Extract the metadata file of an EcoTaxa export archive to the specified output file.
@@ -70,13 +73,10 @@ def rewrite_metadata(metadata_file, overrides, verbose=False):
     if verbose:
         print(f'Number of objects: {len(data_rows)}')
     updated_fields = _rewrite_row_fields(data_rows, overrides)
-    if verbose:
-        print('Updated fields and previous values:')
-        for field, old_values in updated_fields.items():
-            print(f'  - {field}: {", ".join(sorted(list(old_values)))}')
     metadata_file.seek(0)
     metadata_file.truncate()
     _write_metadata(metadata_file, field_types, data_rows)
+    return updated_fields
 
 def _read_metadata(metadata_file):
     """Load the rows of a TSV file containing EcoTaxa object metadata, as a list of dicts per row.
@@ -103,7 +103,7 @@ def _rewrite_row_fields(data_rows, overrides):
     """Update the values of certain fields of each row based on the dict of overrides."""
     updated_columns = collections.defaultdict(set)
     for row in data_rows:
-        for (key, value) in overrides.items():
+        for key, value in overrides.items():
             old_value = row[key]
             if old_value != value:
                 updated_columns[key].add(old_value)

@@ -4,6 +4,8 @@
 """Command line utility for editing metadata in EcoTaxa export archives"""
 
 import argparse
+import io
+import json
 import math
 import os
 import tempfile
@@ -23,9 +25,19 @@ def main():
         help='Path of the results archive containing an EcoTaxa export archive to fix',
     )
     parser.add_argument(
+        'corrections',
+        type=argparse.FileType(mode='r'),
+        help='Path of a JSON file consisting of an object with field names and corrected values',
+    )
+    parser.add_argument(
         'output',
         type=argparse.FileType(mode='wb'),
         help='Path of the EcoTaxa export archive (with corrected metadata) to create',
+    )
+    parser.add_argument(
+        'changes',
+        type=argparse.FileType(mode='w'),
+        help='Path of JSON file to create listing the changes made',
     )
     parser.add_argument(
         '-v', '--verbose',
@@ -34,32 +46,52 @@ def main():
         help='Print additional information for troubleshooting',
     )
     args = parser.parse_args()
-    # TODO: somehow get overrides as input
-    overrides = {
-        'process_source': 'https://github.com/PlanktoScope/PlanktoScope'
-    }
-    process_results_archive(args.input, args.output, overrides, verbose=args.verbose)
+    process_results_archive(
+        args.input, args.corrections, args.output, args.changes, verbose=args.verbose,
+    )
 
-def process_results_archive(results_archive_file, ecotaxa_export_file, overrides, verbose=False):
-    """Extract the EcoTaxa export archive from the results archive, rewriting metadata.
+def process_results_archive(
+    results_archive_file, corrections, ecotaxa_export_file, changes_file, verbose=False,
+):
+    """Extract the EcoTaxa export archive from the results archive, correcting metadata.
 
-    The overrides dict specifies the values of metadata fields to rewrite in the EcoTaxa export
-    archive.
+    The corrections dict specifies the values of metadata fields to correct in the EcoTaxa export
+    archive; it can instead be provided as a file-like object containing a JSON string representing
+    the corrections dict.
+
+    Changes made to the metadata are recorded as a JSON string in the changes file.
     """
+    if isinstance(corrections, io.IOBase):
+        corrections = json.load(corrections)
+    if verbose:
+        print('Corrections to make where needed:')
+        for field, value in corrections.items():
+            print(f'  - {field}: {value}')
     with tempfile.TemporaryFile(prefix='tots-ps-', suffix='.zip') as ecotaxa_archive:
+        print(f'Loading results archive {results_archive_file.name}...')
         results.extract_ecotaxa_export(results_archive_file, ecotaxa_archive, verbose=verbose)
         if verbose:
             print(f'Extracted EcoTaxa export archive size: {_print_size(ecotaxa_archive.tell())}')
-        ecotaxa.update_metadata_file(
+        updated_fields = ecotaxa.update_metadata_file(
             ecotaxa_archive,
             ecotaxa_export_file,
             lambda metadata_file: ecotaxa.rewrite_metadata(
-                metadata_file, overrides, verbose=verbose,
+                metadata_file, corrections, verbose=verbose,
             ),
             verbose=verbose,
         )
-        if verbose:
-            print(f'Wrote updated EcoTaxa export archive to {ecotaxa_export_file.name}')
+    changes = {}
+    for field, old_values in updated_fields.items():
+        changes[field] = {
+            'new_value': corrections[field],
+            'old_values': sorted(list(old_values)),
+        }
+    if verbose:
+        print('Changes (with previous values):')
+        for field, field_changes in changes.items():
+            print(f'  - {field}: {', '.join(field_changes['old_values'])}')
+        print(f'Recording changes to {changes_file.name}...')
+    json.dump(changes, changes_file, indent=2)
 
 def _print_size(size_bytes):
     """Nicely print the size of a file.

@@ -8,7 +8,7 @@ def extract_ecotaxa_export(results_archive, output_file, verbose=False):
     with tarfile.open(fileobj=results_archive, mode='r:gz') as results_tar:
         export_filename = _identify_ecotaxa_export_file(results_tar)
         if verbose:
-            print(f'Extracting {export_filename} from {results_archive.name}...')
+            print(f'Extracting {export_filename}...')
         with results_tar.extractfile(export_filename) as ecotaxa_archive:
             output_file.write(ecotaxa_archive.read())
             output_file.flush()
