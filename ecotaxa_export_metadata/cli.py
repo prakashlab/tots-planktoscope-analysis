@@ -9,6 +9,7 @@ import os
 import tempfile
 
 from . import archives
+from . import tables
 
 def main():
     """Edit the metadata in the specified EcoTaxa export archive."""
@@ -33,23 +34,35 @@ def main():
         help='Print additional information for troubleshooting',
     )
     args = parser.parse_args()
-    with tempfile.TemporaryFile(
-        mode='w+b', prefix='tots-ps-ecotaxa-metadata', suffix='.tsv',
-    ) as ecotaxa_metadata_table:
-        with tempfile.TemporaryFile(prefix='tots-ps-', suffix='.zip') as ecotaxa_archive:
-            archives._untar_ecotaxa_export(args.input, ecotaxa_archive, verbose=args.verbose)
-            if args.verbose:
-                print(f'Extracted EcoTaxa archive size: {_print_size(ecotaxa_archive.tell())}')
-            archives._unzip_metadata_table(
-                ecotaxa_archive, ecotaxa_metadata_table, verbose=args.verbose,
-            )
-        if args.verbose:
-            print(f'Extracted metadata table size: {_print_size(ecotaxa_metadata_table.tell())}')
-        #print(ecotaxa_metadata_table.seek(0))
-        #print(ecotaxa_metadata_table.read())
+    # TODO: somehow get overrides as input
+    overrides = {
+        'process_source': 'https://github.com/PlanktoScope/PlanktoScope'
+    }
+    process_results_archive(args.input, args.output, overrides, verbose=args.verbose)
+
+def process_results_archive(results_archive_file, ecotaxa_export_file, overrides, verbose=False):
+    """Extract the EcoTaxa export archive from the results archive, rewriting metadata.
+
+    The overrides dict specifies the values of metadata fields to rewrite in the EcoTaxa export
+    archive.
+    """
+    with tempfile.TemporaryFile(prefix='tots-ps-', suffix='.zip') as ecotaxa_archive:
+        archives.extract_ecotaxa_export(results_archive_file, ecotaxa_archive, verbose=verbose)
+        if verbose:
+            print(f'Extracted EcoTaxa export archive size: {_print_size(ecotaxa_archive.tell())}')
+        archives.update_metadata_file(
+            ecotaxa_archive,
+            ecotaxa_export_file,
+            lambda metadata_file: tables.rewrite_ecotaxa_metadata(
+                metadata_file, overrides, verbose=verbose,
+            ),
+            verbose=verbose,
+        )
+        if verbose:
+            print(f'Wrote updated EcoTaxa export archive to {ecotaxa_export_file.name}')
 
 def _print_size(size_bytes):
-    """Nicely prints the size of a file.
+    """Nicely print the size of a file.
 
     Adapted from: https://stackoverflow.com/a/14822210
     """
