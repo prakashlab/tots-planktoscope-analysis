@@ -12,10 +12,29 @@ To use these tools, it's recommended to [install pipx](https://pypa.github.io/pi
 pipx install git+https://github.com/prakashlab/tots-planktoscope-analysis.git
 ```
 
-Then you can run the `ecotaxa-metadata-edit` tool (for modifying the metadata of a single dataset to fix incorrect/missing values) in your terminal as:
+### Generate corrections
+
+To generate a corrections file for a single image acquisition dataset, you can run the `logsheet-corrections-generate` command using:
 
 ```
-ecotaxa-metadata-edit
+logsheet-corrections-generate \
+  <path to TSV file for the sample sources table of the log sheet> \
+  <path to TSV file for the sample adjustments table of the log sheet> \
+  <path to TSV file for the image acquisitions table of the log sheet> \
+  <image acquisition dataset ID>
+  <path to JSON file to save corrections to>
+```
+
+### Apply corrections
+
+To apply a corrections file for a single image acquisition dataset, you can runt he `ecotaxa-metadata-edit` command using:
+
+```
+ecotaxa-metadata-edit \
+  <path to results archive> \
+  <path to JSON file for the corrections for the dataset> \
+  <path to ZIP file to save the corrected EcoTaxa export archive as> \
+  <path to JSON file to record changes to>
 ```
 
 ## Contributing

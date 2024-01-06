@@ -1,0 +1,44 @@
+{
+  "sample_id": {
+    "new_value": "9014",
+    "old_values": [
+      "SKQ-ToTS_S015"
+    ]
+  },
+  "sample_operator": {
+    "new_value": "Robin Bigasin",
+    "old_values": [
+      "Ethan Li"
+    ]
+  },
+  "object_time": {
+    "new_value": "22:20:00",
+    "old_values": [
+      "18:03:18"
+    ]
+  },
+  "object_lat": {
+    "new_value": "70.8838",
+    "old_values": [
+      "-90.0000"
+    ]
+  },
+  "object_lon": {
+    "new_value": "-161.36605",
+    "old_values": [
+      "0.0000"
+    ]
+  },
+  "acq_local_datetime": {
+    "new_value": "2023-06-20T15:55:00",
+    "old_values": [
+      "2023-06-20T23:57:47"
+    ]
+  },
+  "sample_sampling_gear": {
+    "new_value": "single_location",
+    "old_values": [
+      "test"
+    ]
+  }
+}
