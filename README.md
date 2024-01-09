@@ -17,12 +17,20 @@ pipx install git+https://github.com/prakashlab/tots-planktoscope-analysis.git
 To generate a corrections file for a single image acquisition dataset, you can run the `logsheet-corrections-generate` command using:
 
 ```
-logsheet-corrections-generate \
+logsheet-corrections-generate single \
   <path to TSV file for the sample sources table of the log sheet> \
   <path to TSV file for the sample adjustments table of the log sheet> \
   <path to TSV file for the image acquisitions table of the log sheet> \
   <image acquisition dataset ID>
   <path to JSON file to save corrections to>
+```
+
+To instead generate corrections files for all image acquisition datasets in a logsheet, you can instead run the `logsheet-corrections-generate` command using:
+
+```
+logsheet-corrections-generate batch \
+  <path of directory with TSV files for the tables of the log sheet> \
+  <path of directory to save corrections to as JSON files>
 ```
 
 ### Apply corrections

@@ -1,0 +1,12 @@
+{
+  "sample_id": "9015",
+  "sample_operator": "Robin Bigasin",
+  "object_date": "2023-06-20",
+  "object_time": "22:20:00",
+  "object_lat": "70.8838",
+  "object_lon": "-161.36605",
+  "object_depth_min": "0",
+  "object_depth_max": "0",
+  "acq_local_datetime": "2023-06-20T19:41:00",
+  "sample_sampling_gear": "single_location"
+}
