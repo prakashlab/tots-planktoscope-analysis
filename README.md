@@ -25,6 +25,17 @@ logsheet-corrections-generate single \
   <path to JSON file to save corrections to>
 ```
 
+For example:
+
+```
+logsheet-corrections-generate single \
+  ./log-sheet-snapshots/2024-01-08/src.tsv \
+  ./log-sheet-snapshots/2024-01-08/adj.tsv \
+  ./log-sheet-snapshots/2024-01-08/acq.tsv \
+  tots-ps-acq-228 \
+  ./corrections/tots-ps-acq-228.json
+```
+
 To instead generate corrections files for all image acquisition datasets in a logsheet, you can instead run the `logsheet-corrections-generate` command using:
 
 ```
@@ -49,6 +60,16 @@ ecotaxa-metadata-edit single \
   <path to JSON file for the corrections for the dataset> \
   <path to ZIP file to save the corrected EcoTaxa export archive as> \
   <path to JSON file to record changes to>
+```
+
+For example:
+
+```
+ecotaxa-metadata-edit single \
+  ../tots-ps/data/tots-ps-acq-228-results.tar.gz \
+  ./corrections/tots-ps-acq-228.json \
+  ../tots-ps/analysis/tots-ps-acq-228-export.zip \
+  ./changes/tots-ps-acq-228.json
 ```
 
 To instead apply all corrections files in a directory for all results archives in a directory, you can instead run the `ecotaxa-metadata-edit` command using:
