@@ -33,16 +33,38 @@ logsheet-corrections-generate batch \
   <path of directory to save corrections to as JSON files>
 ```
 
-### Apply corrections
-
-To apply a corrections file for a single image acquisition dataset, you can runt he `ecotaxa-metadata-edit` command using:
+For example:
 
 ```
-ecotaxa-metadata-edit \
+logsheet-corrections-generate batch ./log-sheet-snapshots/2024-01-08/ ./corrections/
+```
+
+### Apply corrections
+
+To apply a corrections file for a single image acquisition dataset, you can run the `ecotaxa-metadata-edit` command using:
+
+```
+ecotaxa-metadata-edit single \
   <path to results archive> \
   <path to JSON file for the corrections for the dataset> \
   <path to ZIP file to save the corrected EcoTaxa export archive as> \
   <path to JSON file to record changes to>
+```
+
+To instead apply all corrections files in a directory for all results archives in a directory, you can instead run the `ecotaxa-metadata-edit` command using:
+
+```
+ecotaxa-metadata-edit batch \
+  <path of directory with results archives> \
+  <path of directory with metadata corrections files> \
+  <path of directory to save corrected EcoTaxa export archives to> \
+  <path of directory to save changes records to>
+```
+
+For example:
+
+```
+ecotaxa-metadata-edit batch ../tots-ps/data/ ./corrections/ ../tots-ps/analysis/ ./changes/
 ```
 
 ## Contributing
