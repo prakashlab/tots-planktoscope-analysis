@@ -100,7 +100,7 @@ def process_single_results_archive(
     if verbose:
         print('Changes (with previous values):')
         for field, field_changes in changes.items():
-            print(f'  - {field}: {', '.join(field_changes['old_values'])}')
+            print(f'  - {field}: {", ".join(field_changes["old_values"])}')
         print(f'Recording changes to {changes_file.name}...')
     json.dump(changes, changes_file, indent=2)
 

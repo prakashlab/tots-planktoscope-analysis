@@ -1,0 +1,12 @@
+{
+  "sample_id": "T008D",
+  "sample_operator": "Ethan Li",
+  "object_date": "2023-06-28",
+  "object_time": "20:01:00",
+  "object_lat": "70.4095",
+  "object_lon": "-163.54",
+  "object_depth_min": "",
+  "object_depth_max": "",
+  "acq_local_datetime": "2023-07-06T11:28:00",
+  "sample_sampling_gear": "single_location"
+}
