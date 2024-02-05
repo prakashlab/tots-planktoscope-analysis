@@ -15,7 +15,7 @@ from . import ecotaxa
 from . import tables
 
 def main():
-    """Generate EcoTaxa metadata corrections from the specified ToTS PlanktoScope logsheet."""
+    """Generate EcoTaxa metadata corrections from the specified ToTS PlanktoScope logsheet(s)."""
     parser = argparse.ArgumentParser(
         prog='logsheet-corrections-generate',
         description='Generate EcoTaxa metadata correction files',

@@ -11,8 +11,9 @@ packages = [{include = "ecotaxa_export_metadata"}]
 python = "^3.10"
 
 [tool.poetry.scripts]
-ecotaxa-metadata-edit = 'ecotaxa_export_metadata.cli:main'
 logsheet-corrections-generate = 'logsheet.cli:main'
+ecotaxa-metadata-edit = 'ecotaxa.export_metadata.cli:main'
+ecotaxa-split-archives = 'ecotaxa.split_archives.cli:main'
 
 
 [build-system]

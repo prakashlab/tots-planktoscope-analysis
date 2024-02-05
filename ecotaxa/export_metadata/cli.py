@@ -15,7 +15,7 @@ from . import ecotaxa
 from . import results
 
 def main():
-    """Edit the metadata in the specified EcoTaxa export archive."""
+    """Edit the metadata in the specified EcoTaxa export archive(s)."""
     parser = argparse.ArgumentParser(
         prog='ecotaxa-metadata-edit',
         description='Edit the metadata of a PlanktoScope EcoTaxa dataset export archive',

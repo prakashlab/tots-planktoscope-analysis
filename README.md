@@ -33,7 +33,7 @@ logsheet-corrections-generate single \
   ./log-sheet-snapshots/2024-01-08/adj.tsv \
   ./log-sheet-snapshots/2024-01-08/acq.tsv \
   tots-ps-acq-228 \
-  ./corrections/tots-ps-acq-228.json
+  ./project-metadata/corrections/tots-ps-acq-228.json
 ```
 
 To instead generate corrections files for all image acquisition datasets in a logsheet, you can instead run the `logsheet-corrections-generate` command using:
@@ -47,7 +47,7 @@ logsheet-corrections-generate batch \
 For example:
 
 ```
-logsheet-corrections-generate batch ./log-sheet-snapshots/2024-01-08/ ./corrections/
+logsheet-corrections-generate batch ./log-sheet-snapshots/2024-01-08/ ./project-metadata/corrections/
 ```
 
 ### Apply corrections
@@ -67,9 +67,9 @@ For example:
 ```
 ecotaxa-metadata-edit single \
   ../tots-ps/data/tots-ps-acq-228-results.tar.gz \
-  ./corrections/tots-ps-acq-228.json \
+  ./project-metadata/corrections/tots-ps-acq-228.json \
   ../tots-ps/analysis/tots-ps-acq-228-export.zip \
-  ./changes/tots-ps-acq-228.json
+  ./project-metadata/changes/tots-ps-acq-228.json
 ```
 
 To instead apply all corrections files in a directory for all results archives in a directory, you can instead run the `ecotaxa-metadata-edit` command using:
@@ -85,8 +85,30 @@ ecotaxa-metadata-edit batch \
 For example:
 
 ```
-ecotaxa-metadata-edit batch ../tots-ps/data/ ./corrections/ ../tots-ps/analysis/ ./changes/
+ecotaxa-metadata-edit batch ../tots-ps/data/ ./project-metadata/corrections/ ../tots-ps/analysis/ ./project-metadata/changes/
 ```
+
+### Split EcoTaxa zip archives for upload
+
+EcoTaxa has a limit of 500 MB per file for upload. To split a >450 MB EcoTaxa export archive into a specified number of archives, you can run the `ecotaxa-split-archives` command using:
+
+```
+ecotaxa-split-archives single \
+  <path to EcoTaxa export archive for splitting> \
+  <number of split archives to produce> \
+  <path of directory to save split EcoTaxa export archives to>
+```
+
+For example:
+
+```
+ecotaxa-split-archives single \
+  ../tots-ps/analysis/tots-ps-acq-228-export.zip \
+  2 \
+  ../tots-ps/analysis/ \
+```
+
+The resulting archives will have the suffix `-chunk{index}.zip`, where `{index}` is replaced with a number.
 
 ## Contributing
 
