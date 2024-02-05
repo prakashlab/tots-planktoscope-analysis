@@ -29,11 +29,24 @@ For example:
 
 ```
 logsheet-corrections-generate single \
-  ./log-sheet-snapshots/2024-01-08/src.tsv \
-  ./log-sheet-snapshots/2024-01-08/adj.tsv \
-  ./log-sheet-snapshots/2024-01-08/acq.tsv \
+  ./project-metadata/log-sheet-snapshots/2024-01-08/src.tsv \
+  ./project-metadata/log-sheet-snapshots/2024-01-08/adj.tsv \
+  ./project-metadata/log-sheet-snapshots/2024-01-08/acq.tsv \
   tots-ps-acq-228 \
   ./project-metadata/corrections/tots-ps-acq-228.json
+```
+
+Or, for example (to generate corrections files for image acquisition datasets listed in a text file):
+
+```
+while read dataset; do
+    logsheet-corrections-generate single \
+        ./project-metadata/log-sheet-snapshots/2024-01-08/src.tsv \
+        ./project-metadata/log-sheet-snapshots/2024-01-08/adj.tsv \
+        ./project-metadata/log-sheet-snapshots/2024-01-08/acq.tsv \
+        $dataset \
+        ./project-metadata/corrections/$dataset.json
+done <./project-metadata/dataset-lists/uv-experiment.txt
 ```
 
 To instead generate corrections files for all image acquisition datasets in a logsheet, you can instead run the `logsheet-corrections-generate` command using:
@@ -70,6 +83,19 @@ ecotaxa-metadata-edit single \
   ./project-metadata/corrections/tots-ps-acq-228.json \
   ../tots-ps/analysis/tots-ps-acq-228-export.zip \
   ./project-metadata/changes/tots-ps-acq-228.json
+```
+
+Or, for example (to apply corrections files for image acquisition datasets listed in a text file):
+
+```
+while read dataset; do
+    echo "Processing $dataset..."
+    ecotaxa-metadata-edit single \
+        ../tots-ps/data/$dataset-results.tar.gz \
+        ./project-metadata/corrections/$dataset.json \
+        ../tots-ps/analysis/$dataset-export.zip \
+        ./project-metadata/changes/$dataset.json;
+done <./project-metadata/dataset-lists/uv-experiment.txt
 ```
 
 To instead apply all corrections files in a directory for all results archives in a directory, you can instead run the `ecotaxa-metadata-edit` command using:

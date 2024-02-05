@@ -17,7 +17,6 @@ tots-ps-acq-58
 tots-ps-acq-71
 tots-ps-acq-72
 tots-ps-acq-73
-tots-ps-acq-74
 tots-ps-acq-75
 tots-ps-acq-76
 tots-ps-acq-77
@@ -172,7 +171,6 @@ tots-ps-acq-545
 tots-ps-acq-546
 tots-ps-acq-547
 tots-ps-acq-548
-tots-ps-acq-549
 tots-ps-acq-550
 tots-ps-acq-551
 tots-ps-acq-552
