@@ -1,0 +1,13 @@
+{
+  "sample_id": "1128",
+  "sample_operator": "Ethan Li",
+  "object_date": "2023-07-25",
+  "object_time": "22:57:00",
+  "object_lat": "69.4995",
+  "object_lon": "-165.373",
+  "object_depth_min": "12",
+  "object_depth_max": "12",
+  "acq_id": "SKQ-ToTS_S259_tots-ps-acq-700",
+  "acq_local_datetime": "2023-07-25T15:27:00",
+  "sample_sampling_gear": "single_location"
+}

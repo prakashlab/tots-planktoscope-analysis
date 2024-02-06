@@ -1,0 +1,821 @@
+Source Sample ID	Sample Available Local Timestamp	Sample Type	Station ID (or Local Sampling Timestamp)	(CTD/Net) Cast Number	(CTD/Ice/Experiment) Arrigo Number	(CTD/Ice) Arrigo Bottle Name	(CTD/Ice) Volume (L)	Shallowest Depth (m)	Deepest Depth (m)	Sampling [Start] Local Timestamp	Sampling [Start] UTC Timestamp	Sampling [Start] UTC Date	Sampling [Start] UTC Time	Sampling [Start] Latitude	Sampling [Start] Longitude	(Ice) Volume of Seawater Added (mL)	(Ice) Salinity of Seawater Added (ppt)	(Net Horiz) Sampling End Local Timestamp	(Net Horiz) Sampling End UTC Timetstamp	(Net Horiz) Sampling End Latitude	(Net Horiz) Sampling End Longitude	(Net) Opening Diameter (mm)	(Net) Mesh Size (um)	(Net Horiz) Speed Through Water (kts)	(Net) Filtered Volume (L)	(CTD) Look for Alexandrium?	Metadata Validation Status	Metadata Validator (first name + last initial)	Metadata Validation Notes (describe corrections needed or corrections made)	Sample collection notes
+source-1	2023-06-17 07:44	CTD Niskin	S001	1	2	Planktoscope Depth 1 (DCM)	0.5	15	15	2023-06-16 23:50	2023-06-17 07:50	2023-06-17	07:50:00	65.6193	-168.15												TODO	gertvd	added time/date, based on CTD cast	Shakedown run test
+source-2	2023-06-17 07:44	CTD Niskin	S001	1	5	Planktoscope Depth 2 (Surface)	0.5	2	2	2023-06-16 23:54	2023-06-17 07:54	2023-06-17	07:54:00	65.6193	-168.15												TODO	gertvd	added time/date, based on CTD cast	Shakedown run test
+source-4	2023-06-17 14:49	CTD Niskin	S007	1	17	PlanktoScope Depth 1 (DCM)	0.5	43	43	2023-06-17 06:55	2023-06-17 14:55	2023-06-17	14:55:00	65.7655	-168.742												TODO	gertvd	added time/date, based on CTD cast	Shakedown run test; not used
+source-6	2023-06-17 14:49	CTD Niskin	S007	1	17	GM Depth 1 (DCM)	2	43	43	2023-06-17 06:55	2023-06-17 14:55	2023-06-17	14:55:00	65.7655	-168.742												TODO	gertvd	added time/date, based on CTD cast	Shakedown run test of concentrating CTD water
+source-5	2023-06-17 14:49	CTD Niskin	S007	1	20	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-17 07:03	2023-06-17 15:03	2023-06-17	15:03:00	65.7655	-168.742												TODO	gertvd	added time/date, based on CTD cast	Shakedown run test; not used
+source-11	2023-06-19 16:20	CTD Niskin	S009	1	21	PlanktoScope Depth 1 (DCM)	0.5	11	11	2023-06-19 08:23	2023-06-19 16:23	2023-06-19	16:23:00	70.393	-161.634												TODO	gertvd	added time/date, based on CTD cast	CTD+Chl station; PlanktoScope not actually needed
+source-10	2023-06-19 16:20	CTD Niskin	S009	1	22	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-19 08:26	2023-06-19 16:26	2023-06-19	16:26:00	70.393	-161.634												TODO	gertvd	added time/date, based on CTD cast	CTD+Chl station; PlanktoScope not actually needed
+source-12	2023-06-19 20:34	CTD Niskin	S011	1	24	PlanktoScope Depth 1 (DCM)	0.5	20	20	2023-06-19 12:40	2023-06-19 20:40	2023-06-19	20:40:00	70.5397	-161.641												TODO	gertvd	added time/date, based on CTD cast	
+source-13	2023-06-19 20:34	CTD Niskin	S011	1	26	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-19 12:45	2023-06-19 20:45	2023-06-19	20:45:00	70.5397	-161.641												TODO	gertvd	added time/date, based on CTD cast	
+source-16	2023-06-20 07:55	CTD Niskin	S015	1	34	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-20 07:10	2023-06-20 15:10	2023-06-20	15:10:00	70.8893	-161.571												TODO			
+source-17	2023-06-20 07:56	CTD Niskin	S015	1	35	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-20 07:12	2023-06-20 15:12	2023-06-20	15:12:00	70.8893	-161.571												TODO			
+source-20	2023-06-20 16:00	CTD Niskin	S015	2	40	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-20 15:25	2023-06-20 23:25	2023-06-20	23:25:00	70.8893	-161.571												TODO			
+source-21	2023-06-20 16:00	CTD Niskin	S015	2	41	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-20 15:28	2023-06-20 23:28	2023-06-20	23:28:00	70.8893	-161.571												TODO			
+source-27	2023-06-21 17:10	CTD Niskin	S016	1	45	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-21 16:29	2023-06-22 00:29	2023-06-22	00:29:00	70.7053	-165.54												TODO			
+source-28	2023-06-21 17:10	CTD Niskin	S016	1	46	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-21 16:31	2023-06-22 00:31	2023-06-22	00:31:00	70.7053	-165.54												TODO			
+source-29	2023-06-22 01:31	CTD Niskin	S019	1	57	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-22 01:06	2023-06-22 09:06	2023-06-22	09:06:00	71.0642	-165.016												TODO			
+source-30	2023-06-22 01:31	CTD Niskin	S019	1	58	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-22 01:09	2023-06-22 09:09	2023-06-22	09:09:00	71.0642	-165.016												TODO			
+source-86	2023-06-24 14:52	CTD Niskin	S020	1	63	PlanktoScope Depth 1 (DCM)	0.5	26	26	2023-06-22 05:04	2023-06-22 13:04	2023-06-22	13:04:00	71.184	-164.848												TODO			
+source-87	2023-06-24 14:53	CTD Niskin	S020	1	65	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-22 05:07	2023-06-22 13:07	2023-06-22	13:07:00	71.184	-164.848												TODO			
+source-31	2023-06-22 17:00	CTD Niskin	S021	1	68	PlanktoScope Depth 1 (DCM)	0.5	15	15	2023-06-22 16:32	2023-06-23 00:32	2023-06-23	00:32:00	71.2745	-164.577												TODO			
+source-32	2023-06-22 17:00	CTD Niskin	S021	1	70	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-22 16:36	2023-06-23 00:36	2023-06-23	00:36:00	71.2745	-164.577												TODO			
+source-39	2023-06-22 23:04	CTD Niskin	S022	1	77	PlanktoScope Depth 1 (DCM)	0.5	15	15	2023-06-22 22:40	2023-06-23 06:40	2023-06-23	06:40:00	71.4143	-164.432												TODO			
+source-40	2023-06-22 23:04	CTD Niskin	S022	1	78	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-22 22:43	2023-06-23 06:43	2023-06-23	06:43:00	71.4143	-164.432												TODO			
+source-47	2023-06-23 04:55	CTD Niskin	S023	1	81	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-06-23 04:22	2023-06-23 12:22	2023-06-23	12:22:00	71.5402	-164.291												TODO			
+source-48	2023-06-23 04:55	CTD Niskin	S023	1	82	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-23 04:24	2023-06-23 12:24	2023-06-23	12:24:00	71.5402	-164.291												TODO			
+source-97	2023-06-24 20:38	CTD Niskin	S029	1	113	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-24 20:15	2023-06-25 04:15	2023-06-25	04:15:00	70.8067	-163.286												TODO			
+source-98	2023-06-24 20:38	CTD Niskin	S029	1	114	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-24 20:17	2023-06-25 04:17	2023-06-25	04:17:00	70.8067	-163.286												TODO			
+source-102	2023-06-25 04:28	CTD Niskin	S031	1	125	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-06-25 04:08	2023-06-25 12:08	2023-06-25	12:08:00	71.0662	-163.146												TODO			
+source-103	2023-06-25 04:30	CTD Niskin	S031	1	126	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-25 04:10	2023-06-25 12:10	2023-06-25	12:10:00	71.0662	-163.146												TODO			
+source-105	2023-06-25 13:56	CTD Niskin	S032	1	132	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-25 13:28	2023-06-25 21:28	2023-06-25	21:28:00	71.1787	-163.023												TODO			
+source-104	2023-06-25 13:54	CTD Niskin	S032	1	133	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-06-25 13:31	2023-06-25 21:31	2023-06-25	21:31:00	71.1787	-163.023												TODO			
+source-109	2023-06-26 10:45	CTD Niskin	S035	1	147	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-06-26 10:25	2023-06-26 18:25	2023-06-26	18:25:00	71.3947	-163.914												TODO			
+source-110	2023-06-26 10:45	CTD Niskin	S035	1	148	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-26 10:26	2023-06-26 18:26	2023-06-26	18:26:00	71.3947	-163.914												TODO			
+source-111	2023-06-26 18:25	CTD Niskin	S036	1	151	PlanktoScope Depth 1 (DCM)	0.5	13	13	2023-06-26 18:03	2023-06-27 02:03	2023-06-27	02:03:00	71.5413	-164.252												TODO			
+source-112	2023-06-26 18:25	CTD Niskin	S036	1	152	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-26 18:06	2023-06-27 02:06	2023-06-27	02:06:00	71.5413	-164.252												TODO			
+source-127	2023-06-27 7:37	CTD Niskin	S038	1	166	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-06-27 07:14	2023-06-27 15:14	2023-06-27	15:14:00	71.4212	-164.416												TODO			
+source-128	2023-06-27 07:40	CTD Niskin	S038	1	167	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-27 07:16	2023-06-27 15:16	2023-06-27	15:16:00	71.4212	-164.416												TODO			
+source-119	2023-06-27 01:00	CTD Niskin	S039	1	173	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-06-27 14:38	2023-06-27 22:38	2023-06-27	22:38:00	71.3097	-164.624												TODO			
+source-120	2023-06-27 01:00	CTD Niskin	S039	1	174	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-27 14:39	2023-06-27 22:39	2023-06-27	22:39:00	71.3097	-164.624												TODO			
+source-142	2023-06-28 09:21	CTD Niskin	S042	1	186	PlanktoScope Depth 1 (DCM)	0.5	8	8	2023-06-28 08:57	2023-06-28 16:57	2023-06-28	16:57:00	71.0638	-165.005												TODO			
+source-143	2023-06-28 09:23	CTD Niskin	S042	1	187	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-28 08:59	2023-06-28 16:59	2023-06-28	16:59:00	71.0638	-165.005												TODO			
+source-145	2023-06-29 00:50	CTD Niskin	S045	1	201	PlanktoScope Depth 1 (DCM)	0.5	41	41	2023-06-29 00:27	2023-06-29 08:27	2023-06-29	08:27:00	70.701	-165.522												TODO			
+source-146	2023-06-29 00:50	CTD Niskin	S045	1	204	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-29 00:33	2023-06-29 08:33	2023-06-29	08:33:00	70.701	-165.522												TODO			
+source-147	2023-06-29 15:22	CTD Niskin	S048	1	218	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-06-29 15:01	2023-06-29 23:01	2023-06-29	23:01:00	70.4095	-163.54												TODO			
+source-148	2023-06-29 15:26	CTD Niskin	S048	1	219	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-29 15:03	2023-06-29 23:03	2023-06-29	23:03:00	70.4095	-163.54												TODO			
+source-149	2023-06-29 19:40	CTD Niskin	S050	1	228	PlanktoScope Depth 1 (DCM)	0.5	42	42	2023-06-29 19:16	2023-06-30 03:16	2023-06-30	03:16:00	70.6732	-163.383												TODO			
+source-150	2023-06-29 19:40	CTD Niskin	S050	1	231	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-06-29 19:21	2023-06-30 03:21	2023-06-30	03:21:00	70.6732	-163.383												TODO			
+source-196	2023-07-01 10:32	CTD Niskin	S055	1	257	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-01 10:13	2023-07-01 18:13	2023-07-01	18:13:00	71.0673	-163.147												TODO			
+source-197	2023-07-01 10:34	CTD Niskin	S055	1	258	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-01 10:14	2023-07-01 18:14	2023-07-01	18:14:00	71.0673	-163.147												TODO			
+source-201	2023-07-02 00:01	CTD Niskin	S058	1	274	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-01 23:26	2023-07-02 07:26	2023-07-02	07:26:00	71.3278	-163.016												TODO			
+source-202	2023-07-02 00:01	CTD Niskin	S058	1	275	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-01 23:28	2023-07-02 07:28	2023-07-02	07:28:00	71.3278	-163.016												TODO			
+source-215	2023-07-02 12:22	CTD Niskin	S060	1	285	PlanktoScope Depth 1 (DCM)	0.5	6	6	2023-07-02 12:06	2023-07-02 20:06	2023-07-02	20:06:00	71.5327	-163.251												TODO			
+source-216	2023-07-02 12:23	CTD Niskin	S060	1	286	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-02 12:08	2023-07-02 20:08	2023-07-02	20:08:00	71.5327	-163.251												TODO			
+source-217	2023-07-02 18:20	CTD Niskin	S061	1	289	PlanktoScope Depth 1 (DCM)	0.5	20	20	2023-07-02 17:29	2023-07-03 01:29	2023-07-03	01:29:00	71.586	-163.627												TODO			
+source-218	2023-07-02 18:20	CTD Niskin	S061	1	291	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-02 17:32	2023-07-03 01:32	2023-07-03	01:32:00	71.586	-163.627												TODO			
+source-232	2023-07-03 06:37	CTD Niskin	S063	1	301	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-07-03 06:14	2023-07-03 14:14	2023-07-03	14:14:00	71.5478	-164.18												TODO			
+source-233	2023-07-03 06:39	CTD Niskin	S063	1	302	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-03 06:16	2023-07-03 14:16	2023-07-03	14:16:00	71.5478	-164.18												TODO			
+source-234	2023-07-03 13:40	CTD Niskin	S064	1	309	PlanktoScope Depth 1 (DCM)	0.5	6	6	2023-07-03 13:13	2023-07-03 21:13	2023-07-03	21:13:00	71.414	-164.409												TODO			
+source-235	2023-07-03 13:41	CTD Niskin	S064	1	310	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-03 13:15	2023-07-03 21:15	2023-07-03	21:15:00	71.414	-164.409												TODO			
+source-236	2023-07-03 22:36	CTD Niskin	S066	1	322	PlanktoScope Depth 1 (DCM)	0.5	4	4	2023-07-03 22:11	2023-07-04 06:11	2023-07-04	06:11:00	71.1898	-164.763												TODO			
+source-237	2023-07-03 22:36	CTD Niskin	S066	1	323	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-03 22:13	2023-07-04 06:13	2023-07-04	06:13:00	71.1898	-164.763												TODO			
+source-239	2023-07-04 03:02	CTD Niskin	S067	1	329	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-04 02:37	2023-07-04 10:37	2023-07-04	10:37:00	71.0605	-164.996												TODO			
+source-240	2023-07-04 03:02	CTD Niskin	S067	1	331	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-04 02:40	2023-07-04 10:40	2023-07-04	10:40:00	71.0605	-164.996												TODO			
+source-241	2023-07-04 05:12	CTD Niskin	S068	1	337	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-04 04:57	2023-07-04 12:57	2023-07-04	12:57:00	70.9402	-165.184												TODO			
+source-242	2023-07-04 05:15	CTD Niskin	S068	1	339	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-04 05:01	2023-07-04 13:01	2023-07-04	13:01:00	70.9402	-165.184												TODO			
+source-243	2023-07-04 07:25	CTD Niskin	S069	1	341	PlanktoScope Depth 1 (DCM)	0.5	30	30	2023-07-04 07:06	2023-07-04 15:06	2023-07-04	15:06:00	70.8215	-165.385												TODO			
+source-244	2023-07-04 07:30	CTD Niskin	S069	1	343	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-04 07:11	2023-07-04 15:11	2023-07-04	15:11:00	70.8215	-165.385												TODO			
+source-245	2023-07-04 09:42	CTD Niskin	S070	1	348	PlanktoScope Depth 1 (DCM)	0.5	35	35	2023-07-04 09:28	2023-07-04 17:28	2023-07-04	17:28:00	70.7007	-165.518												TODO			
+source-246	2023-07-04 09:48	CTD Niskin	S070	1	351	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-04 09:35	2023-07-04 17:35	2023-07-04	17:35:00	70.7007	-165.518												TODO			
+source-247	2023-07-04 15:46	CTD Niskin	S071	1	356	PlanktoScope Depth 1 (DCM)	0.5	25	25	2023-07-04 15:25	2023-07-04 23:25	2023-07-04	23:25:00	70.2782	-163.615												TODO			
+source-248	2023-07-04 15:51	CTD Niskin	S071	1	358	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-04 15:30	2023-07-04 23:30	2023-07-04	23:30:00	70.2782	-163.615												TODO			
+source-251	2023-07-05 04:03	CTD Niskin	S074	1	370	PlanktoScope Depth 1 (DCM)	0.5	37	37	2023-07-05 03:44	2023-07-05 11:44	2023-07-05	11:44:00	70.5422	-163.458												TODO			
+source-252	2023-07-05 04:05	CTD Niskin	S074	1	373	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-05 03:50	2023-07-05 11:50	2023-07-05	11:50:00	70.5422	-163.458												TODO			
+source-253	2023-07-05 09:51	CTD Niskin	S076	1	383	PlanktoScope Depth 1 (DCM)	0.5	32	32	2023-07-05 09:09	2023-07-05 17:09	2023-07-05	17:09:00	70.6748	-163.384												TODO			
+source-254	2023-07-05 09:05	CTD Niskin	S076	1	386	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-05 09:16	2023-07-05 17:16	2023-07-05	17:16:00	70.6748	-163.384												TODO			
+source-255	2023-07-05 12:31	CTD Niskin	S077	1	393	PlanktoScope Depth 1 (DCM)	0.5	11	11	2023-07-05 12:12	2023-07-05 20:12	2023-07-05	20:12:00	70.8072	-163.286												TODO			
+source-256	2023-07-05 12:33	CTD Niskin	S077	1	394	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-05 12:14	2023-07-05 20:14	2023-07-05	20:14:00	70.8072	-163.286												TODO			
+source-267	2023-07-05 17:00	CTD Niskin	S078	1	398	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-05 15:03	2023-07-05 23:03	2023-07-05	23:03:00	70.9157	-163.11												TODO			
+source-268	2023-07-05 17:00	CTD Niskin	S078	1	399	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-05 15:05	2023-07-05 23:05	2023-07-05	23:05:00	70.9157	-163.11												TODO			
+source-277	2023-07-06 01:51	CTD Niskin	S080	1	410	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-06 01:29	2023-07-06 09:29	2023-07-06	09:29:00	71.1997	-163.064												TODO			
+source-278	2023-07-06 01:51	CTD Niskin	S080	1	411	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-06 01:31	2023-07-06 09:31	2023-07-06	09:31:00	71.1997	-163.064												TODO			
+source-283	2023-07-06 07:08	CTD Niskin	S081	1	418	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-06 06:52	2023-07-06 14:52	2023-07-06	14:52:00	71.2535	-163.061												TODO			
+source-284	2023-07-06 07:09	CTD Niskin	S081	1	418	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-06 06:52	2023-07-06 14:52	2023-07-06	14:52:00	71.2535	-163.061												TODO			
+source-285	2023-07-06 09:54	CTD Niskin	S082	1	421	PlanktoScope Depth 1 (DCM)	0.5	15	15	2023-07-06 09:34	2023-07-06 17:34	2023-07-06	17:34:00	71.3338	-162.968												TODO			
+source-286	2023-07-06 09:55	CTD Niskin	S082	1	422	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-06 09:36	2023-07-06 17:36	2023-07-06	17:36:00	71.3338	-162.968												TODO			
+source-291	2023-07-06 18:00	CTD Niskin	S084	1	430	PlanktoScope Depth 1 (DCM)	0.5	5	5	2023-07-06 18:33	2023-07-07 02:33	2023-07-07	02:33:00	71.4563	-162.896												TODO			
+source-292	2023-07-06 18:00	CTD Niskin	S084	1	431	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-06 18:35	2023-07-07 02:35	2023-07-07	02:35:00	71.4563	-162.896												TODO			
+source-311	2023-07-07 05:30	CTD Niskin	S086	1	443	PlanktoScope Depth 1 (DCM)	0.5	8	8	2023-07-07 04:55	2023-07-07 12:55	2023-07-07	12:55:00	71.601	-163.602												TODO			
+source-312	2023-07-07 05:31	CTD Niskin	S086	1	444	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-07 04:57	2023-07-07 12:57	2023-07-07	12:57:00	71.601	-163.602												TODO			
+source-313	2023-07-07 10:24	CTD Niskin	S087	1	451	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-07 09:44	2023-07-07 17:44	2023-07-07	17:44:00	71.6722	-164.02												TODO			
+source-314	2023-07-07 10:26	CTD Niskin	S087	1	452	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-07 09:46	2023-07-07 17:46	2023-07-07	17:46:00	71.6722	-164.02												TODO			
+source-315	2023-07-07 15:36	CTD Niskin	S088	1	459	PlanktoScope Depth 1 (DCM)	0.5	4	4	2023-07-07 17:16	2023-07-08 01:16	2023-07-08	01:16:00	71.5453	-164.214												TODO			
+source-316	2023-07-07 15:36	CTD Niskin	S088	1	460	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-07 17:17	2023-07-08 01:17	2023-07-08	01:17:00	71.5453	-164.214												TODO			
+source-324	2023-07-08 04:22	CTD Niskin	S090	1	470	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-08 04:01	2023-07-08 12:01	2023-07-08	12:01:00	71.2983	-164.618												TODO			
+source-325	2023-07-08 04:25	CTD Niskin	S090	1	472	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-08 04:04	2023-07-08 12:04	2023-07-08	12:04:00	71.2983	-164.618												TODO			
+source-326	2023-07-08 09:28	CTD Niskin	S092	1	479	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-08 09:13	2023-07-08 17:13	2023-07-08	17:13:00	71.1962	-164.816												TODO			
+source-327	2023-07-08 09:29	CTD Niskin	S092	1	480	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-08 09:15	2023-07-08 17:15	2023-07-08	17:15:00	71.1962	-164.816												TODO			
+source-328	2023-07-08 18:28	CTD Niskin	S096	1	490	PlanktoScope Depth 1 (DCM)	0.5	32	32	2023-07-08 17:51	2023-07-09 01:51	2023-07-09	01:51:00	70.9423	-165.188												TODO			
+source-329	2023-07-08 18:28	CTD Niskin	S096	1	493	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-08 17:57	2023-07-09 01:57	2023-07-09	01:57:00	70.9423	-165.188												TODO			
+source-333	2023-07-08 23:10	CTD Niskin	S100	1	504	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-08 22:33	2023-07-09 06:33	2023-07-09	06:33:00	70.6987	-165.523												TODO			
+source-334	2023-07-08 23:10	CTD Niskin	S100	1	505	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-08 22:36	2023-07-09 06:36	2023-07-09	06:36:00	70.6987	-165.523												TODO			
+source-347	2023-07-09 08:57	CTD Niskin	S105	1	522	PlanktoScope Depth 1 (DCM)	0.5	28	28	2023-07-09 08:37	2023-07-09 16:37	2023-07-09	16:37:00	70.5413	-163.462												TODO			
+source-348	2023-07-09 08:58	CTD Niskin	S105	1	525	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-09 08:42	2023-07-09 16:42	2023-07-09	16:42:00	70.5413	-163.462												TODO			
+source-349	2023-07-09 13:45	CTD Niskin	S109	1	536	PlanktoScope Depth 1 (DCM)	0.5	16	16	2023-07-09 13:14	2023-07-09 21:14	2023-07-09	21:14:00	70.8055	-163.304												TODO			
+source-350	2023-07-09 13:47	CTD Niskin	S109	1	538	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-09 13:19	2023-07-09 21:19	2023-07-09	21:19:00	70.8055	-163.304												TODO			
+source-362	2023-07-10 00:50	CTD Niskin	S114	1	554	PlanktoScope Depth 1 (DCM)	0.5	6	6	2023-07-10 00:44	2023-07-10 08:44	2023-07-10	08:44:00	71.0693	-163.167												TODO			
+source-363	2023-07-10 00:50	CTD Niskin	S114	1	555	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-10 00:45	2023-07-10 08:45	2023-07-10	08:45:00	71.0693	-163.167												TODO			
+source-367	2023-07-10 08:58	CTD Niskin	S117	1	566	PlanktoScope Depth 1 (DCM)	0.5	14	14	2023-07-10 08:41	2023-07-10 16:41	2023-07-10	16:41:00	71.3275	-162.99												TODO			
+source-368	2023-07-10 09:00	CTD Niskin	S117	1	568	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-10 08:44	2023-07-10 16:44	2023-07-10	16:44:00	71.3275	-162.99												TODO			
+source-369	2023-07-10 19:40	CTD Niskin	S119	1	580	PlanktoScope Depth 1 (DCM)	0.5	5	5	2023-07-10 18:55	2023-07-11 02:55	2023-07-11	02:55:00	71.516	-163.26												TODO			
+source-370	2023-07-10 19:40	CTD Niskin	S119	1	581	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-10 18:56	2023-07-11 02:56	2023-07-11	02:56:00	71.516	-163.26												TODO			
+source-371	2023-07-11 15:05	CTD Niskin	S121	1	597	PlanktoScope Depth 1 (DCM)	0.5	15	15	2023-07-11 14:42	2023-07-11 22:42	2023-07-11	22:42:00	71.668	-163.982												TODO			
+source-372	2023-07-11 15:05	CTD Niskin	S121	1	599	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-11 14:45	2023-07-11 22:45	2023-07-11	22:45:00	71.668	-163.982												TODO			
+source-396	2023-07-12 14:28	CTD Niskin	S124	1	616	PlanktoScope Depth 1 (DCM)	0.5	17	17	2023-07-12 14:04	2023-07-12 22:04	2023-07-12	22:04:00	71.3972	-164.37												TODO			
+source-397	2023-07-12 14:33	CTD Niskin	S124	1	617	PlanktoScope Depth 2 (Surface)	0.5	8	8	2023-07-12 14:07	2023-07-12 22:07	2023-07-12	22:07:00	71.3972	-164.37												TODO			
+source-400	2023-07-12 18:20	CTD Niskin	S125	1	625	PlanktoScope Depth 1 (DCM)	0.5	8	8	2023-07-12 17:59	2023-07-13 01:59	2023-07-13	01:59:00	71.3103	-164.599												TODO			
+source-401	2023-07-12 18:20	CTD Niskin	S125	1	626	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-12 18:00	2023-07-13 02:00	2023-07-13	02:00:00	71.3103	-164.599												TODO			
+source-424	2023-07-13 01:28	CTD Niskin	S129	1	638	PlanktoScope Depth 1 (DCM)	0.5	25	25	2023-07-13 00:44	2023-07-13 08:44	2023-07-13	08:44:00	71.0632	-165.002												TODO			
+source-425	2023-07-13 01:28	CTD Niskin	S129	1	640	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-13 00:48	2023-07-13 08:48	2023-07-13	08:48:00	71.0632	-165.002												TODO			
+source-426	2023-07-13 09:50	CTD Niskin	S134	1	655	PlanktoScope Depth 1 (DCM)	0.5	13	13	2023-07-13 09:07	2023-07-13 17:07	2023-07-13	17:07:00	70.822	-165.375												TODO			
+source-427	2023-07-13 09:51	CTD Niskin	S134	1	657	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-13 09:10	2023-07-13 17:10	2023-07-13	17:10:00	70.822	-165.375												TODO			
+source-444	2023-07-13 22:17	CTD Niskin	S138	1	670	PlanktoScope Depth 1 (DCM)	0.5	22	22	2023-07-13 21:39	2023-07-14 05:39	2023-07-14	05:39:00	70.2773	-163.616												TODO			
+source-445	2023-07-13 22:17	CTD Niskin	S138	1	672	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-13 21:43	2023-07-14 05:43	2023-07-14	05:43:00	70.2773	-163.616												TODO			
+source-446	2023-07-14 01:22	CTD Niskin	S140	1	683	PlanktoScope Depth 1 (DCM)	0.5	22	22	2023-07-14 00:58	2023-07-14 08:58	2023-07-14	08:58:00	70.5418	-163.462												TODO			
+source-447	2023-07-14 01:22	CTD Niskin	S140	1	685	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-14 01:02	2023-07-14 09:02	2023-07-14	09:02:00	70.5418	-163.462												TODO			
+source-448	(not recorded)	CTD Niskin	S144	1	695	Gravity Machine Depth 1 (DCM)	2.175	26	26	2023-07-14 05:00	2023-07-14 13:00	2023-07-14	13:00:00	70.8067	-163.305												TODO			Missed the CTD station, so I instead got leftover filtered sample water from Gravity Machine. Apparently this station was very sparse in plankton anyways.
+source-449	(not recorded)	CTD Niskin	S144	1	697	Gravity Machine Depth 2 (DCM)	2.175	2	2	2023-07-14 05:04	2023-07-14 13:04	2023-07-14	13:04:00	70.8067	-163.305												TODO			Missed the CTD station, so I instead got leftover filtered sample water from Gravity Machine. Apparently this station was very sparse in plankton anyways.
+source-450	2023-07-14 13:29	CTD Niskin	S147	1	707	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-14 13:09	2023-07-14 21:09	2023-07-14	21:09:00	70.9413	-163.218												TODO			
+source-451	2023-07-14 13:32	CTD Niskin	S147	1	709	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-14 13:14	2023-07-14 21:14	2023-07-14	21:14:00	70.9413	-163.218												TODO			
+source-454	2023-07-14 16:55	CTD Niskin	S149	1	713	PlanktoScope Depth 1 (DCM)	0.5	8	8	2023-07-14 16:25	2023-07-15 00:25	2023-07-15	00:25:00	71.0698	-163.149												TODO			
+source-455	2023-07-14 16:55	CTD Niskin	S149	1	714	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-14 16:26	2023-07-15 00:26	2023-07-15	00:26:00	71.0698	-163.149												TODO			
+source-470	2023-07-15 06:40	CTD Niskin	S153	1	731	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-15 06:19	2023-07-15 14:19	2023-07-15	14:19:00	71.3393	-162.959												TODO			
+source-471	2023-07-15 06:41	CTD Niskin	S153	1	732	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-15 06:20	2023-07-15 14:20	2023-07-15	14:20:00	71.3393	-162.959												TODO			
+source-472	2023-07-15 11:07	CTD Niskin	S154	1	738	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-15 10:48	2023-07-15 18:48	2023-07-15	18:48:00	71.4673	-162.914												TODO			
+source-473	2023-07-15 11:08	CTD Niskin	S154	1	739	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-15 10:50	2023-07-15 18:50	2023-07-15	18:50:00	71.4673	-162.914												TODO			
+source-474	2023-07-15 14:08	CTD Niskin	S155	1	742	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-15 13:47	2023-07-15 21:47	2023-07-15	21:47:00	71.5292	-163.256												TODO			
+source-475	2023-07-15 14:09	CTD Niskin	S155	1	743	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-15 13:48	2023-07-15 21:48	2023-07-15	21:48:00	71.5292	-163.256												TODO			
+source-476	2023-07-15 22:35	CTD Niskin	S157	1	754	PlanktoScope Depth 1 (DCM)	0.5	5	5	2023-07-15 22:10	2023-07-16 06:10	2023-07-16	06:10:00	71.6595	-164.031												TODO			
+source-477	2023-07-15 22:35	CTD Niskin	S157	1	755	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-15 22:11	2023-07-16 06:11	2023-07-16	06:11:00	71.6595	-164.031												TODO			
+source-478	2023-07-16 06:05	CTD Niskin	S159	1	767	PlanktoScope Depth 1 (DCM)	0.5	11	11	2023-07-16 05:38	2023-07-16 13:38	2023-07-16	13:38:00	71.42	-164.412												TODO			
+source-479	2023-07-16 06:06	CTD Niskin	S159	1	768	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-16 05:40	2023-07-16 13:40	2023-07-16	13:40:00	71.42	-164.412												TODO			
+source-480	2023-07-16 10:37	CTD Niskin	S160	1	774	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-16 10:20	2023-07-16 18:20	2023-07-16	18:20:00	71.349	-164.056												TODO			
+source-481	2023-07-16 10:39	CTD Niskin	S160	1	775	PlanktoScope Depth 2 (Surface)	0.5	8	8	2023-07-16 10:22	2023-07-16 18:22	2023-07-16	18:22:00	71.349	-164.056												TODO			
+source-484	2023-07-16 20:00	CTD Niskin	S163	1	784	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-16 19:28	2023-07-17 03:28	2023-07-17	03:28:00	71.191	-164.782												TODO			
+source-485	2023-07-16 20:00	CTD Niskin	S163	1	785	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-16 19:30	2023-07-17 03:30	2023-07-17	03:30:00	71.191	-164.782												TODO			
+source-489	2023-07-17 02:33	CTD Niskin	S167	1	795	PlanktoScope Depth 1 (DCM)	0.5	26	26	2023-07-17 02:13	2023-07-17 10:13	2023-07-17	10:13:00	70.9423	-165.188												TODO			
+source-490	2023-07-17 02:33	CTD Niskin	S167	1	797	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-17 02:17	2023-07-17 10:17	2023-07-17	10:17:00	70.9423	-165.188												TODO			
+source-491	2023-07-17 06:53	CTD Niskin	S171	1	805	PlanktoScope Depth 1 (DCM)	0.5	27	27	2023-07-17 06:32	2023-07-17 14:32	2023-07-17	14:32:00	70.6978	-165.525												TODO			This sample had a jelly! Maybe a comb jelly?
+source-492	2023-07-17 06:55	CTD Niskin	S171	1	807	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-17 06:35	2023-07-17 14:35	2023-07-17	14:35:00	70.6978	-165.525												TODO			
+source-519	2023-07-18 01:59	CTD Niskin	S177	1	820	PlanktoScope Depth 1 (DCM)	0.5	24	24	2023-07-18 01:35	2023-07-18 09:35	2023-07-18	09:35:00	70.4092	-163.54												TODO			
+source-520	2023-07-18 01:59	CTD Niskin	S177	1	822	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-18 01:39	2023-07-18 09:39	2023-07-18	09:39:00	70.4092	-163.54												TODO			
+source-521	2023-07-18 06:10	CTD Niskin	S181	1	832	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-18 05:18	2023-07-18 13:18	2023-07-18	13:18:00	70.6742	-163.384												TODO			
+source-522	2023-07-18 06:10	CTD Niskin	S181	1	834	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-18 05:22	2023-07-18 13:22	2023-07-18	13:22:00	70.6742	-163.384												TODO			
+source-523	2023-07-18 10:50	CTD Niskin	S185	1	845	PlanktoScope Depth 1 (DCM)	0.5	22	22	2023-07-18 10:23	2023-07-18 18:23	2023-07-18	18:23:00	70.933	-163.216												TODO			
+source-524	2023-07-18 10:51	CTD Niskin	S185	1	846	PlanktoScope Depth 2 (Surface)	0.5	12	12	2023-07-18 10:25	2023-07-18 18:25	2023-07-18	18:25:00	70.933	-163.216												TODO			
+source-525	2023-07-18 14:46	CTD Niskin	S187	1	852	PlanktoScope Depth 1 (DCM)	0.5	20	20	2023-07-18 14:26	2023-07-18 22:26	2023-07-18	22:26:00	71.0758	-163.141												TODO			
+source-526	2023-07-18 14:48	CTD Niskin	S187	1	853	PlanktoScope Depth 2 (Surface)	0.5	9	9	2023-07-18 14:28	2023-07-18 22:28	2023-07-18	22:28:00	71.0758	-163.141												TODO			
+source-559	2023-07-19 02:30	CTD Niskin	S190	1	863	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-07-19 02:23	2023-07-19 10:23	2023-07-19	10:23:00	71.2018	-163.052												TODO			
+source-560	2023-07-19 02:30	CTD Niskin	S190	1	864	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-19 02:24	2023-07-19 10:24	2023-07-19	10:24:00	71.2018	-163.052												TODO			
+source-561	2023-07-19 09:56	CTD Niskin	S192	1	875	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-19 09:35	2023-07-19 17:35	2023-07-19	17:35:00	71.461	-162.911												TODO			
+source-562	2023-07-19 09:58	CTD Niskin	S192	1	876	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-19 09:37	2023-07-19 17:37	2023-07-19	17:37:00	71.461	-162.911												TODO			
+source-563	2023-07-19 10:26	CTD Niskin	S192	1	877	PlanktoScope Depth 1 (DCM)	0.5	2	2	2023-07-19 09:39	2023-07-19 17:39	2023-07-19	17:39:00	71.461	-162.911												TODO			Requested by Claudette
+source-564	2023-07-19 15:26	CTD Niskin	S194	1	887	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-07-19 17:43	2023-07-20 01:43	2023-07-20	01:43:00	71.5957	-163.593												TODO			
+source-565	2023-07-19 15:26	CTD Niskin	S194	1	888	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-19 17:44	2023-07-20 01:44	2023-07-20	01:44:00	71.5957	-163.593												TODO			
+source-566	2023-07-19 23:00	CTD Niskin	S195	1	894	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-19 23:00	2023-07-20 07:00	2023-07-20	07:00:00	71.6672	-163.998												TODO			
+source-567	2023-07-19 23:00	CTD Niskin	S195	1	896	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-19 23:04	2023-07-20 07:04	2023-07-20	07:04:00	71.6672	-163.998												TODO			
+source-582	2023-07-20 10:53	CTD Niskin	S198	1	910	PlanktoScope Depth 1 (DCM)	0.5	11	11	2023-07-20 10:34	2023-07-20 18:34	2023-07-20	18:34:00	71.4202	-164.403												TODO			
+source-583	2023-07-20 10:55	CTD Niskin	S198	1	911	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-20 10:37	2023-07-20 18:37	2023-07-20	18:37:00	71.4202	-164.403												TODO			
+source-584	2023-07-20 15:20	CTD Niskin	S200	1	917	PlanktoScope Depth 1 (DCM)	0.5	21	21	2023-07-20 14:58	2023-07-20 22:58	2023-07-20	22:58:00	71.307	-164.595												TODO			
+source-585	2023-07-20 15:22	CTD Niskin	S200	1	918	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-20 15:01	2023-07-20 23:01	2023-07-20	23:01:00	71.307	-164.595												TODO			
+source-586	2023-07-20 17:22	CTD Niskin	S202	1	922	PlanktoScope Depth 1 (DCM)	0.5	27	27	2023-07-20 17:28	2023-07-21 01:28	2023-07-21	01:28:00	71.1837	-164.814												TODO			
+source-587	2023-07-20 17:22	CTD Niskin	S202	1	924	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-20 17:33	2023-07-21 01:33	2023-07-21	01:33:00	71.1837	-164.814												TODO			
+source-588	2023-07-21 01:22	CTD Niskin	S207	1	938	PlanktoScope Depth 1 (DCM)	0.5	27	27	2023-07-21 00:57	2023-07-21 08:57	2023-07-21	08:57:00	70.9427	-165.189												TODO			
+source-589	2023-07-21 01:22	CTD Niskin	S207	1	940	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-21 01:01	2023-07-21 09:01	2023-07-21	09:01:00	70.9427	-165.189												TODO			
+source-590	2023-07-21 05:18	CTD Niskin	S211	1	949	PlanktoScope Depth 1 (DCM)	0.5	24	24	2023-07-21 04:59	2023-07-21 12:59	2023-07-21	12:59:00	70.6995	-165.526												TODO			
+source-591	2023-07-21 05:19	CTD Niskin	S211	1	951	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-21 05:03	2023-07-21 13:03	2023-07-21	13:03:00	70.6995	-165.526												TODO			
+source-592	2023-07-21 13:26	CTD Niskin	S217	2	961	PlanktoScope Depth 1 (DCM)	0.5	23	23	2023-07-21 12:57	2023-07-21 20:57	2023-07-21	20:57:00	70.4095	-163.541												TODO			
+source-593	2023-07-21 13:28	CTD Niskin	S217	2	963	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-21 13:01	2023-07-21 21:01	2023-07-21	21:01:00	70.4095	-163.541												TODO			
+source-594	2023-07-21 15:00	CTD Niskin	S221	1	973	PlanktoScope Depth 1 (DCM)	0.5	22	22	2023-07-21 16:42	2023-07-22 00:42	2023-07-22	00:42:00	70.6747	-163.383												TODO			
+source-595	2023-07-21 15:00	CTD Niskin	S221	1	975	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-21 16:47	2023-07-22 00:47	2023-07-22	00:47:00	70.6747	-163.383												TODO			
+source-596	2023-07-21 23:15	CTD Niskin	S225	1	986	PlanktoScope Depth 1 (DCM)	0.5	23	23	2023-07-21 22:53	2023-07-22 06:53	2023-07-22	06:53:00	70.9247	-163.221												TODO			
+source-597	2023-07-21 23:15	CTD Niskin	S225	1	989	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-21 22:57	2023-07-22 06:57	2023-07-22	06:57:00	70.9247	-163.221												Done - Correct			
+source-600	2023-07-22 10:29	CTD Niskin	S230	1	1003	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-22 10:07	2023-07-22 18:07	2023-07-22	18:07:00	71.1948	-163.068												Done - Correct			
+source-601	2023-07-22 10:32	CTD Niskin	S230	1	1004	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-22 10:09	2023-07-22 18:09	2023-07-22	18:09:00	71.1948	-163.068												Done - Correct			
+source-607	2023-07-22 22:32	CTD Niskin	S233	1	1018	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-22 22:23	2023-07-23 06:23	2023-07-23	06:23:00	71.455	-162.909												Done - Correct			
+source-608	2023-07-22 22:32	CTD Niskin	S233	1	1019	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-22 22:25	2023-07-23 06:25	2023-07-23	06:25:00	71.455	-162.909												Done - Correct			
+source-609	2023-07-23 07:35	CTD Niskin	S235	1	1029	PlanktoScope Depth 1 (DCM)	0.5	8	8	2023-07-23 07:13	2023-07-23 15:13	2023-07-23	15:13:00	71.601	-163.648												Done - Correct			
+source-610	2023-07-23 07:36	CTD Niskin	S235	1	1030	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-23 07:15	2023-07-23 15:15	2023-07-23	15:15:00	71.601	-163.648												Done - Correct			
+source-611	2023-07-23 16:04	CTD Niskin	S237	1	1040	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-23 15:30	2023-07-23 23:30	2023-07-23	23:30:00	71.5505	-164.215												Done - Correct			
+source-612	2023-07-23 16:04	CTD Niskin	S237	1	1042	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-23 15:34	2023-07-23 23:34	2023-07-23	23:34:00	71.5505	-164.215												Done - Correct			
+source-639	2023-07-24 02:00	CTD Niskin	S242	1	1058	PlanktoScope Depth 1 (DCM)	0.5	25	25	2023-07-24 01:34	2023-07-24 09:34	2023-07-24	09:34:00	71.3023	-164.62												Done - Correct			
+source-640	2023-07-24 02:00	CTD Niskin	S242	1	1060	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-24 01:38	2023-07-24 09:38	2023-07-24	09:38:00	71.3023	-164.62												Done - Correct			
+source-641	2023-07-24 10:22	CTD Niskin	S249	1	1080	PlanktoScope Depth 1 (DCM)	0.5	25	25	2023-07-24 10:01	2023-07-24 18:01	2023-07-24	18:01:00	70.8217	-165.375												Done - Correct			
+source-642	2023-07-24 10:23	CTD Niskin	S249	1	1082	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-24 10:05	2023-07-24 18:05	2023-07-24	18:05:00	70.8217	-165.375												Done - Correct			
+source-681	2023-07-25 04:57	CTD Niskin	S253	1	1100	PlanktoScope Depth 1 (DCM)	0.5	24	24	2023-07-25 04:35	2023-07-25 12:35	2023-07-25	12:35:00	70.0575	-167.652											Yes	Done - Correct			
+source-682	2023-07-25 04:58	CTD Niskin	S253	1	1102	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 04:38	2023-07-25 12:38	2023-07-25	12:38:00	70.0575	-167.652											Yes	Done - Correct			
+source-683	2023-07-25 08:01	CTD Niskin	S255	1	1111	PlanktoScope Depth 1 (DCM)	0.5	26	26	2023-07-25 07:41	2023-07-25 15:41	2023-07-25	15:41:00	69.8815	-166.821											Yes	Done - Correct			
+source-684	2023-07-25 08:04	CTD Niskin	S255	1	1113	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 07:44	2023-07-25 15:44	2023-07-25	15:44:00	69.8815	-166.821											Yes	Done - Correct			
+source-685	2023-07-25 09:54	CTD Niskin	S256	1	1116	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-25 09:36	2023-07-25 17:36	2023-07-25	17:36:00	69.7807	-166.439											Yes	Done - Correct			
+source-686	2023-07-25 09:55	CTD Niskin	S256	1	1117	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 09:37	2023-07-25 17:37	2023-07-25	17:37:00	69.7807	-166.439											Yes	Done - Correct			
+source-687	2023-07-25 11:44	CTD Niskin	S257	1	1120	PlanktoScope Depth 1 (DCM)	0.5	10	10	2023-07-25 11:18	2023-07-25 19:18	2023-07-25	19:18:00	69.6863	-166.084											Yes	Done - Correct			
+source-688	2023-07-25 11:46	CTD Niskin	S257	1	1121	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 11:19	2023-07-25 19:19	2023-07-25	19:19:00	69.6863	-166.084											Yes	Done - Correct			
+source-689	2023-07-25 13:43	CTD Niskin	S258	1	1124	PlanktoScope Depth 1 (DCM)	0.5	14	14	2023-07-25 13:25	2023-07-25 21:25	2023-07-25	21:25:00	69.582	-165.749											Yes	Done - Correct			
+source-690	2023-07-25 13:44	CTD Niskin	S258	1	1125	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 13:27	2023-07-25 21:27	2023-07-25	21:27:00	69.582	-165.749											Yes	Done - Correct			
+source-691	2023-07-25 15:20	CTD Niskin	S259	1	1128	PlanktoScope Depth 1 (DCM)	0.5	12	12	2023-07-25 14:57	2023-07-25 22:57	2023-07-25	22:57:00	69.4995	-165.373											Yes	Done - Correct			
+source-692	2023-07-25 15:21	CTD Niskin	S259	1	1129	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-25 14:59	2023-07-25 22:59	2023-07-25	22:59:00	69.4995	-165.373											Yes	Done - Correct			
+source-693	2023-07-25 16:00	CTD Niskin	S260	1	1132	PlanktoScope Depth 1 (DCM)	0.5	16	16	2023-07-25 16:32	2023-07-26 00:32	2023-07-26	00:32:00	69.4203	-165.06											Yes	Done - Correct			
+source-694	2023-07-25 16:00	CTD Niskin	S260	1	1133	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-25 16:34	2023-07-26 00:34	2023-07-26	00:34:00	69.4203	-165.06											Yes	Done - Correct			
+source-695	2023-07-25 18:00	CTD Niskin	S261	1	1136	PlanktoScope Depth 1 (DCM)	0.5	16	16	2023-07-25 17:45	2023-07-26 01:45	2023-07-26	01:45:00	69.3425	-164.745											Yes	Done - Correct			
+source-696	2023-07-25 18:00	CTD Niskin	S261	1	1137	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-25 17:46	2023-07-26 01:46	2023-07-26	01:46:00	69.3425	-164.745											Yes	Done - Correct			
+source-697	2023-07-25 19:00	CTD Niskin	S262	1	1139	PlanktoScope Depth 1 (DCM)	0.5	21	21	2023-07-25 18:57	2023-07-26 02:57	2023-07-26	02:57:00	69.2647	-164.436											Yes	Done - Correct			
+source-698	2023-07-25 19:00	CTD Niskin	S262	1	1140	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-25 18:59	2023-07-26 02:59	2023-07-26	02:59:00	69.2647	-164.436											Yes	Done - Correct			
+source-699	2023-07-25 20:00	CTD Niskin	S263	1	1143	PlanktoScope Depth 1 (DCM)	0.5	15	15	2023-07-25 20:30	2023-07-26 04:30	2023-07-26	04:30:00	69.1888	-164.118											Yes	Done - Correct			
+source-700	2023-07-25 20:00	CTD Niskin	S263	1	1144	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-25 20:31	2023-07-26 04:31	2023-07-26	04:31:00	69.1888	-164.118											Yes	Done - Correct			
+source-717	2023-07-26 07:22	CTD Niskin	S264	1	1149	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-26 07:07	2023-07-26 15:07	2023-07-26	15:07:00	68.3273	-166.834											Yes	Done - Correct			
+source-718	2023-07-26 07:23	CTD Niskin	S264	1	1150	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 07:08	2023-07-26 15:08	2023-07-26	15:08:00	68.3273	-166.834											Yes	Done - Correct			
+source-719	2023-07-26 08:34	CTD Niskin	S265	1	1153	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-26 08:12	2023-07-26 16:12	2023-07-26	16:12:00	68.2998	-166.922											Yes	Done - Correct			
+source-720	2023-07-26 08:36	CTD Niskin	S265	1	1154	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 08:14	2023-07-26 16:14	2023-07-26	16:14:00	68.2998	-166.922											Yes	Done - Correct			
+source-721	2023-07-26 09:46	CTD Niskin	S266	1	1156	PlanktoScope Depth 1 (DCM)	0.5	19	19	2023-07-26 09:28	2023-07-26 17:28	2023-07-26	17:28:00	68.2427	-167.115											Yes	Done - Correct			
+source-722	2023-07-26 09:47	CTD Niskin	S266	1	1158	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 09:32	2023-07-26 17:32	2023-07-26	17:32:00	68.2427	-167.115											Yes	Done - Correct			
+source-723	2023-07-26 11:55	CTD Niskin	S267	1	1159	PlanktoScope Depth 1 (DCM)	0.5	45	45	2023-07-26 11:27	2023-07-26 19:27	2023-07-26	19:27:00	68.1945	-167.317											Yes	Done - Correct			
+source-724	2023-07-26 11:56	CTD Niskin	S267	1	1162	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 11:33	2023-07-26 19:33	2023-07-26	19:33:00	68.1945	-167.317											Yes	Done - Correct			
+source-725	2023-07-26 14:00	CTD Niskin	S268	1	1164	PlanktoScope Depth 1 (DCM)	0.5	23	23	2023-07-26 13:32	2023-07-26 21:32	2023-07-26	21:32:00	68.1282	-167.487											Yes	Done - Correct			
+source-726	2023-07-26 14:01	CTD Niskin	S268	1	1166	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 13:35	2023-07-26 21:35	2023-07-26	21:35:00	68.1282	-167.487											Yes	Done - Correct			
+source-727	2023-07-26 15:33	CTD Niskin	S269	1	1169	PlanktoScope Depth 1 (DCM)	0.5	16	16	2023-07-26 15:08	2023-07-26 23:08	2023-07-26	23:08:00	68.0708	-167.667											Yes	Done - Correct			
+source-728	2023-07-26 15:34	CTD Niskin	S269	1	1170	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 15:10	2023-07-26 23:10	2023-07-26	23:10:00	68.0708	-167.667											Yes	Done - Correct			
+source-729	2023-07-26 16:54	CTD Niskin	S270	1	1174	PlanktoScope Depth 1 (DCM)	0.5	14	14	2023-07-26 16:43	2023-07-27 00:43	2023-07-27	00:43:00	68.0127	-167.85											Yes	Done - Correct			
+source-730	2023-07-26 16:54	CTD Niskin	S270	1	1176	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 16:46	2023-07-27 00:46	2023-07-27	00:46:00	68.0127	-167.85											Yes	Done - Correct			
+source-731	2023-07-26 18:00	CTD Niskin	S271	1	1180	PlanktoScope Depth 1 (DCM)	0.5	18	18	2023-07-26 18:55	2023-07-27 02:55	2023-07-27	02:55:00	67.9573	-168.038											Yes	Done - Correct			
+source-732	2023-07-26 18:00	CTD Niskin	S271	1	1182	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 18:59	2023-07-27 02:59	2023-07-27	02:59:00	67.9573	-168.038											Yes	Done - Correct			
+source-733	2023-07-26 19:00	CTD Niskin	S272	1	1185	PlanktoScope Depth 1 (DCM)	0.5	38	38	2023-07-26 20:21	2023-07-27 04:21	2023-07-27	04:21:00	67.8945	-168.223											Yes	Done - Correct			
+source-734	2023-07-26 19:00	CTD Niskin	S272	1	1188	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 20:29	2023-07-27 04:29	2023-07-27	04:29:00	67.8945	-168.223											Yes	Done - Correct			
+source-735	2023-07-26 23:59	CTD Niskin	S273	1	1191	PlanktoScope Depth 1 (DCM)	0.5	16	16	2023-07-26 23:38	2023-07-27 07:38	2023-07-27	07:38:00	67.8433	-168.408											Yes	Done - Correct			
+source-736	2023-07-26 23:59	CTD Niskin	S273	1	1193	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-26 23:42	2023-07-27 07:42	2023-07-27	07:42:00	67.8433	-168.408											Yes	Done - Correct			
+source-737	2023-07-27 01:30	CTD Niskin	S274	1	1197	PlanktoScope Depth 1 (DCM)	0.5	9	9	2023-07-27 01:25	2023-07-27 09:25	2023-07-27	09:25:00	67.785	-168.592											Yes	Done - Correct			
+source-738	2023-07-27 01:30	CTD Niskin	S274	1	1198	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-27 01:26	2023-07-27 09:26	2023-07-27	09:26:00	67.785	-168.592											Yes	Done - Correct			
+source-739	2023-07-27 02:50	CTD Niskin	S275	1	1202	PlanktoScope Depth 1 (DCM)	0.5	7	7	2023-07-27 02:42	2023-07-27 10:42	2023-07-27	10:42:00	67.7277	-168.776											Yes	Done - Correct			
+source-740	2023-07-27 02:50	CTD Niskin	S275	1	1203	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-27 02:43	2023-07-27 10:43	2023-07-27	10:43:00	67.7277	-168.776											Yes	Done - Correct			
+source-741	2023-07-27 04:24	CTD Niskin	S276	1	1204	PlanktoScope Depth 1 (DCM)	0.5	46	46	2023-07-27 03:55	2023-07-27 11:55	2023-07-27	11:55:00	67.671	-168.959											Yes	Done - Correct			
+source-742	2023-07-27 04:28	CTD Niskin	S276	1	1206	PlanktoScope Depth 2 (Surface)	0.5	9	9	2023-07-27 03:59	2023-07-27 11:59	2023-07-27	11:59:00	67.671	-168.959											Yes	Done - Correct			
+source-743	2023-07-27 04:43	CTD Niskin	S276	1	1207	PlanktoScope Depth 1 (DCM)	0.5	2	2	2023-07-27 04:01	2023-07-27 12:01	2023-07-27	12:01:00	67.671	-168.959											Yes	Done - Correct			
+source-747	2023-07-27 13:35	CTD Niskin	S277	1	1208	PlanktoScope Depth 1 (DCM)	0.5	35	35	2023-07-27 13:08	2023-07-27 21:08	2023-07-27	21:08:00	66.9435	-166.725											Yes	Done - Correct			
+source-748	2023-07-27 13:37	CTD Niskin	S277	1	1211	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-27 13:13	2023-07-27 21:13	2023-07-27	21:13:00	66.9435	-166.725											Yes	Done - Correct			
+source-749	2023-07-27 14:57	CTD Niskin	S278	1	1212	PlanktoScope Depth 1 (DCM)	0.5	36	36	2023-07-27 14:34	2023-07-27 22:34	2023-07-27	22:34:00	66.8933	-166.983											Yes	Done - Correct			
+source-750	2023-07-27 14:58	CTD Niskin	S278	1	1215	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-27 14:39	2023-07-27 22:39	2023-07-27	22:39:00	66.8933	-166.983											Yes	Done - Correct			
+source-751	2023-07-27 16:21	CTD Niskin	S279	1	1216	PlanktoScope Depth 1 (DCM)	0.5	30	30	2023-07-27 16:02	2023-07-28 00:02	2023-07-28	00:02:00	66.8328	-167.267											Yes	Done - Correct			
+source-752	2023-07-27 16:22	CTD Niskin	S279	1	1219	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-27 16:07	2023-07-28 00:07	2023-07-28	00:07:00	66.8328	-167.267											Yes	Done - Correct			
+source-762	2023-07-28 03:40	CTD Niskin	S280	1	1220	PlanktoScope Depth 1 (DCM)	0.5	43	43	2023-07-28 03:15	2023-07-28 11:15	2023-07-28	11:15:00	65.7833	-168.838											Yes	Done - Correct			
+source-763	2023-07-28 03:40	CTD Niskin	S280	1	1223	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-28 03:20	2023-07-28 11:20	2023-07-28	11:20:00	65.7833	-168.838											Yes	Done - Correct			
+source-764	2023-07-28 05:12	CTD Niskin	S282	1	1228	PlanktoScope Depth 1 (DCM)	0.5	49	49	2023-07-28 04:49	2023-07-28 12:49	2023-07-28	12:49:00	65.7368	-168.651											Yes	Done - Correct			
+source-765	2023-07-28 05:13	CTD Niskin	S282	1	1229	PlanktoScope Depth 2 (Surface)	0.5	27	27	2023-07-28 04:51	2023-07-28 12:51	2023-07-28	12:51:00	65.7368	-168.651											Yes	Done - Correct			
+source-766	2023-07-28 05:18	CTD Niskin	S282	1	1231	PlanktoScope Depth 1 (DCM)	0.5	2	2	2023-07-28 04:54	2023-07-28 12:54	2023-07-28	12:54:00	65.7368	-168.651											Yes	Done - Correct			
+source-767	2023-07-28 07:08	CTD Niskin	S284	1	1236	PlanktoScope Depth 1 (DCM)	0.5	51	51	2023-07-28 06:44	2023-07-28 14:44	2023-07-28	14:44:00	65.6917	-168.46											Yes	Done - Correct			
+source-768	2023-07-28 07:10	CTD Niskin	S284	1	1237	PlanktoScope Depth 2 (Surface)	0.5	25	25	2023-07-28 06:46	2023-07-28 14:46	2023-07-28	14:46:00	65.6917	-168.46											Yes	Done - Correct			
+source-769	2023-07-28 07:15	CTD Niskin	S284	1	1239	PlanktoScope Depth 1 (DCM)	0.5	2	2	2023-07-28 06:50	2023-07-28 14:50	2023-07-28	14:50:00	65.6917	-168.46											Yes	Done - Correct			
+source-770	2023-07-28 09:13	CTD Niskin	S286	1	1244	PlanktoScope Depth 1 (DCM)	0.5	40	40	2023-07-28 08:53	2023-07-28 16:53	2023-07-28	16:53:00	65.6447	-168.278											Yes	Done - Correct			
+source-771	2023-07-28 09:15	CTD Niskin	S286	1	1245	PlanktoScope Depth 2 (Surface)	0.5	25	25	2023-07-28 08:54	2023-07-28 16:54	2023-07-28	16:54:00	65.6447	-168.278											Yes	Done - Correct			
+source-772	2023-07-28 09:24	CTD Niskin	S286	1	1247	PlanktoScope Depth 1 (DCM)	0.5	2	2	2023-07-28 08:58	2023-07-28 16:58	2023-07-28	16:58:00	65.6447	-168.278											Yes	Done - Correct			
+source-773	2023-07-28 15:27	CTD Niskin	S288	1	1251	PlanktoScope Depth 1 (DCM)	0.5	43	43	2023-07-28 14:57	2023-07-28 22:57	2023-07-28	22:57:00	65.1917	-169.628											Yes	Done - Correct			
+source-774	2023-07-28 15:27	CTD Niskin	S288	1	1252	PlanktoScope Depth 2 (Surface)	0.5	26	26	2023-07-28 14:58	2023-07-28 22:58	2023-07-28	22:58:00	65.1917	-169.628											Yes	Done - Correct			
+source-775	2023-07-28 15:27	CTD Niskin	S288	1	1254	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 15:02	2023-07-28 23:02	2023-07-28	23:02:00	65.1917	-169.628											Yes	Done - Correct			
+source-776	2023-07-28 16:20	CTD Niskin	S289	1	1255	PlanktoScope Depth 1 (DCM)	0.5	48	48	2023-07-28 16:26	2023-07-29 00:26	2023-07-29	00:26:00	65.0888	-169.443											Yes	Done - Correct			
+source-777	2023-07-28 16:20	CTD Niskin	S289	1	1256	PlanktoScope Depth 2 (Surface)	0.5	25	25	2023-07-28 16:29	2023-07-29 00:29	2023-07-29	00:29:00	65.0888	-169.443											Yes	Done - Correct			
+source-778	2023-07-28 16:20	CTD Niskin	S289	1	1258	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 16:32	2023-07-29 00:32	2023-07-29	00:32:00	65.0888	-169.443											Yes	Done - Correct			
+source-779	2023-07-28 18:10	CTD Niskin	S290	1	1259	PlanktoScope Depth 1 (DCM)	0.5	45	45	2023-07-28 17:55	2023-07-29 01:55	2023-07-29	01:55:00	64.9867	-169.258											Yes	Done - Correct			
+source-780	2023-07-28 18:10	CTD Niskin	S290	1	1260	PlanktoScope Depth 2 (Surface)	0.5	22	22	2023-07-28 17:56	2023-07-29 01:56	2023-07-29	01:56:00	64.9867	-169.258											Yes	Done - Correct			
+source-781	2023-07-28 18:10	CTD Niskin	S290	1	1262	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 18:00	2023-07-29 02:00	2023-07-29	02:00:00	64.9867	-169.258											Yes	Done - Correct			
+source-782	2023-07-28 19:22	CTD Niskin	S291	1	1263	PlanktoScope Depth 1 (DCM)	0.5	45	45	2023-07-28 19:05	2023-07-29 03:05	2023-07-29	03:05:00	64.884	-169.087											Yes	Done - Correct			
+source-783	2023-07-28 19:22	CTD Niskin	S291	1	1264	PlanktoScope Depth 2 (Surface)	0.5	22	22	2023-07-28 19:07	2023-07-29 03:07	2023-07-29	03:07:00	64.884	-169.087											Yes	Done - Correct			
+source-784	2023-07-28 19:22	CTD Niskin	S291	1	1267	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 19:11	2023-07-29 03:11	2023-07-29	03:11:00	64.884	-169.087											Yes	Done - Correct			
+source-785	2023-07-28 20:10	CTD Niskin	S292	1	1268	PlanktoScope Depth 1 (DCM)	0.5	45	45	2023-07-28 20:16	2023-07-29 04:16	2023-07-29	04:16:00	64.7822	-168.91											Yes	Done - Correct			
+source-786	2023-07-28 20:10	CTD Niskin	S292	1	1272	PlanktoScope Depth 2 (Surface)	0.5	7	7	2023-07-28 20:22	2023-07-29 04:22	2023-07-29	04:22:00	64.7822	-168.91											Yes	Done - Correct			
+source-787	2023-07-28 20:10	CTD Niskin	S292	1	1273	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 20:23	2023-07-29 04:23	2023-07-29	04:23:00	64.7822	-168.91											Yes	Done - Correct			
+source-788	2023-07-28 21:40	CTD Niskin	S293	1	1274	PlanktoScope Depth 1 (DCM)	0.5	42	42	2023-07-28 21:33	2023-07-29 05:33	2023-07-29	05:33:00	64.6737	-168.727											Yes	Done - Correct			
+source-789	2023-07-28 21:40	CTD Niskin	S293	1	1276	PlanktoScope Depth 2 (Surface)	0.5	22	22	2023-07-28 21:37	2023-07-29 05:37	2023-07-29	05:37:00	64.6737	-168.727											Yes	Done - Correct			
+source-790	2023-07-28 21:40	CTD Niskin	S293	1	1279	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 21:41	2023-07-29 05:41	2023-07-29	05:41:00	64.6737	-168.727											Yes	Done - Correct			
+source-791	2023-07-28 23:00	CTD Niskin	S294	1	1280	PlanktoScope Depth 1 (DCM)	0.5	38	38	2023-07-28 22:46	2023-07-29 06:46	2023-07-29	06:46:00	64.673	-168.413											Yes	Done - Correct			
+source-792	2023-07-28 23:00	CTD Niskin	S294	1	1281	PlanktoScope Depth 2 (Surface)	0.5	27	27	2023-07-28 22:48	2023-07-29 06:48	2023-07-29	06:48:00	64.673	-168.413											Yes	Done - Correct			
+source-793	2023-07-28 23:00	CTD Niskin	S294	1	1284	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-28 22:52	2023-07-29 06:52	2023-07-29	06:52:00	64.673	-168.413											Yes	Done - Correct			
+source-803	2023-07-29 00:00	CTD Niskin	S295	1	1285	PlanktoScope Depth 1 (DCM)	0.5	33	33	2023-07-28 23:57	2023-07-29 07:57	2023-07-29	07:57:00	64.672	-168.099											Yes	Done - Correct			
+source-804	2023-07-29 00:00	CTD Niskin	S295	1	1286	PlanktoScope Depth 2 (Surface)	0.5	20	20	2023-07-28 23:58	2023-07-29 07:58	2023-07-29	07:58:00	64.672	-168.099											Yes	Done - Correct			
+source-805	2023-07-29 00:00	CTD Niskin	S295	1	1288	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-29 00:02	2023-07-29 08:02	2023-07-29	08:02:00	64.672	-168.099											Yes	Done - Correct			
+source-806	2023-07-29 01:00	CTD Niskin	S296	1	1289	PlanktoScope Depth 1 (DCM)	0.5	33	33	2023-07-29 01:10	2023-07-29 09:10	2023-07-29	09:10:00	64.6723	-167.781											Yes	Done - Correct			
+source-807	2023-07-29 01:00	CTD Niskin	S296	1	1291	PlanktoScope Depth 2 (Surface)	0.5	14	14	2023-07-29 01:12	2023-07-29 09:12	2023-07-29	09:12:00	64.6723	-167.781											Yes	Done - Correct			
+source-808	2023-07-29 01:00	CTD Niskin	S296	1	1293	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-29 01:16	2023-07-29 09:16	2023-07-29	09:16:00	64.6723	-167.781											Yes	Done - Correct			
+source-809	2023-07-29 02:30	CTD Niskin	S297	1	1294	PlanktoScope Depth 1 (DCM)	0.5	25	25	2023-07-29 02:20	2023-07-29 10:20	2023-07-29	10:20:00	64.6713	-167.464											Yes	Done - Correct			
+source-810	2023-07-29 02:30	CTD Niskin	S297	1	1295	PlanktoScope Depth 2 (Surface)	0.5	10	10	2023-07-29 02:22	2023-07-29 10:22	2023-07-29	10:22:00	64.6713	-167.464											Yes	Done - Correct			
+source-811	2023-07-29 02:30	CTD Niskin	S297	1	1297	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-29 02:24	2023-07-29 10:24	2023-07-29	10:24:00	64.6713	-167.464											Yes	Done - Correct			
+source-812	2023-07-29 03:55	CTD Niskin	S298	1	1298	PlanktoScope Depth 1 (DCM)	0.5	26	26	2023-07-29 03:28	2023-07-29 11:28	2023-07-29	11:28:00	64.6728	-167.15											Yes	Done - Correct			
+source-813	2023-07-29 03:55	CTD Niskin	S298	1	1299	PlanktoScope Depth 2 (Surface)	0.5	12	12	2023-07-29 03:30	2023-07-29 11:30	2023-07-29	11:30:00	64.6728	-167.15											Yes	Done - Correct			
+source-814	2023-07-29 03:55	CTD Niskin	S298	1	1300	Plankto 3 (5b S46 mL)	0.5	2	2	2023-07-29 03:32	2023-07-29 11:32	2023-07-29	11:32:00	64.6728	-167.15											Yes	Done - Correct			
+source-815	2023-07-29 05:11	CTD Niskin	S299	1	1301	PlanktoScope Depth 1 (DCM)	0.5	23	23	2023-07-29 04:38	2023-07-29 12:38	2023-07-29	12:38:00	64.6728	-166.835											Yes	Done - Correct			
+source-816	2023-07-29 05:12	CTD Niskin	S299	1	1302	PlanktoScope Depth 2 (Surface)	0.5	7	7	2023-07-29 04:40	2023-07-29 12:40	2023-07-29	12:40:00	64.6728	-166.835											Yes	Done - Correct			
+source-817	2023-07-29 05:13	CTD Niskin	S299	1	1303	Plankto 3 (2b S33 mL)	0.5	2	2	2023-07-29 04:41	2023-07-29 12:41	2023-07-29	12:41:00	64.6728	-166.835											Yes	Done - Correct			
+source-818	2023-07-29 06:25	CTD Niskin	S300	1	1304	PlanktoScope Depth 1 (DCM)	0.5	17	17	2023-07-29 06:08	2023-07-29 14:08	2023-07-29	14:08:00	64.6713	-166.605											Yes	Done - Correct			
+source-819	2023-07-29 06:26	CTD Niskin	S300	1	1306	PlanktoScope Depth 2 (Surface)	0.5	2	2	2023-07-29 06:11	2023-07-29 14:11	2023-07-29	14:11:00	64.6713	-166.605											Yes	Done - Correct			
+source-677	2023-07-24 22:36	Experiment	nutrient_gm		7001																						Done - Needs Edits	stephaniel	For all 7001-7008: Agree with the sample collection notes that 7001-7008 are concentrated from 500 mL. These can be put into the tatertots project on Ecotaxa. Because they are experimental samples, the other metadata categories aren't super applicable.	Grace says these are basically tatertots samples - they're processed the same way. However, the sample log sheet says they're concentrated down from 500 mL rather than 250 mL (which is what Matt said the tatertots samples were concentrated down from)
+source-678	2023-07-24 22:36	Experiment	nutrient_gm		7002																						Done - Needs Edits	stephaniel		Grace says these are basically tatertots samples - they're processed the same way. However, the sample log sheet says they're concentrated down from 500 mL rather than 250 mL (which is what Matt said the tatertots samples were concentrated down from)
+source-679	2023-07-24 23:36	Experiment	nutrient_gm		7003																						Done - Needs Edits	stephaniel		Grace says these are basically tatertots samples - they're processed the same way. However, the sample log sheet says they're concentrated down from 500 mL rather than 250 mL (which is what Matt said the tatertots samples were concentrated down from)
+source-680	2023-07-24 23:36	Experiment	nutrient_gm		7004																						Done - Needs Edits	stephaniel		Grace says these are basically tatertots samples - they're processed the same way. However, the sample log sheet says they're concentrated down from 500 mL rather than 250 mL (which is what Matt said the tatertots samples were concentrated down from)
+source-713	2023-07-26 00:20	Experiment	nutrient_gm		7005																						Done - Needs Edits	stephaniel		
+source-714	2023-07-26 00:20	Experiment	nutrient_gm		7006																						Done - Needs Edits	stephaniel		
+source-715	2023-07-26 00:20	Experiment	nutrient_gm		7007																						Done - Needs Edits	stephaniel		
+source-716	2023-07-26 00:20	Experiment	nutrient_gm		7008																						Done - Needs Edits	stephaniel		
+source-50	2023-06-23 17:00	Experiment	UV_exp		8072		0.5							70.822	-165.375												Done - Correct			All these samples were concentrated from 500 mL to 10 mL
+source-51	2023-06-23 17:00	Experiment	UV_exp		8073									70.822	-165.375												Done - Correct			
+source-52	2023-06-23 17:00	Experiment	UV_exp		8074									70.5397	-161.641												Done - Correct			
+source-53	2023-06-23 17:00	Experiment	UV_exp		8075									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-54	2023-06-23 17:00	Experiment	UV_exp		8076									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-55	2023-06-23 17:00	Experiment	UV_exp		8077									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-56	2023-06-23 17:00	Experiment	UV_exp		8078									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-57	2023-06-23 17:00	Experiment	UV_exp		8079									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-58	2023-06-23 17:00	Experiment	UV_exp		8080									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-59	2023-06-23 17:00	Experiment	UV_exp		8081									70.5397	-161.641												Done - Correct			Actual sample availability timestamp was approximate, as samples were not all generated at a single time
+source-60	2023-06-23 17:00	Experiment	UV_exp		8082									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-61	2023-06-23 17:00	Experiment	UV_exp		8084									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-62	2023-06-23 17:00	Experiment	UV_exp		8085									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-63	2023-06-23 17:00	Experiment	UV_exp		8086									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-64	2023-06-23 17:00	Experiment	UV_exp		8088									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-65	2023-06-23 17:00	Experiment	UV_exp		8089									70.5397	-161.641												Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-78	2023-06-24 14:00	Experiment	UV_exp		8090									70.8893	-161.571												Done - Correct			
+source-79	2023-06-24 14:04	Experiment	UV_exp		8091									70.8893	-161.571												Done - Correct			
+source-80	2023-06-24 14:14	Experiment	UV_exp		8092									70.8893	-161.571												Done - Correct			
+source-81	2023-06-24 14:20	Experiment	UV_exp		8093									70.8893	-161.571												Done - Correct			
+source-82	2023-06-24 14:26	Experiment	UV_exp		8094									70.8893	-161.571												Done - Correct			
+source-83	2023-06-24 14:32	Experiment	UV_exp		8095									70.8893	-161.571												Done - Correct			
+source-84	2023-06-24 14:38	Experiment	UV_exp		8096									70.8893	-161.571												Done - Correct			
+source-85	2023-06-24 14:44	Experiment	UV_exp		8097									70.8893	-161.571												Done - Correct			
+source-88	2023-06-24 14:47	Experiment	UV_exp		8098									70.8893	-161.571												Done - Correct			
+source-89	2023-06-24 14:54	Experiment	UV_exp		8099									70.8893	-161.571												Done - Correct			
+source-90	2023-06-24 15:00	Experiment	UV_exp		8100									70.8893	-161.571												Done - Correct			
+source-91	2023-06-24 15:38	Experiment	UV_exp		8101									70.8893	-161.571												Done - Correct			
+source-92	2023-06-24 15:54	Experiment	UV_exp		8102									70.8893	-161.571												Done - Correct			
+source-93	2023-06-24 16:00	Experiment	UV_exp		8104									70.8893	-161.571												Done - Correct			
+source-94	2023-06-24 16:06	Experiment	UV_exp		8105									70.8893	-161.571												Done - Correct			
+source-95	2023-06-24 16:12	Experiment	UV_exp		8106									70.8893	-161.571												Done - Correct			
+source-96	2023-06-24 16:18	Experiment	UV_exp		8107									70.8893	-161.571												Done - Correct			
+source-151	2023-06-29 20:30	Experiment	UV_exp		8179									71.1787	-163.023												Done - Correct			
+source-152	2023-06-29 20:30	Experiment	UV_exp		8180									71.1787	-163.023												Done - Correct			
+source-153	2023-06-29 20:30	Experiment	UV_exp		8181									71.1787	-163.023												Done - Correct			
+source-154	2023-06-29 20:30	Experiment	UV_exp		8182									71.1787	-163.023												Done - Correct			
+source-155	2023-06-29 21:00	Experiment	UV_exp		8183									71.1787	-163.023												Done - Correct			
+source-156	2023-06-29 21:00	Experiment	UV_exp		8184									71.1787	-163.023												Done - Correct			
+source-157	2023-06-29 21:00	Experiment	UV_exp		8185									71.1787	-163.023												Done - Correct			
+source-158	2023-06-29 21:15	Experiment	UV_exp		8186									71.1787	-163.023												Done - Correct			
+source-159	2023-06-29 21:15	Experiment	UV_exp		8187									71.1787	-163.023												Done - Correct			
+source-160	2023-06-29 21:15	Experiment	UV_exp		8188									71.1787	-163.023												Done - Correct			
+source-161	2023-06-29 21:30	Experiment	UV_exp		8189									71.1787	-163.023												Done - Correct			
+source-162	2023-06-29 21:30	Experiment	UV_exp		8190									71.1787	-163.023												Done - Correct			
+source-163	2023-06-29 21:30	Experiment	UV_exp		8191									71.1787	-163.023												Done - Correct			
+source-164	2023-06-29 21:45	Experiment	UV_exp		8192									71.1787	-163.023												Done - Correct			
+source-165	2023-06-29 21:45	Experiment	UV_exp		8193									71.1787	-163.023												Done - Correct			
+source-166	2023-06-29 21:45	Experiment	UV_exp		8194									71.1787	-163.023												Done - Correct			
+source-167	2023-06-29 21:30	Experiment	UV_exp		8195									71.1787	-163.023												Done - Correct			
+source-168	2023-06-29 21:30	Experiment	UV_exp		8196									71.1787	-163.023												Done - Correct			
+source-178	2023-06-30 18:15	Experiment	UV_exp		8197									71.3947	-163.914												Done - Correct			
+source-179	2023-06-30 18:15	Experiment	UV_exp		8198									71.3947	-163.914												Done - Correct			
+source-180	2023-06-30 18:15	Experiment	UV_exp		8199									71.3947	-163.914												Done - Correct			
+source-181	2023-06-30 18:30	Experiment	UV_exp		8200									71.3947	-163.914												Done - Correct			
+source-182	2023-06-30 18:30	Experiment	UV_exp		8201									71.3947	-163.914												Done - Correct			
+source-183	2023-06-30 18:30	Experiment	UV_exp		8202									71.3947	-163.914												Done - Correct			
+source-184	2023-06-30 18:45	Experiment	UV_exp		8203									71.3947	-163.914												Done - Correct			
+source-185	2023-06-30 18:45	Experiment	UV_exp		8204									71.3947	-163.914												Done - Correct			
+source-186	2023-06-30 18:45	Experiment	UV_exp		8205									71.3947	-163.914												Done - Correct			
+source-187	2023-06-30 19:00	Experiment	UV_exp		8206									71.3947	-163.914												Done - Correct			
+source-188	2023-06-30 19:00	Experiment	UV_exp		8207									71.3947	-163.914												Done - Correct			
+source-189	2023-06-30 19:00	Experiment	UV_exp		8208									71.3947	-163.914												Done - Correct			
+source-190	2023-06-30 19:15	Experiment	UV_exp		8209									71.3947	-163.914												Done - Correct			
+source-191	2023-06-30 19:15	Experiment	UV_exp		8210									71.3947	-163.914												Done - Correct			
+source-192	2023-06-30 19:15	Experiment	UV_exp		8211									71.3947	-163.914												Done - Correct			
+source-193	2023-06-30 19:30	Experiment	UV_exp		8212									71.3947	-163.914												Done - Correct			
+source-194	2023-06-30 19:30	Experiment	UV_exp		8213									71.3947	-163.914												Done - Correct			
+source-195	2023-06-30 19:30	Experiment	UV_exp		8214									71.3947	-163.914												Done - Correct			
+source-257	2023-07-05 16:54	Experiment	UV_exp		8287									71.0673	-163.147												Done - Correct			
+source-258	2023-07-05 16:54	Experiment	UV_exp		8287									71.0673	-163.147												Done - Correct			
+source-259	2023-07-05 16:54	Experiment	UV_exp		8289									71.0673	-163.147												Done - Correct			
+source-260	2023-07-05 17:14	Experiment	UV_exp		8290									71.0673	-163.147												Done - Correct			
+source-261	2023-07-05 17:14	Experiment	UV_exp		8291									71.0673	-163.147												Done - Correct			
+source-262	2023-07-05 17:14	Experiment	UV_exp		8292									71.0673	-163.147												Done - Correct			
+source-263	2023-07-05 17:35	Experiment	UV_exp		8293									71.0673	-163.147												Done - Correct			
+source-264	2023-07-05 17:35	Experiment	UV_exp		8294									71.0673	-163.147												Done - Correct			
+source-265	2023-07-05 17:35	Experiment	UV_exp		8295									71.0673	-163.147												Done - Correct			
+source-266	2023-07-05 17:35	Experiment	UV_exp		8296									71.0673	-163.147												Done - Correct			
+source-269	2023-07-05 17:55	Experiment	UV_exp		8297									70.9157	-163.11												Done - Correct			
+source-270	2023-07-05 17:55	Experiment	UV_exp		8298									71.0673	-163.147												Done - Correct			
+source-271	2023-07-05 17:55	Experiment	UV_exp		8299									71.0673	-163.147												Done - Correct			
+source-272	2023-07-05 18:15	Experiment	UV_exp		8300									71.0673	-163.147												Done - Correct			
+source-273	2023-07-05 18:15	Experiment	UV_exp		8301									71.0673	-163.147												Done - Correct			
+source-274	2023-07-05 18:15	Experiment	UV_exp		8302									71.0673	-163.147												Done - Correct			
+source-275	2023-07-05 18:15	Experiment	UV_exp		8303									71.0673	-163.147												Done - Correct			
+source-276	2023-07-05 18:15	Experiment	UV_exp		8304									71.0673	-163.147												Done - Correct			
+source-287	2023-07-06 17:00	Experiment	UV_exp		8305									71.3278	-163.016												Done - Correct			
+source-288	2023-07-06 17:00	Experiment	UV_exp		8306									71.3278	-163.016												Done - Correct			
+source-289	2023-07-06 17:00	Experiment	UV_exp		8307									71.3278	-163.016												Done - Correct			
+source-290	2023-07-06 17:15	Experiment	UV_exp		8308																						Done - Correct			
+source-294	2023-07-06 17:15	Experiment	UV_exp		8309									71.3278	-163.016												Done - Correct			
+source-295	2023-07-06 17:15	Experiment	UV_exp		8310									71.3278	-163.016												Done - Correct			
+source-296	2023-07-06 17:30	Experiment	UV_exp		8311									71.3278	-163.016												Done - Correct			
+source-297	2023-07-06 17:30	Experiment	UV_exp		8312									71.3278	-163.016												Done - Correct			
+source-298	2023-07-06 17:30	Experiment	UV_exp		8313									71.3278	-163.016												Done - Correct			
+source-299	2023-07-06 17:45	Experiment	UV_exp		8314									71.3278	-163.016												Done - Correct			
+source-300	2023-07-06 17:45	Experiment	UV_exp		8315									71.3278	-163.016												Done - Correct			
+source-301	2023-07-06 17:45	Experiment	UV_exp		8316									71.3278	-163.016												Done - Correct			
+source-302	2023-07-06 18:00	Experiment	UV_exp		8317									71.3278	-163.016												Done - Correct			
+source-303	2023-07-06 18:00	Experiment	UV_exp		8318									71.3278	-163.016												Done - Correct			
+source-304	2023-07-06 18:00	Experiment	UV_exp		8319									71.3278	-163.016												Done - Correct			
+source-305	2023-07-06 18:15	Experiment	UV_exp		8320									71.3278	-163.016												Done - Correct			
+source-306	2023-07-06 18:15	Experiment	UV_exp		8321									71.3278	-163.016												Done - Correct			
+source-307	2023-07-06 18:15	Experiment	UV_exp		8322									71.3278	-163.016												Done - Correct			
+source-374	2023-07-11 16:05	Experiment	UV_exp		8395									71.3278	-163.016												Done - Correct			
+source-375	2023-07-11 16:05	Experiment	UV_exp		8396									71.3278	-163.016												Done - Correct			
+source-376	2023-07-11 16:05	Experiment	UV_exp		8397									71.3278	-163.016												Done - Correct			
+source-377	2023-07-11 16:05	Experiment	UV_exp		8398									71.3278	-163.016												Done - Correct			
+source-378	2023-07-11 19:05	Experiment	UV_exp		8399									71.3278	-163.016												Done - Correct			
+source-379	2023-07-11 19:05	Experiment	UV_exp		8400									71.3278	-163.016												Done - Correct			
+source-380	2023-07-11 19:05	Experiment	UV_exp		8401									71.3278	-163.016												Done - Correct			
+source-381	2023-07-11 19:05	Experiment	UV_exp		8402									71.3278	-163.016												Done - Correct			
+source-382	2023-07-11 19:05	Experiment	UV_exp		8403									71.3278	-163.016												Done - Correct			
+source-383	2023-07-11 20:05	Experiment	UV_exp		8404									71.3278	-163.016												Done - Correct			
+source-384	2023-07-11 20:05	Experiment	UV_exp		8405									71.3278	-163.016												Done - Correct			
+source-385	2023-07-11 20:05	Experiment	UV_exp		8406									71.3278	-163.016												Done - Correct			
+source-386	2023-07-11 20:05	Experiment	UV_exp		8407									71.3278	-163.016												Done - Correct			
+source-387	2023-07-11 20:05	Experiment	UV_exp		8408									71.3278	-163.016												Done - Correct			
+source-388	2023-07-11 20:05	Experiment	UV_exp		8409									71.3278	-163.016												Done - Correct			
+source-389	2023-07-11 20:05	Experiment	UV_exp		8410									71.3278	-163.016												Done - Correct			
+source-390	2023-07-11 20:05	Experiment	UV_exp		8411									71.3278	-163.016												Done - Correct			
+source-398	2023-07-12 14:23	Experiment	UV_exp		8412									71.1962	-164.816												Done - Correct			
+source-399	2023-07-12 15:00	Experiment	UV_exp		8413									71.1962	-164.816												Done - Correct			
+source-402	2023-07-12 15:00	Experiment	UV_exp		8414									71.1962	-164.816												Done - Correct			
+source-403	2023-07-12 15:30	Experiment	UV_exp		8415									71.1962	-164.816												Done - Correct			
+source-404	2023-07-12 15:30	Experiment	UV_exp		8416									71.1962	-164.816												Done - Correct			
+source-405	2023-07-12 15:30	Experiment	UV_exp		8417									71.1962	-164.816												Done - Correct			
+source-406	2023-07-12 16:00	Experiment	UV_exp		8418									71.1962	-164.816												Done - Correct			
+source-407	2023-07-12 16:00	Experiment	UV_exp		8419									71.1962	-164.816												Done - Correct			
+source-408	2023-07-12 16:00	Experiment	UV_exp		8420									71.1962	-164.816												Done - Correct			
+source-409	2023-07-12 17:30	Experiment	UV_exp		8421									71.1962	-164.816												Done - Correct			
+source-410	2023-07-12 17:30	Experiment	UV_exp		8422									71.1962	-164.816												Done - Correct			
+source-411	2023-07-12 17:30	Experiment	UV_exp		8423									71.1962	-164.816												Done - Correct			
+source-412	2023-07-12 18:30	Experiment	UV_exp		8424									71.1962	-164.816												Done - Correct			
+source-413	2023-07-12 18:30	Experiment	UV_exp		8425									71.1962	-164.816												Done - Correct			
+source-414	2023-07-12 18:30	Experiment	UV_exp		8426									71.1962	-164.816												Done - Correct			
+source-415	2023-07-12 19:30	Experiment	UV_exp		8427									71.1962	-164.816												Done - Correct			
+source-416	2023-07-12 19:30	Experiment	UV_exp		8428									71.1962	-164.816												Done - Correct			
+source-417	2023-07-12 19:30	Experiment	UV_exp		8429									71.1962	-164.816												Done - Correct			
+source-495	2023-07-17 18:47	Experiment	UV_exp		8502									70.822	-165.375												Done - Correct			
+source-496	2023-07-17 19:30	Experiment	UV_exp		8503									70.822	-165.375												Done - Correct			
+source-497	2023-07-17 19:30	Experiment	UV_exp		8504									70.822	-165.375												Done - Correct			
+source-498	2023-07-17 19:30	Experiment	UV_exp		8505									70.822	-165.375												Done - Correct			
+source-499	2023-07-17 19:30	Experiment	UV_exp		8506									70.822	-165.375												Done - Correct			
+source-500	2023-07-17 19:30	Experiment	UV_exp		8507									70.822	-165.375												Done - Correct			
+source-501	2023-07-17 19:30	Experiment	UV_exp		8508									70.822	-165.375												Done - Correct			
+source-502	2023-07-17 19:30	Experiment	UV_exp		8509									70.822	-165.375												Done - Correct			
+source-503	2023-07-17 19:30	Experiment	UV_exp		8510									70.822	-165.375												Done - Correct			
+source-504	2023-07-17 19:30	Experiment	UV_exp		8511									70.822	-165.375												Done - Correct			
+source-505	2023-07-17 19:30	Experiment	UV_exp		8512									70.822	-165.375												Done - Correct			
+source-506	2023-07-17 19:30	Experiment	UV_exp		8513									70.822	-165.375												Done - Correct			
+source-507	2023-07-17 19:30	Experiment	UV_exp		8514									70.822	-165.375												Done - Correct			
+source-508	2023-07-17 19:30	Experiment	UV_exp		8515									70.822	-165.375												Done - Correct			
+source-509	2023-07-17 19:30	Experiment	UV_exp		8516									70.822	-165.375												Done - Correct			
+source-510	2023-07-17 19:30	Experiment	UV_exp		8517									70.822	-165.375												Done - Correct			
+source-511	2023-07-17 19:30	Experiment	UV_exp		8518									70.822	-165.375												Done - Correct			
+source-512	2023-07-17 19:30	Experiment	UV_exp		8519									70.822	-165.375												Done - Correct			
+source-527	2023-07-18 16:48	Experiment	UV_exp		8520									70.9413	-163.218												Done - Correct			
+source-528	2023-07-18 20:30	Experiment	UV_exp		8521									70.9413	-163.218												Done - Correct			
+source-529	2023-07-18 20:30	Experiment	UV_exp		8522									70.9413	-163.218												Done - Correct			
+source-530	2023-07-18 20:30	Experiment	UV_exp		8523									70.9413	-163.218												Done - Correct			
+source-531	2023-07-18 20:30	Experiment	UV_exp		8524									70.9413	-163.218												Done - Correct			
+source-532	2023-07-18 20:30	Experiment	UV_exp		8525									70.9413	-163.218												Done - Correct			
+source-533	2023-07-18 20:30	Experiment	UV_exp		8526									70.9413	-163.218												Done - Correct			
+source-534	2023-07-18 20:30	Experiment	UV_exp		8527									70.9413	-163.218												Done - Correct			
+source-535	2023-07-18 20:30	Experiment	UV_exp		8528									70.9413	-163.218												Done - Correct			
+source-536	2023-07-18 20:30	Experiment	UV_exp		8529									70.9413	-163.218												Done - Correct			
+source-537	2023-07-18 20:30	Experiment	UV_exp		8530									70.9413	-163.218												Done - Correct			
+source-538	2023-07-18 20:30	Experiment	UV_exp		8531									70.9413	-163.218												Done - Correct			
+source-539	2023-07-18 20:30	Experiment	UV_exp		8532									70.9413	-163.218												Done - Correct			
+source-540	2023-07-18 20:30	Experiment	UV_exp		8533									70.9413	-163.218												Done - Correct			
+source-541	2023-07-18 20:30	Experiment	UV_exp		8534									70.9413	-163.218												Done - Correct			
+source-542	2023-07-18 20:30	Experiment	UV_exp		8535									70.9413	-163.218												Done - Correct			Sample lost.
+source-543	2023-07-18 20:30	Experiment	UV_exp		8536									70.9413	-163.218												Done - Correct			
+source-544	2023-07-18 20:30	Experiment	UV_exp		8537									70.9413	-163.218												Done - Correct			
+source-613	2023-07-23 18:45	Experiment	UV_exp		8610									71.461	-162.911												Done - Correct			
+source-614	2023-07-23 18:45	Experiment	UV_exp		8611									71.461	-162.911												Done - Correct			
+source-615	2023-07-23 18:45	Experiment	UV_exp		8612									71.461	-162.911												Done - Correct			
+source-616	2023-07-23 18:45	Experiment	UV_exp		8613									71.461	-162.911												Done - Correct			
+source-619	2023-07-23 19:15	Experiment	UV_exp		8614									71.461	-162.911												Done - Correct			
+source-620	2023-07-23 19:15	Experiment	UV_exp		8615									71.461	-162.911												Done - Correct			
+source-621	2023-07-23 19:15	Experiment	UV_exp		8616									71.461	-162.911												Done - Correct			
+source-622	2023-07-23 19:15	Experiment	UV_exp		8617									71.461	-162.911												Done - Correct			
+source-623	2023-07-23 19:15	Experiment	UV_exp		8618									71.461	-162.911												Done - Correct			
+source-624	2023-07-23 19:15	Experiment	UV_exp		8619									71.461	-162.911												Done - Correct			
+source-625	2023-07-23 19:15	Experiment	UV_exp		8620									71.461	-162.911												Done - Correct			
+source-626	2023-07-23 19:15	Experiment	UV_exp		8621									71.461	-162.911												Done - Correct			
+source-627	2023-07-23 19:15	Experiment	UV_exp		8622									71.461	-162.911												Done - Correct			
+source-628	2023-07-23 19:15	Experiment	UV_exp		8623									71.461	-162.911												Done - Correct			
+source-629	2023-07-23 19:15	Experiment	UV_exp		8624									71.461	-162.911												Done - Correct			
+source-630	2023-07-23 19:15	Experiment	UV_exp		8625									71.461	-162.911												Done - Correct			
+source-631	2023-07-23 19:15	Experiment	UV_exp		8626									71.461	-162.911												Done - Correct			
+source-632	2023-07-23 19:15	Experiment	UV_exp		8627									71.461	-162.911												Done - Correct			
+source-645	2023-07-24 16:38	Experiment	UV_exp		8628									71.4202	-164.403												Done - Correct			
+source-646	2023-07-24 16:38	Experiment	UV_exp		8629									71.4202	-164.403												Done - Correct			
+source-647	2023-07-24 16:38	Experiment	UV_exp		8630									71.4202	-164.403												Done - Correct			
+source-648	2023-07-24 16:38	Experiment	UV_exp		8631									71.4202	-164.403												Done - Correct			
+source-649	2023-07-24 16:38	Experiment	UV_exp		8632									71.4202	-164.403												Done - Correct			
+source-650	2023-07-24 16:38	Experiment	UV_exp		8633									71.4202	-164.403												Done - Correct			
+source-651	2023-07-24 17:38	Experiment	UV_exp		8634									71.4202	-164.403												Done - Correct			
+source-652	2023-07-24 17:38	Experiment	UV_exp		8635									71.4202	-164.403												Done - Correct			
+source-653	2023-07-24 17:38	Experiment	UV_exp		8636									71.4202	-164.403												Done - Correct			
+source-654	2023-07-24 17:38	Experiment	UV_exp		8637									71.4202	-164.403												Done - Correct			
+source-655	2023-07-24 17:38	Experiment	UV_exp		8638									71.4202	-164.403												Done - Correct			
+source-656	2023-07-24 17:38	Experiment	UV_exp		8639									71.4202	-164.403												Done - Correct			
+source-657	2023-07-24 17:38	Experiment	UV_exp		8640									71.4202	-164.403												Done - Correct			
+source-658	2023-07-24 17:38	Experiment	UV_exp		8641									71.4202	-164.403												Done - Correct			
+source-659	2023-07-24 17:38	Experiment	UV_exp		8642									71.4202	-164.403												Done - Correct			
+source-660	2023-07-24 17:38	Experiment	UV_exp		8643									71.4202	-164.403												Done - Correct			
+source-661	2023-07-24 17:38	Experiment	UV_exp		8644									71.4202	-164.403												Done - Correct			
+source-662	2023-07-24 17:38	Experiment	UV_exp		8645									71.4202	-164.403												Done - Correct			
+source-22	2023-06-20 18:30	Experiment	fake sample to test the spreadsheet		(N/A)																						(skip)			
+source-373	2023-07-11 16:05	Experiment	UV_exp		8394B									71.3278	-163.016												Done - Correct			
+source-34	2023-06-22 20:49	Experiment	tatertots		E01 04 NO3																						Done - Correct			
+source-33	2023-06-22 20:19	Experiment	tatertots		E01 08																						Done - Correct			
+source-42	2023-06-23 01:04	Experiment	tatertots		E01 04 NH4																						Done - Correct			
+source-44	2023-06-23 01:04	Experiment	tatertots		E01 05 NH4																						Done - Correct			
+source-38	2023-06-22 21:40	Experiment	tatertots		E01 05 NO3																						Done - Correct			
+source-37	2023-06-22 21:40	Experiment	tatertots		E01 06																						Done - Correct			
+source-45	2023-06-23 01:04	Experiment	tatertots		E01 06 NO3																						Done - Correct			
+source-36	2023-06-22 21:40	Experiment	tatertots		E01 07																						Done - Correct			
+source-41	2023-06-23 00:49	Experiment	tatertots		E01 09																						Done - Correct			
+source-46	2023-06-23 01:04	Experiment	tatertots		E01 10																						Done - Correct			
+source-35	2023-06-22 21:10	Experiment	tatertots		E01 11																						Done - Correct			
+source-43	2023-06-23 01:04	Experiment	tatertots		E01 12																						Done - Correct			
+source-308	2023-07-06 22:00	Experiment	tatertots		E04 01																						Done - Correct			
+source-321	2023-07-08 01:20	Experiment	tatertots		E04 01 NH4																						Done - Correct			
+source-318	2023-07-07 23:20	Experiment	tatertots		E04 01 NO3																						Done - Correct			
+source-309	2023-07-06 22:00	Experiment	tatertots		E04 02																						Done - Correct			
+source-322	2023-07-08 01:20	Experiment	tatertots		E04 02 NH4																						Done - Correct			
+source-319	2023-07-07 23:20	Experiment	tatertots		E04 02 NO3																						Done - Correct			
+source-310	2023-07-06 22:00	Experiment	tatertots		E04 03																						Done - Correct			
+source-323	2023-07-08 01:20	Experiment	tatertots		E04 03 NH4																						Done - Correct			
+source-320	2023-07-07 23:20	Experiment	tatertots		E04 03 NO3																						Done - Correct			
+source-335	2023-07-08 23:59	Experiment	tatertots		E04 04 NH4																						Done - Correct			
+source-338	2023-07-08 23:59	Experiment	tatertots		E04 04 NO3																						Done - Correct			
+source-336	2023-07-08 23:59	Experiment	tatertots		E04 05 NH4																						Done - Correct			
+source-339	2023-07-08 23:59	Experiment	tatertots		E04 05 NO3																						Done - Correct			
+source-337	2023-07-08 23:59	Experiment	tatertots		E04 06 NH4																						Done - Correct			
+source-340	2023-07-08 23:59	Experiment	tatertots		E04 06 NO3																						Done - Correct			
+source-341	2023-07-09 00:30	Experiment	tatertots		E04 07																						Done - Correct			
+source-342	2023-07-09 00:30	Experiment	tatertots		E04 08																						Done - Correct			
+source-343	2023-07-09 00:30	Experiment	tatertots		E04 09																						Done - Correct			
+source-344	2023-07-09 01:10	Experiment	tatertots		E04 10																						Done - Correct			
+source-345	2023-07-09 01:10	Experiment	tatertots		E04 11																						Done - Correct			
+source-346	2023-07-09 01:10	Experiment	tatertots		E04 12																						Done - Correct			
+source-351	2023-07-09 23:05	Experiment	tatertots		E04 13 NH4																						Done - Correct			
+source-354	2023-07-09 23:05	Experiment	tatertots		E04 13 NO3																						Done - Correct			
+source-352	2023-07-09 23:05	Experiment	tatertots		E04 14 NH4																						Done - Correct			
+source-355	2023-07-09 23:05	Experiment	tatertots		E04 14 NO3																						Done - Correct			
+source-353	2023-07-09 23:05	Experiment	tatertots		E04 15 NH4																						Done - Correct			
+source-356	2023-07-09 23:05	Experiment	tatertots		E04 15 NO3																						Done - Correct			
+source-357	2023-07-09 23:15	Experiment	tatertots		E04 16																						Done - Correct			
+source-358	2023-07-09 23:15	Experiment	tatertots		E04 17																						Done - Correct			
+source-359	2023-07-09 23:15	Experiment	tatertots		E04 18																						Done - Correct			
+source-364	2023-07-10 00:05	Experiment	tatertots		E04 19																						Done - Correct			
+source-365	2023-07-10 00:05	Experiment	tatertots		E04 20																						Done - Correct			
+source-366	2023-07-10 00:05	Experiment	tatertots		E04 21																						Done - Correct			
+source-391	2023-07-12 00:41	Experiment	tatertots		E05 01																						Done - Correct			
+source-421	2023-07-13 01:00	Experiment	tatertots		E05 01 NH4																						Done - Correct			
+source-418	2023-07-13 00:34	Experiment	tatertots		E05 01 NO3																						Done - Correct			
+source-392	2023-07-12 00:41	Experiment	tatertots		E05 02																						Done - Correct			
+source-422	2023-07-13 01:00	Experiment	tatertots		E05 02 NH4																						Done - Correct			
+source-419	2023-07-13 00:34	Experiment	tatertots		E05 02 NO3																						Done - Correct			
+source-393	2023-07-12 00:41	Experiment	tatertots		E05 03																						Done - Correct			
+source-423	2023-07-13 01:00	Experiment	tatertots		E05 03 NH4																						Done - Correct			
+source-420	2023-07-13 00:34	Experiment	tatertots		E05 03 NO3																						Done - Correct			
+source-432	2023-07-13 22:12	Experiment	tatertots		E05 04 NH4																						Done - Correct			
+source-435	2023-07-13 22:12	Experiment	tatertots		E05 04 NO3																						Done - Correct			
+source-433	2023-07-13 22:12	Experiment	tatertots		E05 05 NH4																						Done - Correct			
+source-436	2023-07-13 22:12	Experiment	tatertots		E05 05 NO3																						Done - Correct			
+source-434	2023-07-13 22:12	Experiment	tatertots		E05 06 NH4																						Done - Correct			
+source-437	2023-07-13 22:12	Experiment	tatertots		E05 06 NO3																						Done - Correct			
+source-438	2023-07-14 00:02	Experiment	tatertots		E05 07																						Done - Correct			
+source-439	2023-07-14 00:02	Experiment	tatertots		E05 08																						Done - Correct			
+source-440	2023-07-14 00:02	Experiment	tatertots		E05 09																						Done - Correct			
+source-441	2023-07-14 00:02	Experiment	tatertots		E05 10																						Done - Correct			
+source-442	2023-07-14 00:02	Experiment	tatertots		E05 11																						Done - Correct			
+source-443	2023-07-14 00:02	Experiment	tatertots		E05 12																						Done - Correct			
+source-459	2023-07-14 22:35	Experiment	tatertots		E05 13 NH4																						Done - Correct			
+source-456	2023-07-14 22:35	Experiment	tatertots		E05 13 NO3																						Done - Correct			
+source-460	2023-07-14 22:35	Experiment	tatertots		E05 14 NH4																						Done - Correct			
+source-457	2023-07-14 22:35	Experiment	tatertots		E05 14 NO3																						Done - Correct			
+source-461	2023-07-14 22:35	Experiment	tatertots		E05 15 NH4																						Done - Correct			
+source-458	2023-07-14 22:35	Experiment	tatertots		E05 15 NO3																						Done - Correct			
+source-462	2023-07-14 23:35	Experiment	tatertots		E05 16																						Done - Correct			
+source-463	2023-07-14 23:35	Experiment	tatertots		E05 17																						Done - Correct			
+source-464	2023-07-14 23:35	Experiment	tatertots		E05 18																						Done - Correct			
+source-465	2023-07-14 23:35	Experiment	tatertots		E05 19																						Done - Correct			
+source-466	2023-07-14 23:35	Experiment	tatertots		E05 20																						Done - Correct			
+source-467	2023-07-14 23:35	Experiment	tatertots		E05 21																						Done - Correct			
+source-486	2023-07-16 18:33	Experiment	tatertots		E06 01																						Done - Correct			
+source-513	2023-07-17 20:45	Experiment	tatertots		E06 01 NH4																						Done - Correct			
+source-516	2023-07-17 20:45	Experiment	tatertots		E06 01 NO3																						Done - Correct			
+source-487	2023-07-16 18:33	Experiment	tatertots		E06 02																						Done - Correct			
+source-514	2023-07-17 20:45	Experiment	tatertots		E06 02 NH4																						Done - Correct			
+source-517	2023-07-17 20:45	Experiment	tatertots		E06 02 NO3																						Done - Correct			
+source-488	2023-07-16 18:33	Experiment	tatertots		E06 03																						Done - Correct			
+source-515	2023-07-17 20:45	Experiment	tatertots		E06 03 NH4																						Done - Correct			
+source-518	2023-07-17 20:45	Experiment	tatertots		E06 03 NO3																						Done - Correct			
+source-548	2023-07-18 20:30	Experiment	tatertots		E06 04 NH4																						Done - Correct			
+source-545	2023-07-18 20:30	Experiment	tatertots		E06 04 NO3																						Done - Correct			
+source-549	2023-07-18 20:30	Experiment	tatertots		E06 05 NH4																						Done - Correct			
+source-546	2023-07-18 20:30	Experiment	tatertots		E06 05 NO3																						Done - Correct			
+source-550	2023-07-18 20:30	Experiment	tatertots		E06 06 NH4																						Done - Correct			
+source-547	2023-07-18 20:30	Experiment	tatertots		E06 06 NO3																						Done - Correct			
+source-551	2023-07-18 20:30	Experiment	tatertots		E06 07																						Done - Correct			
+source-552	2023-07-18 20:30	Experiment	tatertots		E06 08																						Done - Correct			
+source-553	2023-07-18 20:30	Experiment	tatertots		E06 09																						Done - Correct			
+source-554	2023-07-18 20:30	Experiment	tatertots		E06 10																						Done - Correct			
+source-555	2023-07-18 20:30	Experiment	tatertots		E06 11																						Done - Correct			
+source-556	2023-07-18 20:30	Experiment	tatertots		E06 12																						Done - Correct			
+source-568	2023-07-19 22:46	Experiment	tatertots		E06 13 NH4																						Done - Correct			
+source-571	2023-07-19 22:46	Experiment	tatertots		E06 13 NO3																						Done - Correct			
+source-569	2023-07-19 22:46	Experiment	tatertots		E06 14 NH4																						Done - Correct			
+source-572	2023-07-19 22:46	Experiment	tatertots		E06 14 NO3																						Done - Correct			
+source-570	2023-07-19 22:46	Experiment	tatertots		E06 15 NH4																						Done - Correct			
+source-573	2023-07-19 22:46	Experiment	tatertots		E06 15 NO3																						Done - Correct			
+source-574	2023-07-19 22:46	Experiment	tatertots		E06 16																						Done - Correct			
+source-575	2023-07-19 22:46	Experiment	tatertots		E06 17																						Done - Correct			
+source-576	2023-07-19 22:46	Experiment	tatertots		E06 18																						Done - Correct			
+source-577	2023-07-19 22:46	Experiment	tatertots		E06 19																						Done - Correct			
+source-578	2023-07-19 22:46	Experiment	tatertots		E06 20																						Done - Correct			
+source-579	2023-07-19 22:46	Experiment	tatertots		E06 21																						Done - Correct			
+source-604	2023-07-22 20:32	Experiment	tatertots		E07 01																						Done - Correct			
+source-636	2023-07-23 22:00	Experiment	tatertots		E07 01 NH4																						Done - Correct			
+source-633	2023-07-23 22:00	Experiment	tatertots		E07 01 NO3																						Done - Correct			
+source-605	2023-07-22 20:32	Experiment	tatertots		E07 02																						Done - Correct			
+source-637	2023-07-23 22:00	Experiment	tatertots		E07 02 NH4																						Done - Correct			
+source-634	2023-07-23 22:00	Experiment	tatertots		E07 02 NO3																						Done - Correct			
+source-606	2023-07-22 20:32	Experiment	tatertots		E07 03																						Done - Correct			
+source-638	2023-07-23 22:00	Experiment	tatertots		E07 03 NH4																						Done - Correct			
+source-635	2023-07-23 22:00	Experiment	tatertots		E07 03 NO3																						Done - Correct			
+source-665	2023-07-24 22:36	Experiment	tatertots		E07 04 NH4																						Done - Correct			
+source-668	2023-07-24 22:36	Experiment	tatertots		E07 04 NO3																						Done - Correct			
+source-666	2023-07-24 22:36	Experiment	tatertots		E07 05 NH4																						Done - Correct			
+source-669	2023-07-24 22:36	Experiment	tatertots		E07 05 NO3																						Done - Correct			
+source-667	2023-07-24 22:36	Experiment	tatertots		E07 06 NH4																						Done - Correct			
+source-670	2023-07-24 22:36	Experiment	tatertots		E07 06 NO3																						Done - Correct			
+source-671	2023-07-24 22:36	Experiment	tatertots		E07 07																						Done - Correct			
+source-672	2023-07-24 22:36	Experiment	tatertots		E07 08																						Done - Correct			
+source-673	2023-07-24 22:36	Experiment	tatertots		E07 09																						Done - Correct			
+source-674	2023-07-24 22:36	Experiment	tatertots		E07 10																						Done - Correct			
+source-675	2023-07-24 22:36	Experiment	tatertots		E07 11																						Done - Correct			
+source-676	2023-07-24 22:36	Experiment	tatertots		E07 12																						Done - Correct			
+source-704	2023-07-25 22:20	Experiment	tatertots		E07 13 NH4 																						Done - Correct			
+source-701	2023-07-25 22:20	Experiment	tatertots		E07 13 NO3																						Done - Correct			
+source-705	2023-07-25 22:20	Experiment	tatertots		E07 14 NH4																						Done - Correct			
+source-702	2023-07-25 22:20	Experiment	tatertots		E07 14 NO3																						Done - Correct			
+source-706	2023-07-25 22:20	Experiment	tatertots		E07 15 NH4																						Done - Correct			
+source-703	2023-07-25 22:20	Experiment	tatertots		E07 15 NO3																						Done - Correct			
+source-707	2023-07-25 22:20	Experiment	tatertots		E07 16																						Done - Correct			
+source-708	2023-07-25 22:20	Experiment	tatertots		E07 17																						Done - Correct			
+source-709	2023-07-25 22:20	Experiment	tatertots		E07 18																						Done - Correct			
+source-710	2023-07-25 22:20	Experiment	tatertots		E07 19																						Done - Correct			
+source-711	2023-07-25 22:20	Experiment	tatertots		E07 20																						Done - Correct			
+source-712	2023-07-25 22:20	Experiment	tatertots		E07 21																						Done - Correct			
+source-744	2023-07-27 02:30	Experiment	tatertots		E08 01																						Done - Correct			
+source-745	2023-07-27 02:30	Experiment	tatertots		E08 02																						Done - Correct			
+source-746	2023-07-27 02:30	Experiment	tatertots		E08 03																						Done - Correct			
+source-753	2023-07-27 23:20	Experiment	tatertots		E08 04																						Done - Correct			
+source-754	2023-07-27 23:20	Experiment	tatertots		E08 05																						Done - Correct			
+source-755	2023-07-27 23:20	Experiment	tatertots		E08 06																						Done - Correct			
+source-756	2023-07-27 23:20	Experiment	tatertots		E08 07																						Done - Correct			
+source-757	2023-07-27 23:20	Experiment	tatertots		E08 08																						Done - Correct			
+source-758	2023-07-27 23:20	Experiment	tatertots		E08 09																						Done - Correct			
+source-759	2023-07-27 23:20	Experiment	tatertots		E08 10																						Done - Correct			
+source-760	2023-07-27 23:20	Experiment	tatertots		E08 11																						Done - Correct			
+source-761	2023-07-27 23:20	Experiment	tatertots		E08 12																						Done - Correct			
+source-794	2023-07-28 23:00	Experiment	tatertots		E08 13																						Done - Correct			
+source-795	2023-07-28 23:00	Experiment	tatertots		E08 14																						Done - Correct			
+source-796	2023-07-28 23:00	Experiment	tatertots		E08 15																						Done - Correct			
+source-797	2023-07-28 23:00	Experiment	tatertots		E08 16																						Done - Correct			
+source-798	2023-07-28 23:00	Experiment	tatertots		E08 17																						Done - Correct			
+source-799	2023-07-28 23:00	Experiment	tatertots		E08 18																						Done - Correct			
+source-800	2023-07-28 23:00	Experiment	tatertots		E08 19																						Done - Correct			
+source-801	2023-07-28 23:00	Experiment	tatertots		E08 20																						Done - Correct			
+source-802	2023-07-28 23:00	Experiment	tatertots		E08 21																						Done - Correct			
+source-66	2023-06-23 23:00	Experiment	tatertots		E1 13																						Done - Correct			
+source-69	2023-06-23 23:00	Experiment	tatertots		E01 13 NH4																						Done - Correct			Sample availability timestamp is approximate
+source-70	2023-06-23 23:00	Experiment	tatertots		E01 14 NH4																						Done - Correct			Sample availability timestamp is approximate
+source-67	2023-06-23 23:00	Experiment	tatertots		E01 14 NO3																						Done - Correct			Sample availability timestamp is approximate
+source-68	2023-06-23 23:00	Experiment	tatertots		E01 15																						Done - Correct			Sample availability timestamp is approximate
+source-71	2023-06-23 23:00	Experiment	tatertots		E01 15 NH4																						Done - Correct			Sample availability timestamp is approximate
+source-72	2023-06-23 23:00	Experiment	tatertots		E01 16																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-73	2023-06-23 23:00	Experiment	tatertots		E01 17																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-74	2023-06-23 23:00	Experiment	tatertots		E01 18																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-75	2023-06-23 23:00	Experiment	tatertots		E01 19																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-76	2023-06-23 23:00	Experiment	tatertots		E01 20																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-77	2023-06-23 23:00	Experiment	tatertots		E01 21																						Done - Correct			Sample availability timestamp is approximate - actual time is a few hours later than what we recorded here.
+source-23	2023-06-20 20:44	Experiment	tatertots		E01 01																						Done - Correct			From Matt
+source-24	2023-06-20 20:44	Experiment	tatertots		E01 02																						Done - Correct			From Matt
+source-25	2023-06-20 20:44	Experiment	tatertots		E01 03																						Done - Correct			From Matt
+source-124	2023-06-27 01:26	Experiment	tatertots		E02 10																						Done - Correct			The label on this bottle definitely said "E12 10", even though I was expecting "E2 10"
+source-99	2023-06-25 00:57	Experiment	tatertots		E02 01																						Done - Correct			
+source-100	2023-06-25 00:57	Experiment	tatertots		E02 02																						Done - Correct			
+source-101	2023-06-25 00:57	Experiment	tatertots		E02 03																						Done - Correct			
+source-113	2023-06-26 22:30	Experiment	tatertots		E02 04 NH4																						Done - Correct			
+source-116	2023-06-27 00:39	Experiment	tatertots		E02 04 NO3																						Done - Correct			
+source-114	2023-06-26 22:33	Experiment	tatertots		E02 05 NH4																						Done - Correct			
+source-117	2023-06-27 00:42	Experiment	tatertots		E02 05 NO3																						Done - Correct			
+source-115	2023-06-26 22:36	Experiment	tatertots		E02 06 NH4																						Done - Correct			
+source-118	2023-06-27 00:45	Experiment	tatertots		E02 06 NO3																						Done - Correct			
+source-121	2023-06-27 00:51	Experiment	tatertots		E02 07																						Done - Correct			
+source-122	2023-06-27 00:54	Experiment	tatertots		E02 08																						Done - Correct			
+source-123	2023-06-27 00:57	Experiment	tatertots		E02 09																						Done - Correct			
+source-125	2023-06-27 01:29	Experiment	tatertots		E02 11																						Done - Correct			For some reason, E2 12 was placed before E2 11 in the queue of Falcon tubes in the rack. Also, the cap of this bottle was recorded as 00:51.
+source-126	2023-06-27 01:32	Experiment	tatertots		E02 12																						Done - Correct			For some reason, E2 12 was placed before E2 11 in the queue of Falcon tubes in the rack
+source-130	2023-06-27 23:30	Experiment	tatertots		E02 13 NH4																						Done - Correct			
+source-133	2023-06-28 00:05	Experiment	tatertots		E02 13 NO3																						Done - Correct			
+source-131	2023-06-27 23:31	Experiment	tatertots		E02 14 NH4																						Done - Correct			
+source-134	2023-06-28 00:06	Experiment	tatertots		E02 14 NO3																						Done - Correct			
+source-132	2023-06-27 23:32	Experiment	tatertots		E02 15 NH4																						Done - Correct			
+source-135	2023-06-28 00:07	Experiment	tatertots		E02 15 NO3																						Done - Correct			
+source-136	2023-06-28 00:55	Experiment	tatertots		E02 16																						Done - Correct			
+source-137	2023-06-28 00:56	Experiment	tatertots		E02 17																						Done - Correct			
+source-138	2023-06-28 00:58	Experiment	tatertots		E02 18																						Done - Correct			
+source-139	2023-06-28 01:25	Experiment	tatertots		E02 19																						Done - Correct			
+source-140	2023-06-28 01:26	Experiment	tatertots		E02 20																						Done - Correct			
+source-141	2023-06-28 01:27	Experiment	tatertots		E02 21																						Done - Correct			
+source-169	2023-06-30 00:33	Experiment	tatertots		E03 01																						Done - Correct			
+source-170	2023-06-30 00:33	Experiment	tatertots		E03 02																						Done - Correct			
+source-171	2023-06-30 00:33	Experiment	tatertots		E03 03																						Done - Correct			
+source-206	2023-07-02 00:30	Experiment	tatertots		E03 04 NH4																						Done - Correct			
+source-203	2023-07-02 00:30	Experiment	tatertots		E03 04 NO3																						Done - Correct			
+source-208	2023-07-02 00:30	Experiment	tatertots		E03 05 NH4																						Done - Correct			
+source-204	2023-07-02 00:30	Experiment	tatertots		E03 05 NO3																						Done - Correct			
+source-207	2023-07-02 00:30	Experiment	tatertots		E03 06 NH4																						Done - Correct			
+source-205	2023-07-02 00:30	Experiment	tatertots		E03 06 NO3																						Done - Correct			
+source-209	2023-07-02 00:45	Experiment	tatertots		E03 07																						Done - Correct			
+source-210	2023-07-02 00:45	Experiment	tatertots		E03 08																						Done - Correct			
+source-211	2023-07-02 00:45	Experiment	tatertots		E03 09																						Done - Correct			
+source-212	2023-07-02 01:00	Experiment	tatertots		E03 10																						Done - Correct			
+source-213	2023-07-02 01:00	Experiment	tatertots		E03 11																						Done - Correct			
+source-214	2023-07-02 01:00	Experiment	tatertots		E03 12																						Done - Correct			
+source-222	2023-07-02 22:40	Experiment	tatertots		E03 13 NH4																						Done - Correct			
+source-219	2023-07-02 22:25	Experiment	tatertots		E03 13 NO3																						Done - Correct			
+source-223	2023-07-02 22:40	Experiment	tatertots		E03 14 NH4																						Done - Correct			
+source-220	2023-07-02 22:25	Experiment	tatertots		E03 14 NO3																						Done - Correct			
+source-224	2023-07-02 22:40	Experiment	tatertots		E03 15 NH4																						Done - Correct			
+source-221	2023-07-02 22:25	Experiment	tatertots		E03 15 NO3																						Done - Correct			
+source-225	2023-07-02 23:00	Experiment	tatertots		E03 16																						Done - Correct			
+source-226	2023-07-02 23:00	Experiment	tatertots		E03 17																						Done - Correct			
+source-227	2023-07-02 23:00	Experiment	tatertots		E03 18																						Done - Correct			
+source-228	2023-07-02 23:15	Experiment	tatertots		E03 19																						Done - Correct			
+source-229	2023-07-02 23:15	Experiment	tatertots		E03 20																						Done - Correct			
+source-230	2023-07-02 23:15	Experiment	tatertots		E03 21																						Done - Correct			
+source-18	2023-06-20 15:42	Ice Core	S015		9014	Physio 14	(total volume not recorded)	0	0	2023-06-20 14:20	2023-06-20 22:20	2023-06-20	22:20:00	70.8838	-161.36605	300	35.8										Done - Correct			Lower algal layer
+source-19	2023-06-20 19:32	Ice Core	S015		9015	Physio 16	(total volume not recorded)	0	0	2023-06-20 14:20	2023-06-20 22:20	2023-06-20	22:20:00	70.8838	-161.36605	300	35.8										Done - Correct			Upper algal layer
+source-49	2023-06-22 19:00	Ice Core	S021		9039	Physio 27	> 0.49 (exact total volume not recorded)	0	0	2023-06-22 12:00	2023-06-22 20:00	2023-06-22	20:00:00	71.2745	-164.577	300	36										Done - Correct			Actual sample availability timestamp was not recorded; this is an estimate. Robin never received notification of a new ice core sample so did not image it during the shift that the sample was prepared.
+source-108	2023-06-25 18:31	Ice Core	S032		9049	Tub 29		0	0	2023-06-25 12:30	2023-06-25 20:30	2023-06-25	20:30:00	71.1787	-163.023	290	30										Done - Correct			Sample provided by Matt; don't know the Arrigo number.
+source-129	2023-06-27 17:59	Ice Core	S038		9059	Jar 6	0.58	0	0	2023-06-27 10:20	2023-06-27 18:20	2023-06-27	18:20:00	71.4212	-164.416	380	33										Done - Correct			
+source-144	2023-06-28 21:01	Ice Core	S042		9071		0.05	0	0	2023-06-28 12:00	2023-06-28 20:00	2023-06-28	20:00:00	71.0638	-165.005	290	35										Done - Correct			
+source-198	2023-07-01 22:00	Ice Core	S056		9085			0	0	2023-07-01 12:00	2023-07-01 20:00	2023-07-01	20:00:00	71.0673	-163.147	300	35										Done - Correct			
+source-231	2023-07-03 04:09	Ice Core	S061		9101	Physio 14	0.72	0	0	2023-07-02 20:00	2023-07-03 04:00	2023-07-03	04:00:00	71.586	-163.627	290	36										Done - Correct			Volume was measured probably after FRRF took a sample
+source-238	2023-07-03 23:49	Ice Core	S064		9127		>0.75	0	0	2023-07-03 12:00	2023-07-03 20:00	2023-07-03	20:00:00	71.414	-164.409	290	37										Done - Correct			
+source-293	2023-07-06 18:15	Ice Core	S078		9137			0	0	2023-07-05 12:00	2023-07-05 20:00	2023-07-05	20:00:00	70.9157	-163.11	300	31										Done - Correct			
+	(N/A)	Ice Core	S083		9138			0	0	2023-07-06 12:00				71.4563	-162.896	300	35										(skip)			
+source-317	2023-07-07 20:28	Ice Core	S087		9153			0	0	2023-07-07 12:00	2023-07-07 20:00	2023-07-07	20:00:00	71.6722	-164.02	300	36										Done - Correct			
+source-332	2023-07-08 20:50	Ice Core	S092		9185			0	0	2023-07-08 12:10	2023-07-08 20:10	2023-07-08	20:10:00	71.1962	-164.816	280	36										Done - Correct			
+source-3	(not recorded)	Net Vert	S001	1	(N/A)																	TBD	50				(skip)			Shakedown run test
+source-15	(not recorded)	Net Vert	S015	1			0.5	0	15	2023-06-20 07:35	2023-06-20 15:35	2023-06-20	15:35:00									TBD	50				(skip)			
+source-106	2023-06-25 6:00	Sediment Trap	S016		T002D					2023-06-24 05:25	2023-06-24 13:25	2023-06-24	13:25:00	70.7053	-165.54												Done - Correct			Not time-sensitive; needs to be diluted. Stored in the cold room.
+source-107	2023-06-25 6:01	Sediment Trap	S016		T002S					2023-06-24 05:25	2023-06-24 13:25	2023-06-24	13:25:00	70.7053	-165.54												Done - Correct			Not time-sensitive; needs to be diluted. Stored in the cold room.
+source-172	2023-06-27 20:30	Sediment Trap	S021		T003D					2023-06-22 15:05	2023-06-22 23:05	2023-06-22	23:05:00	71.2745	-164.577												Done - Correct			
+source-173	2023-06-27 20:30	Sediment Trap	S021		T003S					2023-06-22 15:05	2023-06-22 23:05	2023-06-22	23:05:00	71.2745	-164.577												Done - Correct			
+source-174	2023-06-29 12:40	Sediment Trap	S026		T004D					2023-06-24 15:18	2023-06-24 23:18	2023-06-24	23:18:00	70.4085	-163.535												Done - Correct			
+source-175	2023-06-29 12:40	Sediment Trap	S026		T004S					2023-06-24 15:18	2023-06-24 23:18	2023-06-24	23:18:00	70.4085	-163.535												Done - Correct			
+source-176	2023-06-30 5:46	Sediment Trap	S029		T005D					2023-06-24 21:46	2023-06-25 05:46	2023-06-25	05:46:00	70.8067	-163.286												Done - Correct			
+source-177	2023-06-30 5:46	Sediment Trap	S029		T005S					2023-06-24 21:46	2023-06-25 05:46	2023-06-25	05:46:00	70.8067	-163.286												Done - Correct			
+source-200	2023-07-01 23:23	Sediment Trap	S038		T007D					2023-06-27 10:10	2023-06-27 18:10	2023-06-27	18:10:00	71.4212	-164.416												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-199	2023-07-01 23:23	Sediment Trap	S038		T007S					2023-06-27 10:10	2023-06-27 18:10	2023-06-27	18:10:00	71.3097	-164.624												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-282	2023-07-05 16:30	Sediment Trap	S078		T008D					2023-06-28 12:01	2023-06-28 20:01	2023-06-28	20:01:00	70.4095	-163.54												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-281	2023-07-05 16:30	Sediment Trap	S078		T008S					2023-06-28 12:01	2023-06-28 20:01	2023-06-28	20:01:00	70.4095	-163.54												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-250	2023-07-05 00:02	Sediment Trap	S073		T010D					2023-06-29 16:25	2023-06-30 00:25	2023-06-30	00:25:00	71.414	-164.409												Done - Correct			Stored in cold room in labelled 3L bottle. Less dense this time, might not need to dilute
+source-249	2023-07-05 00:02	Sediment Trap	S073		T010S					2023-06-29 16:25	2023-06-30 00:25	2023-06-30	00:25:00	71.414	-164.409												Done - Correct			Stored in cold room in labelled 3L bottle. Less dense this time, might not need to dilute
+source-331	2023-07-06 13:05	Sediment Trap	S061		T011D					2023-07-02 19:31	2023-07-03 03:31	2023-07-03	03:31:00	71.0638	-165.005												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-330	2023-07-06 13:05	Sediment Trap	S061		T011S					2023-07-02 19:31	2023-07-03 03:31	2023-07-03	03:31:00	71.0638	-165.005												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-280	2023-07-06 06:15	Sediment Trap	S081		T012D					2023-07-03 15:50	2023-07-03 23:50	2023-07-03	23:50:00	71.586	-163.627												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-279	2023-07-06 06:15	Sediment Trap	S081		T012S					2023-07-03 15:50	2023-07-03 23:50	2023-07-03	23:50:00	71.586	-163.627												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-361	2023-07-09 15:50	Sediment Trap	S067		T013D					2023-07-04 03:25	2023-07-04 11:25	2023-07-04	11:25:00	71.0605	-164.996												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-360	2023-07-09 15:50	Sediment Trap	S067		T013S					2023-07-04 03:25	2023-07-04 11:25	2023-07-04	11:25:00	71.0605	-164.996												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-395	2023-07-12 09:22	Sediment Trap	S087		T014D									71.6722	-164.02												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-394	2023-07-12 09:22	Sediment Trap	S087		T014S									71.6722	-164.02												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-468	2023-07-14 23:58	Sediment Trap	S088		T015S					2023-07-07 20:20	2023-07-08 04:20	2023-07-08	04:20:00	70.9423	-165.188												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-469	2023-07-14 23:58	Sediment Trap	S088		T015S					2023-07-07 20:20	2023-07-08 04:20	2023-07-08	04:20:00	70.9423	-165.188												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-453	2023-07-14 10:55	Sediment Trap	S092		T016D									70.6987	-165.523												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-452	2023-07-14 10:55	Sediment Trap	S092		T016S									70.6987	-165.523												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-429	2023-07-13 11:16	Sediment Trap	S096		T017D									71.1962	-164.816												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-428	2023-07-13 11:16	Sediment Trap	S096		T017S									71.1962	-164.816												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-431	2023-07-13 14:10	Sediment Trap	S100		T018D									71.5453	-164.214												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-430	2023-07-13 14:10	Sediment Trap	S100		T018S									71.5453	-164.214												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-483	2023-07-16 10:42	Sediment Trap	S121		T019D									71.668	-163.982												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-482	2023-07-16 10:42	Sediment Trap	S121		T019S									71.668	-163.982												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-558	2023-07-18 18:28	Sediment Trap	S188		T020D									70.7595	-165.435												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-557	2023-07-18 18:28	Sediment Trap	S188		T020S									70.7595	-165.435												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-494	2023-07-17 11:47	Sediment Trap	S173		T022D					2023-07-13 16:26	2023-07-14 00:26	2023-07-14	00:26:00	71.3103	-164.599												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-493	2023-07-17 11:47	Sediment Trap	S173		T022S					2023-07-13 16:26	2023-07-14 00:26	2023-07-14	00:26:00	71.3103	-164.599												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-581	2023-07-20 06:46	Sediment Trap	S157		T023D									71.6595	-164.031												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-580	2023-07-20 06:46	Sediment Trap	S157		T023S									71.6595	-164.031												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-603	2023-07-22 14:57	Sediment Trap	S159		T024D									71.191	-164.782												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-602	2023-07-22 14:57	Sediment Trap	S159		T024S									71.191	-164.782												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-599	2023-07-22 07:10	Sediment Trap	S228		T025D									71.42	-164.412												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-598	2023-07-22 07:10	Sediment Trap	S228		T025S									71.42	-164.412												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-618	2023-07-23 19:15	Sediment Trap	S238		T027D									71.6672	-163.998												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-617	2023-07-23 19:15	Sediment Trap	S238		T027S									71.6672	-163.998												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-664	2023-07-24 19:00	Sediment Trap	S252		T028D									70.9427	-165.189												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-663	2023-07-24 19:00	Sediment Trap	S252		T028S									70.9427	-165.189												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-644	2023-07-24 14:38	Sediment Trap	S251		T029D									71.4202	-164.403												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-643	2023-07-24 14:38	Sediment Trap	S251		T029S									71.4202	-164.403												Done - Correct			Stored in cold room in labelled 3L bottle. Likely needs to be dilluted
+source-14	2023-06-19 18:23	Underway	2023-06-19 18:23	1	(N/A)		0.5																				(skip)			
+source-26	2023-06-21 09:39	Underway	fake sample to test the spreadsheet		(N/A)																						(skip)			
+source-7	2023-06-19 05:18	Underway	2023-06-19 05:18	1	(N/A)					2023-06-18 21:18	2023-06-19 05:18	2023-06-19	05:18:00							166 deg 50.05' W							(skip)			Process test of CTD water concentration procedure
+source-8	2023-06-19 11:00	Underway	2023-06-19 11:00	1	(N/A)					2023-06-19 03:00	2023-06-19 11:00	2023-06-19	11:00:00														(skip)			
+source-9	2023-06-19 21:30	Underway	2023-06-19 21:30	1	(N/A)					2023-06-19 13:30	2023-06-19 21:30	2023-06-19	21:30:00														(skip)			

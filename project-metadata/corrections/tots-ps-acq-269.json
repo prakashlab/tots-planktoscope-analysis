@@ -7,6 +7,7 @@
   "object_lon": "-163.11",
   "object_depth_min": "",
   "object_depth_max": "",
+  "acq_id": "SKQ-ToTS_UV_exp_tots-ps-acq-269",
   "acq_local_datetime": "2023-07-05T22:51:00",
   "sample_sampling_gear": "single_location"
 }

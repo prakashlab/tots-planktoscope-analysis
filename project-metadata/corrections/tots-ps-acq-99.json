@@ -7,6 +7,7 @@
   "object_lon": "-163.023",
   "object_depth_min": "0",
   "object_depth_max": "0",
+  "acq_id": "SKQ-ToTS_S032_tots-ps-acq-99",
   "acq_local_datetime": "2023-06-25T18:52:00",
   "sample_sampling_gear": "single_location"
 }

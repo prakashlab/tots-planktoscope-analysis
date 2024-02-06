@@ -1,0 +1,13 @@
+{
+  "sample_id": "924",
+  "sample_operator": "Robin Bigasin",
+  "object_date": "2023-07-21",
+  "object_time": "01:33:00",
+  "object_lat": "71.1837",
+  "object_lon": "-164.814",
+  "object_depth_min": "2",
+  "object_depth_max": "2",
+  "acq_id": "SKQ-ToTS_S202_tots-ps-acq-595",
+  "acq_local_datetime": "2023-07-20T18:45:00",
+  "sample_sampling_gear": "single_location"
+}

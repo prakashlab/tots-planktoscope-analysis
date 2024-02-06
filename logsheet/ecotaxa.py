@@ -10,6 +10,7 @@ _ecotaxa_column_mappings = { # these map EcoTaxa export field names to log sheet
         'object_lon': ('src', 'start_lon'),
         'object_depth_min': ('src', 'depth_min'),
         'object_depth_max': ('src', 'depth_max'),
+        'acq_id': ('acq', 'acq_id'),
         'acq_local_datetime': ('acq', 'start_time_local'),
     },
     # sample type-specific mappings are applied afterwards and can overwrite general mappings

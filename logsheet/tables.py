@@ -29,6 +29,7 @@ _column_names = {
         'operator': 'Operator',
         'adj_id': 'Adjusted Sample ID',
         'start_time_local': 'Acquisition Start Timestamp (Local Time)',
+        'acq_id': 'Full Acquisition ID',
     },
 }
 
