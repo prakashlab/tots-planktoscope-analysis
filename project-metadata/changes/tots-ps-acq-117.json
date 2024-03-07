@@ -1,0 +1,56 @@
+{
+  "sample_id": {
+    "new_value": "E02 10",
+    "old_values": [
+      "SKQ-ToTS_tatertots"
+    ]
+  },
+  "object_date": {
+    "new_value": "",
+    "old_values": [
+      "2019-02-14"
+    ]
+  },
+  "object_time": {
+    "new_value": "",
+    "old_values": [
+      "12:13:00"
+    ]
+  },
+  "object_lat": {
+    "new_value": "",
+    "old_values": [
+      "-90.0000"
+    ]
+  },
+  "object_lon": {
+    "new_value": "",
+    "old_values": [
+      "0.0000"
+    ]
+  },
+  "object_depth_min": {
+    "new_value": "",
+    "old_values": [
+      "0"
+    ]
+  },
+  "object_depth_max": {
+    "new_value": "",
+    "old_values": [
+      "0"
+    ]
+  },
+  "acq_local_datetime": {
+    "new_value": "2023-06-27T05:14:00",
+    "old_values": [
+      "2019-02-14T13:59:36"
+    ]
+  },
+  "sample_sampling_gear": {
+    "new_value": "single_location",
+    "old_values": [
+      "test"
+    ]
+  }
+}

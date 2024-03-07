@@ -1,0 +1,62 @@
+{
+  "sample_id": {
+    "new_value": "E06 15 NO3",
+    "old_values": [
+      "SKQ-ToTS_taterots"
+    ]
+  },
+  "object_date": {
+    "new_value": "",
+    "old_values": [
+      "2023-07-17"
+    ]
+  },
+  "object_time": {
+    "new_value": "",
+    "old_values": [
+      "23:44:31"
+    ]
+  },
+  "object_lat": {
+    "new_value": "",
+    "old_values": [
+      "-90.0000"
+    ]
+  },
+  "object_lon": {
+    "new_value": "",
+    "old_values": [
+      "0.0000"
+    ]
+  },
+  "object_depth_min": {
+    "new_value": "",
+    "old_values": [
+      "0"
+    ]
+  },
+  "object_depth_max": {
+    "new_value": "",
+    "old_values": [
+      "0"
+    ]
+  },
+  "acq_id": {
+    "new_value": "SKQ-ToTS_tatertots_tots-ps-acq-581",
+    "old_values": [
+      "SKQ-ToTS_taterots_tots-ps-acq-581"
+    ]
+  },
+  "acq_local_datetime": {
+    "new_value": "2023-07-20T01:47:00",
+    "old_values": [
+      "2023-07-20T09:49:38"
+    ]
+  },
+  "sample_sampling_gear": {
+    "new_value": "single_location",
+    "old_values": [
+      "net"
+    ]
+  }
+}
