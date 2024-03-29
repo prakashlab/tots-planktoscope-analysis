@@ -1,0 +1,56 @@
+{
+  "sample_id": {
+    "new_value": "599",
+    "old_values": [
+      "SKQ-ToTS_S121"
+    ]
+  },
+  "object_date": {
+    "new_value": "2023-07-11",
+    "old_values": [
+      "2023-07-10"
+    ]
+  },
+  "object_time": {
+    "new_value": "22:45:00",
+    "old_values": [
+      "12:57:37"
+    ]
+  },
+  "object_lat": {
+    "new_value": "71.668",
+    "old_values": [
+      "-90.0000"
+    ]
+  },
+  "object_lon": {
+    "new_value": "-163.982",
+    "old_values": [
+      "0.0000"
+    ]
+  },
+  "object_depth_min": {
+    "new_value": "2",
+    "old_values": [
+      "0"
+    ]
+  },
+  "object_depth_max": {
+    "new_value": "2",
+    "old_values": [
+      "0"
+    ]
+  },
+  "acq_local_datetime": {
+    "new_value": "2023-07-11T15:57:00",
+    "old_values": [
+      "2023-07-11T23:57:43"
+    ]
+  },
+  "sample_sampling_gear": {
+    "new_value": "single_location",
+    "old_values": [
+      "test"
+    ]
+  }
+}
