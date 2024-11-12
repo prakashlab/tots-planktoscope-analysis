@@ -1,20 +1,26 @@
 {
   "sample_id": {
-    "new_value": "E07 04 NO3",
+    "new_value": "E08 12",
     "old_values": [
       "SKQ-ToTS_tatertots"
+    ]
+  },
+  "sample_operator": {
+    "new_value": "Robin Bigasin",
+    "old_values": [
+      "Robin Bigasinn"
     ]
   },
   "object_date": {
     "new_value": "",
     "old_values": [
-      "2023-07-22"
+      "2023-07-27"
     ]
   },
   "object_time": {
     "new_value": "",
     "old_values": [
-      "18:33:23"
+      "23:15:49"
     ]
   },
   "object_lat": {
@@ -42,9 +48,9 @@
     ]
   },
   "acq_local_datetime": {
-    "new_value": "2023-07-25T00:48:00",
+    "new_value": "2023-07-28T02:09:00",
     "old_values": [
-      "2023-07-25T08:47:33"
+      "2023-07-28T10:11:48"
     ]
   },
   "sample_sampling_gear": {

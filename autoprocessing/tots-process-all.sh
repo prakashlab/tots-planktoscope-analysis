@@ -2,7 +2,7 @@
 
 archives_root="$1"
 processing_dir="$2" # e.g. /home/pi/data
-adjustment="$3" # e.g. 
+adjustment="$3" # e.g. 5%
 scripts_root="$(dirname "$(realpath "$BASH_SOURCE")")"
 
 echo "Cleaning up..."

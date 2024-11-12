@@ -1,8 +1,8 @@
 {
   "sample_id": {
-    "new_value": "E07 04 NO3",
+    "new_value": "E07 01 NH4",
     "old_values": [
-      "SKQ-ToTS_tatertots"
+      "SKQ-ToTS_S242"
     ]
   },
   "object_date": {
@@ -41,16 +41,22 @@
       "0"
     ]
   },
-  "acq_local_datetime": {
-    "new_value": "2023-07-25T00:48:00",
+  "acq_id": {
+    "new_value": "SKQ-ToTS_tatertots_tots-ps-acq-645",
     "old_values": [
-      "2023-07-25T08:47:33"
+      "SKQ-ToTS_S242_tots-ps-acq-645"
+    ]
+  },
+  "acq_local_datetime": {
+    "new_value": "2023-07-24T03:34:00",
+    "old_values": [
+      "2023-07-24T11:37:29"
     ]
   },
   "sample_sampling_gear": {
     "new_value": "single_location",
     "old_values": [
-      "net"
+      "test"
     ]
   }
 }

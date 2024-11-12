@@ -1,6 +1,6 @@
 {
   "sample_id": {
-    "new_value": "E07 04 NO3",
+    "new_value": "E08 14",
     "old_values": [
       "SKQ-ToTS_tatertots"
     ]
@@ -8,13 +8,13 @@
   "object_date": {
     "new_value": "",
     "old_values": [
-      "2023-07-22"
+      "2019-02-14"
     ]
   },
   "object_time": {
     "new_value": "",
     "old_values": [
-      "18:33:23"
+      "10:13:04"
     ]
   },
   "object_lat": {
@@ -42,15 +42,15 @@
     ]
   },
   "acq_local_datetime": {
-    "new_value": "2023-07-25T00:48:00",
+    "new_value": "2023-07-29T07:39:00",
     "old_values": [
-      "2023-07-25T08:47:33"
+      "2019-02-14T21:41:14"
     ]
   },
   "sample_sampling_gear": {
     "new_value": "single_location",
     "old_values": [
-      "net"
+      "test"
     ]
   }
 }

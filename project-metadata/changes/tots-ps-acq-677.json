@@ -1,6 +1,6 @@
 {
   "sample_id": {
-    "new_value": "E07 04 NO3",
+    "new_value": "E07 08",
     "old_values": [
       "SKQ-ToTS_tatertots"
     ]
@@ -42,9 +42,9 @@
     ]
   },
   "acq_local_datetime": {
-    "new_value": "2023-07-25T00:48:00",
+    "new_value": "2023-07-25T02:00:00",
     "old_values": [
-      "2023-07-25T08:47:33"
+      "2023-07-25T10:08:01"
     ]
   },
   "sample_sampling_gear": {
